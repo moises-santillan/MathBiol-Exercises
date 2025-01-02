@@ -1,0 +1,197 @@
+\contentsline {chapter}{\numberline {1}On the Use of Models in Science}{1}{}%
+\contentsline {section}{\numberline {1.1}Introduction}{1}{}%
+\contentsline {section}{\numberline {1.2}Categories of scientific models}{2}{}%
+\contentsline {subsection}{\numberline {1.2.1}Living Organisms as Models}{2}{}%
+\contentsline {subsection}{\numberline {1.2.2}Physical Models}{3}{}%
+\contentsline {subsection}{\numberline {1.2.3}Conceptual Models}{3}{}%
+\contentsline {subsection}{\numberline {1.2.4}Mathematical Models}{3}{}%
+\contentsline {section}{\numberline {1.3}Philosophy of Scientific Modeling}{4}{}%
+\contentsline {subsection}{\numberline {1.3.1}Models as Idealizations}{4}{}%
+\contentsline {subsection}{\numberline {1.3.2}The Art of Productive Simplification}{5}{}%
+\contentsline {subsection}{\numberline {1.3.3}Models as Epistemic Tools}{5}{}%
+\contentsline {section}{\numberline {1.4}Discussion}{6}{}%
+\contentsline {chapter}{\numberline {2}Why don't Clouds Fall?}{7}{}%
+\contentsline {section}{\numberline {2.1}Introduction}{7}{}%
+\contentsline {section}{\numberline {2.2}The method of separation of variables: a technique for solving certain differential equations}{8}{}%
+\contentsline {section}{\numberline {2.3}Modeling the fall of cloud droplets}{9}{}%
+\contentsline {section}{\numberline {2.4}Expanding the model to include ambient air currents}{13}{}%
+\contentsline {section}{\numberline {2.5}Discussion}{14}{}%
+\contentsline {chapter}{\numberline {3}From Ancient Math to Modern Science: The Fantastic Journey of the Exponential Function}{19}{}%
+\contentsline {section}{\numberline {3.1}Introduction}{19}{}%
+\contentsline {section}{\numberline {3.2}The Invention of Logarithms}{20}{}%
+\contentsline {section}{\numberline {3.3}From Logarithms to the Exponential Function}{21}{}%
+\contentsline {section}{\numberline {3.4}Transcendence of the Exponential Function}{22}{}%
+\contentsline {section}{\numberline {3.5}Discussion}{23}{}%
+\contentsline {chapter}{\numberline {4}Exponential Decay}{25}{}%
+\contentsline {section}{\numberline {4.1}Introduction}{25}{}%
+\contentsline {section}{\numberline {4.2}Dynamics of Aging}{26}{}%
+\contentsline {section}{\numberline {4.3}Age-Independent Death Rate}{27}{}%
+\contentsline {section}{\numberline {4.4}Stochastic Description}{27}{}%
+\contentsline {section}{\numberline {4.5}Individual Lifetime Distribution}{29}{}%
+\contentsline {section}{\numberline {4.6}Discussion}{30}{}%
+\contentsline {section}{\numberline {4.7}Epilogue}{30}{}%
+\contentsline {chapter}{\numberline {5}Exponential Growth}{33}{}%
+\contentsline {section}{\numberline {5.1}Introduction}{33}{}%
+\contentsline {section}{\numberline {5.2}Explosiveness of Exponential Growth}{34}{}%
+\contentsline {section}{\numberline {5.3}Geometric Sequences and the Exponential Function}{35}{}%
+\contentsline {section}{\numberline {5.4}Discussion}{36}{}%
+\contentsline {chapter}{\numberline {6}Local Stability Analysis}{37}{}%
+\contentsline {section}{\numberline {6.1}Introduction}{37}{}%
+\contentsline {section}{\numberline {6.2}Steady States}{38}{}%
+\contentsline {section}{\numberline {6.3}Assessment of Fixed Point Stability via Graphical Analysis}{38}{}%
+\contentsline {section}{\numberline {6.4}Local Stability Analysis}{40}{}%
+\contentsline {section}{\numberline {6.5}Discussion}{41}{}%
+\contentsline {chapter}{\numberline {7}On the Interconnected Origins of Statistics, Probability Theory and Population Dynamics}{43}{}%
+\contentsline {section}{\numberline {7.1}Introduction}{43}{}%
+\contentsline {section}{\numberline {7.2}Background}{44}{}%
+\contentsline {section}{\numberline {7.3}Cardano's Work}{45}{}%
+\contentsline {section}{\numberline {7.4}Pascal and Fermat}{45}{}%
+\contentsline {section}{\numberline {7.5}Huygens' Treatise}{46}{}%
+\contentsline {section}{\numberline {7.6}Graunt's Bills of Mortality}{47}{}%
+\contentsline {section}{\numberline {7.7}Probabilistic Life Tables and Early Insurance Mathematics}{47}{}%
+\contentsline {section}{\numberline {7.8}Discussion}{48}{}%
+\contentsline {chapter}{\numberline {8}Logistic Model}{49}{}%
+\contentsline {section}{\numberline {8.1}Introduction}{49}{}%
+\contentsline {section}{\numberline {8.2}A Brief Historical Review}{50}{}%
+\contentsline {section}{\numberline {8.3}The Logistic Model}{50}{}%
+\contentsline {section}{\numberline {8.4}Local Stability of Steady States}{52}{}%
+\contentsline {section}{\numberline {8.5}Discussion}{54}{}%
+\contentsline {chapter}{\numberline {9}Extending the logistic model}{57}{}%
+\contentsline {section}{\numberline {9.1}Introduction}{57}{}%
+\contentsline {section}{\numberline {9.2}Increased mortality}{57}{}%
+\contentsline {section}{\numberline {9.3}Allee Effect}{59}{}%
+\contentsline {section}{\numberline {9.4}Discussion}{61}{}%
+\contentsline {chapter}{\numberline {10}A Brief History of Nonlinear Dynamics}{63}{}%
+\contentsline {section}{\numberline {10.1}Introduction}{63}{}%
+\contentsline {section}{\numberline {10.2}The Origins of a Field}{64}{}%
+\contentsline {subsection}{\numberline {10.2.1}The Genius of Henri Poincaré}{64}{}%
+\contentsline {subsection}{\numberline {10.2.2}Formalizing Stability}{65}{}%
+\contentsline {subsection}{\numberline {10.2.3}Additional Pioneers}{65}{}%
+\contentsline {section}{\numberline {10.3}Advancing the Foundations}{66}{}%
+\contentsline {subsection}{\numberline {10.3.1}Birkhoff's Contributions}{66}{}%
+\contentsline {subsection}{\numberline {10.3.2}The Rise of Soviet Dynamical Thought}{66}{}%
+\contentsline {subsection}{\numberline {10.3.3}The emergence of Bifurcations}{67}{}%
+\contentsline {section}{\numberline {10.4}The Emergence of Chaos and Beyond}{67}{}%
+\contentsline {subsection}{\numberline {10.4.1}The Discovery of Deterministic Chaos}{67}{}%
+\contentsline {subsection}{\numberline {10.4.2}Illuminating Complexity Across Scales}{68}{}%
+\contentsline {section}{\numberline {10.5}Discussion}{69}{}%
+\contentsline {chapter}{\numberline {11}Local Stability Analysis in 2D Systems}{71}{}%
+\contentsline {section}{\numberline {11.1}Introduction}{71}{}%
+\contentsline {section}{\numberline {11.2}Steady States in 2D Systems}{72}{}%
+\contentsline {section}{\numberline {11.3}Local Linearization and Stability Analysis}{73}{}%
+\contentsline {section}{\numberline {11.4}Steady-State Classification}{74}{}%
+\contentsline {section}{\numberline {11.5}Discussion}{77}{}%
+\contentsline {chapter}{\numberline {12}Historical Origin of Population Ecology}{79}{}%
+\contentsline {section}{\numberline {12.1}Introduction}{79}{}%
+\contentsline {section}{\numberline {12.2}Early Foundations of Population Ecology}{80}{}%
+\contentsline {section}{\numberline {12.3}Formative Years of the Discipline}{81}{}%
+\contentsline {section}{\numberline {12.4}Lotka's Interdisciplinary Approach and Influence from Adams}{82}{}%
+\contentsline {section}{\numberline {12.5}Lotka-Volterra Equations}{82}{}%
+\contentsline {section}{\numberline {12.6}Discussion}{83}{}%
+\contentsline {chapter}{\numberline {13}Competitive Lotka-Volterra Model}{85}{}%
+\contentsline {section}{\numberline {13.1}Introduction}{85}{}%
+\contentsline {section}{\numberline {13.2}The Competitive Lotka-Volterra Model}{86}{}%
+\contentsline {section}{\numberline {13.3}Analysis of the Non-Dimensional Model}{87}{}%
+\contentsline {section}{\numberline {13.4}Discussion}{91}{}%
+\contentsline {chapter}{\numberline {14}SIR Model}{93}{}%
+\contentsline {section}{\numberline {14.1}Introduction}{93}{}%
+\contentsline {section}{\numberline {14.2}Model Formulation}{94}{}%
+\contentsline {section}{\numberline {14.3}Normalizing the Model}{95}{}%
+\contentsline {section}{\numberline {14.4}Fixed Points and Stability Analysis}{96}{}%
+\contentsline {section}{\numberline {14.5}Discussion}{99}{}%
+\contentsline {chapter}{\numberline {15}A Matter of Scales}{101}{}%
+\contentsline {section}{\numberline {15.1}Introduction}{101}{}%
+\contentsline {section}{\numberline {15.2}Structural scaling}{102}{}%
+\contentsline {section}{\numberline {15.3}Metabolic Scaling}{103}{}%
+\contentsline {section}{\numberline {15.4}Evolutionary Scaling Constraints and Lessons Learned}{103}{}%
+\contentsline {section}{\numberline {15.5}Discussion}{104}{}%
+\contentsline {chapter}{\numberline {16}Simplified SIR Model}{105}{}%
+\contentsline {section}{\numberline {16.1}Introduction}{105}{}%
+\contentsline {section}{\numberline {16.2}Model development}{106}{}%
+\contentsline {section}{\numberline {16.3}Analysis of Disease-Free Equilibria}{107}{}%
+\contentsline {section}{\numberline {16.4}Characterizing Outbreak Dynamics}{107}{}%
+\contentsline {section}{\numberline {16.5}Discussion}{108}{}%
+\contentsline {chapter}{\numberline {17}The Interdisciplinary Journey of Oscillators: From Transatlantic Navigation to Neurophysiology}{111}{}%
+\contentsline {section}{\numberline {17.1}Introduction}{111}{}%
+\contentsline {section}{\numberline {17.2}The Longitude Problem and the Development of Clocks}{112}{}%
+\contentsline {section}{\numberline {17.3}Harnessing Oscillators for Wireless Communication}{114}{}%
+\contentsline {section}{\numberline {17.4}Modelling Neural Excitation with Oscillators}{115}{}%
+\contentsline {section}{\numberline {17.5}Conclusion}{117}{}%
+\contentsline {chapter}{\numberline {18}The Damped Harmonic Oscillator}{119}{}%
+\contentsline {section}{\numberline {18.1}Introduction}{119}{}%
+\contentsline {section}{\numberline {18.2}Spring-mass system}{120}{}%
+\contentsline {section}{\numberline {18.3}Pendulum}{121}{}%
+\contentsline {section}{\numberline {18.4}RLC Circuit}{122}{}%
+\contentsline {section}{\numberline {18.5}Steady State Analysis}{123}{}%
+\contentsline {section}{\numberline {18.6}Application to Biological Systems}{124}{}%
+\contentsline {section}{\numberline {18.7}Discussion}{125}{}%
+\contentsline {chapter}{\numberline {19}The van der Pol Oscillator}{127}{}%
+\contentsline {section}{\numberline {19.1}Introduction}{127}{}%
+\contentsline {section}{\numberline {19.2}The van der Pol model}{128}{}%
+\contentsline {section}{\numberline {19.3}Steady State and Stability Analysis}{129}{}%
+\contentsline {section}{\numberline {19.4}Existence of a limit cycle}{130}{}%
+\contentsline {section}{\numberline {19.5}Relaxation Oscillations}{131}{}%
+\contentsline {section}{\numberline {19.6}Discussion}{132}{}%
+\contentsline {chapter}{\numberline {20}The FitzHugh-Nagumo Model}{135}{}%
+\contentsline {section}{\numberline {20.1}Introduction}{135}{}%
+\contentsline {section}{\numberline {20.2}The Hodgkin-Huxley Model}{136}{}%
+\contentsline {section}{\numberline {20.3}Motivation for Simplification}{138}{}%
+\contentsline {section}{\numberline {20.4}Derivation of the FitzHugh-Nagumo Equations}{138}{}%
+\contentsline {section}{\numberline {20.5}Analysis of Steady States}{139}{}%
+\contentsline {section}{\numberline {20.6}Phase Plane Analysis}{141}{}%
+\contentsline {section}{\numberline {20.7}Relaxation oscillator behavior}{142}{}%
+\contentsline {section}{\numberline {20.8}Applications to Excitable Systems}{142}{}%
+\contentsline {section}{\numberline {20.9}Discussion}{143}{}%
+\contentsline {chapter}{\numberline {21}Quasisteady State Approximation}{145}{}%
+\contentsline {section}{\numberline {21.1}Introduction}{145}{}%
+\contentsline {section}{\numberline {21.2}RC Low-Pass Filter Circuit}{146}{}%
+\contentsline {section}{\numberline {21.3}A Generalized Response Equation}{147}{}%
+\contentsline {section}{\numberline {21.4}Solution Forms for Specific Input Cases}{148}{}%
+\contentsline {subsection}{\numberline {21.4.1}Constant Input}{148}{}%
+\contentsline {subsection}{\numberline {21.4.2}Sinusoidal input}{148}{}%
+\contentsline {subsection}{\numberline {21.4.3}General Time-Varying Input}{149}{}%
+\contentsline {section}{\numberline {21.5}Timescale Separation}{150}{}%
+\contentsline {section}{\numberline {21.6}Comparing Steady States and Stability of the Full and Reduced Systems}{150}{}%
+\contentsline {section}{\numberline {21.7}Conclusions}{152}{}%
+\contentsline {chapter}{\numberline {22}Hematopoiesis Regulation}{153}{}%
+\contentsline {section}{\numberline {22.1}Introduction}{153}{}%
+\contentsline {section}{\numberline {22.2}Hematopoiesis Physiology}{154}{}%
+\contentsline {section}{\numberline {22.3}Mathematical modeling of erythropoiesis}{155}{}%
+\contentsline {section}{\numberline {22.4}Quasi-steady state approximation}{156}{}%
+\contentsline {section}{\numberline {22.5}Steady State Analysis}{156}{}%
+\contentsline {section}{\numberline {22.6}Stability Analysis}{157}{}%
+\contentsline {section}{\numberline {22.7}Discussion}{158}{}%
+\contentsline {chapter}{\numberline {23}A.V. Hill and the Origins of Modern Biophysics}{161}{}%
+\contentsline {section}{\numberline {23.1}Education and Early Career}{161}{}%
+\contentsline {section}{\numberline {23.2}Studies on Muscle Physiology}{162}{}%
+\contentsline {section}{\numberline {23.3}Hemoglobin saturation and the Hill equation}{163}{}%
+\contentsline {section}{\numberline {23.4}Discussion}{163}{}%
+\contentsline {chapter}{\numberline {24}Ligand-Receptor Dynamics}{165}{}%
+\contentsline {section}{\numberline {24.1}Introduction}{165}{}%
+\contentsline {section}{\numberline {24.2}Chemical Reactions}{166}{}%
+\contentsline {section}{\numberline {24.3}Chemical Kinetics Approach}{166}{}%
+\contentsline {section}{\numberline {24.4}Modeling Ligand Binding to a Receptor with Single Binding Site}{167}{}%
+\contentsline {section}{\numberline {24.5}Modeling Ligand Binding to Receptors with Multiple Independent Binding Sites}{168}{}%
+\contentsline {section}{\numberline {24.6}Extension to Cooperatively Binding Ligands}{169}{}%
+\contentsline {section}{\numberline {24.7}Saturation Fraction, Cooperativity and the Hill Function}{171}{}%
+\contentsline {section}{\numberline {24.8}Discussion}{173}{}%
+\contentsline {chapter}{\numberline {25}The Interdisciplinary Origins of Molecular Biology}{175}{}%
+\contentsline {section}{\numberline {25.1}Introduction}{175}{}%
+\contentsline {section}{\numberline {25.2}Early Steps Towards a Physical and Molecular View of Genes}{176}{}%
+\contentsline {section}{\numberline {25.3}The Structural School in Molecular Biology}{177}{}%
+\contentsline {section}{\numberline {25.4}The Informational School and its Origins in Quantum Physics}{178}{}%
+\contentsline {section}{\numberline {25.5}The Emergence of Molecular Biology in France}{178}{}%
+\contentsline {section}{\numberline {25.6}The Discovery of the Double Helix}{179}{}%
+\contentsline {section}{\numberline {25.7}Discussion}{180}{}%
+\contentsline {chapter}{\numberline {26}Gene Regulation}{181}{}%
+\contentsline {section}{\numberline {26.1}Introduction}{181}{}%
+\contentsline {section}{\numberline {26.2}The Central Dogma of Molecular Biology}{182}{}%
+\contentsline {section}{\numberline {26.3}Gene Regulatory Networks}{182}{}%
+\contentsline {section}{\numberline {26.4}The Tryptophan Operon}{183}{}%
+\contentsline {section}{\numberline {26.5}The Lactose Operon}{184}{}%
+\contentsline {section}{\numberline {26.6}Discussion}{185}{}%
+\contentsline {chapter}{\numberline {27}Mathematical Modelling of Simple BacterialGene Regulatory Networks}{187}{}%
+\contentsline {section}{\numberline {27.1}Introduction}{187}{}%
+\contentsline {section}{\numberline {27.2}General Model Development}{187}{}%
+\contentsline {section}{\numberline {27.3}Redundant Negative Feedback regulation}{189}{}%
+\contentsline {section}{References}{191}{}%
