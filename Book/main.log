@@ -1,10 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.2)  2 JAN 2025 12:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.2)  3 JAN 2025 07:34
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/msantillan/Trabajo/NLD_Book/Book/main.tex
-(/home/msantillan/Trabajo/NLD_Book/Book/main.tex
+**main.tex
+(./main.tex
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-09>
 (./svmono.cls
@@ -82,22 +81,28 @@ LaTeX Font Info:    Redeclaring math symbol \Omega on input line 842.
 \tabcapgap=\dimen163
 \c@merk=\count287
 LaTeX Info: Redefining \abstract on input line 1894.
-) (/home/msantillan/texlive/texmf-dist/tex/latex/graphics/color.sty
+)
+(/home/msantillan/texlive/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2024/06/23 v1.3e Standard LaTeX Color (DPC)
- (/home/msantillan/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+
+(/home/msantillan/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
- (/home/msantillan/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+
+(/home/msantillan/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
-) (/home/msantillan/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx)) (/home/msantillan/texlive/texmf-dist/tex/latex/framed/framed.sty
+)
+(/home/msantillan/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/home/msantillan/texlive/texmf-dist/tex/latex/framed/framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \OuterFrameSep=\skip51
 \fb@frw=\dimen164
 \fb@frh=\dimen165
 \FrameRule=\dimen166
 \FrameSep=\dimen167
-) (/home/msantillan/texlive/texmf-dist/tex/latex/psnfss/mathptmx.sty
+)
+(/home/msantillan/texlive/texmf-dist/tex/latex/psnfss/mathptmx.sty
 Package: mathptmx 2020/03/25 PSNFSS-v9.3 Times w/ Math, improved (SPQR, WaS) 
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -132,31 +137,42 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
 LaTeX Info: Redefining \hbar on input line 50.
-) (/home/msantillan/texlive/texmf-dist/tex/latex/psnfss/helvet.sty
+)
+(/home/msantillan/texlive/texmf-dist/tex/latex/psnfss/helvet.sty
 Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS) 
- (/home/msantillan/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+
+(/home/msantillan/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
-)) (/home/msantillan/texlive/texmf-dist/tex/latex/psnfss/courier.sty
+))
+(/home/msantillan/texlive/texmf-dist/tex/latex/psnfss/courier.sty
 Package: courier 2020/03/25 PSNFSS-v9.3 (WaS) 
-) (/home/msantillan/texlive/texmf-dist/tex/latex/type1cm/type1cm.sty
-Package: type1cm 2002/09/05 v0.04 BlueSky/Y&Y Type1 CM font definitions (DPC, patched RF)
-) (/home/msantillan/texlive/texmf-dist/tex/latex/base/makeidx.sty
+)
+(/home/msantillan/texlive/texmf-dist/tex/latex/type1cm/type1cm.sty
+Package: type1cm 2002/09/05 v0.04 BlueSky/Y&Y Type1 CM font definitions (DPC, p
+atched RF)
+)
+(/home/msantillan/texlive/texmf-dist/tex/latex/base/makeidx.sty
 Package: makeidx 2021/10/04 v1.0m Standard LaTeX package
-) (/home/msantillan/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+)
+(/home/msantillan/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (/home/msantillan/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+
+(/home/msantillan/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
- (/home/msantillan/texlive/texmf-dist/tex/latex/graphics/trig.sty
+
+(/home/msantillan/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
-) (/home/msantillan/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+)
+(/home/msantillan/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 106.
 )
 \Gin@req@height=\dimen168
 \Gin@req@width=\dimen169
-) (/home/msantillan/texlive/texmf-dist/tex/latex/tools/multicol.sty
+)
+(/home/msantillan/texlive/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2024/09/14 v1.9i multicolumn formatting (FMi)
 \c@tracingmulticols=\count288
 \mult@box=\box53
@@ -225,7 +241,8 @@ Package: multicol 2024/09/14 v1.9i multicolumn formatting (FMi)
 \mult@nat@firstbox=\box97
 \colbreak@box=\box98
 \mc@col@check@num=\count297
-) (/home/msantillan/texlive/texmf-dist/tex/latex/footmisc/footmisc.sty
+)
+(/home/msantillan/texlive/texmf-dist/tex/latex/footmisc/footmisc.sty
 Package: footmisc 2024/12/24 v6.0g a miscellany of footnote facilities
 \FN@temptoken=\toks18
 \footnotemargin=\dimen179
@@ -234,32 +251,40 @@ Package footmisc Info: Declaring symbol style bringhurst on input line 699.
 Package footmisc Info: Declaring symbol style chicago on input line 707.
 Package footmisc Info: Declaring symbol style wiley on input line 716.
 Package footmisc Info: Declaring symbol style lamport-robust on input line 727.
+
 Package footmisc Info: Declaring symbol style lamport* on input line 747.
-Package footmisc Info: Declaring symbol style lamport*-robust on input line 768.
-) (/home/msantillan/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 768
+.
+)
+(/home/msantillan/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
- (/home/msantillan/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+
+(/home/msantillan/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks19
 \symAMSa=\mathgroup6
 \symAMSb=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (/home/msantillan/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+))
+(/home/msantillan/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2024/11/05 v2.17t AMS math features
 \@mathmargin=\skip54
 
 For additional information on amsmath, use the `?' option.
 (/home/msantillan/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
- (/home/msantillan/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+
+(/home/msantillan/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks20
 \ex@=\dimen181
-)) (/home/msantillan/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+))
+(/home/msantillan/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen182
-) (/home/msantillan/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+)
+(/home/msantillan/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count298
@@ -309,9 +334,11 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \mathdisplay@stack=\toks24
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-) (/home/msantillan/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+)
+(/home/msantillan/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
 Package: mathtools 2024/10/04 v1.31 mathematical typesetting tools
- (/home/msantillan/texlive/texmf-dist/tex/latex/tools/calc.sty
+
+(/home/msantillan/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count310
 \calc@Bcount=\count311
@@ -323,7 +350,8 @@ LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count312
 \calc@Cskip=\skip59
-) (/home/msantillan/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
+)
+(/home/msantillan/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
 \g_MT_multlinerow_int=\count313
@@ -337,13 +365,15 @@ Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 \l_MT_below_shortintertext_sep=\dimen198
 \xmathstrut@box=\box101
 \xmathstrut@dim=\dimen199
-) (/home/msantillan/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+)
+(/home/msantillan/texlive/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip61
 \bibsep=\skip62
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count314
-) (/home/msantillan/texlive/texmf-dist/tex/latex/subfigure/subfigure.sty
+)
+(/home/msantillan/texlive/texmf-dist/tex/latex/subfigure/subfigure.sty
 Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfigtopskip=\skip63
 \subfigcapskip=\skip64
@@ -362,24 +392,42 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 (/home/msantillan/texlive/texmf-dist/tex/latex/subfigure/subfigure.cfg)
 \subfig@top=\skip67
 \subfig@bottom=\skip68
-) (/home/msantillan/texlive/texmf-dist/tex/latex/pgfplots/pgfplots.sty (/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+)
+(/home/msantillan/texlive/texmf-dist/tex/latex/pgfplots/pgfplots.sty
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex
+)
 Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
- (/home/msantillan/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/home/msantillan/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/home/msantillan/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+ (/home/msantillan/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/home/msantillan/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/home/msantillan/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.t
+ex
 \pgfutil@everybye=\toks25
 \pgfutil@tempdima=\dimen258
 \pgfutil@tempdimb=\dimen259
-) (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+)
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.de
+f
 \pgfutil@abb=\box102
-) (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+)
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
 Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
 ))
 Package: pgf 2023-01-15 v3.1.10 (3.1.10)
- (/home/msantillan/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/home/msantillan/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+
+(/home/msantillan/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/home/msantillan/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.te
+x
 Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
- (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks26
 \pgfkeys@temptoks=\toks27
- (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
+
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfi
+ltered.code.tex
 \pgfkeys@tmptoks=\toks28
 ))
 \pgf@x=\dimen260
@@ -402,28 +450,39 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 \t@pgf@tokb=\toks30
 \t@pgf@tokc=\toks31
 \pgf@sys@id@count=\count323
- (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
 Driver file for pgf: pgfsys-pdftex.def
- (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.
+def
 File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
- (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-
+pdf.def
 File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
-))) (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+)))
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath
+.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfsyssoftpath@smallbuffer@items=\count324
 \pgfsyssoftpath@bigbuffer@items=\count325
-) (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+)
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol
+.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )) (/home/msantillan/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
- (/home/msantillan/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+
+(/home/msantillan/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 274.
 LaTeX Info: Redefining \color on input line 762.
- (/home/msantillan/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+
+(/home/msantillan/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
 Package xcolor Info: Model `RGB' extended on input line 1365.
@@ -433,18 +492,47 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
-) (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+)
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.te
+x
 Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
- (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+ (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.te
+x
 \pgfmath@dimen=\dimen270
 \pgfmath@count=\count326
 \pgfmath@box=\box103
 \pgfmath@toks=\toks32
 \pgfmath@stack@operand=\toks33
 \pgfmath@stack@operation=\toks34
-) (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+)
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code
+.tex)
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basi
+c.code.tex)
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trig
+onometric.code.tex)
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rand
+om.code.tex)
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comp
+arison.code.tex)
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base
+.code.tex)
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.roun
+d.code.tex)
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc
+.code.tex)
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.inte
+gerarithmetics.code.tex)
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count327
-)) (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+)) (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.c
+ode.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@picminx=\dimen271
 \pgf@picmaxx=\dimen272
@@ -460,75 +548,125 @@ File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@yy=\dimen282
 \pgf@zx=\dimen283
 \pgf@zy=\dimen284
-) (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+)
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathcons
+truct.code.tex
 File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@path@lastx=\dimen285
 \pgf@path@lasty=\dimen286
-) (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+)
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusag
+e.code.tex
 File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@shorten@end@additional=\dimen287
 \pgf@shorten@start@additional=\dimen288
-) (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+)
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.c
+ode.tex
 File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfpic=\box104
 \pgf@hbox=\box105
 \pgf@layerbox@main=\box106
 \pgf@picture@serial@count=\count328
-) (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+)
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphics
+tate.code.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgflinewidth=\dimen289
-) (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+)
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransfor
+mations.code.tex
 File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@pt@x=\dimen290
 \pgf@pt@y=\dimen291
 \pgf@pt@temp=\dimen292
-) (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+)
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.co
+de.tex
 File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+)
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.
+code.tex
 File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+)
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproc
+essing.code.tex
 File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+)
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.c
+ode.tex
 File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfarrowsep=\dimen293
-) (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+)
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.co
+de.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@max=\dimen294
 \pgf@sys@shading@range@num=\count329
 \pgf@shadingcount=\count330
-) (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+)
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.co
+de.tex
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+)
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal
+.code.tex
 File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfexternal@startupbox=\box107
-) (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+)
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.c
+ode.tex
 File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+)
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspar
+ency.code.tex
 File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+)
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns
+.code.tex
 File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+)
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code
+.tex
 File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+)))
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.co
+de.tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfnodeparttextbox=\box108
-) (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+)
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code
+.tex
 File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/home/msantillan/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+)
+(/home/msantillan/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-versio
+n-0-65.sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
 \pgf@nodesepstart=\dimen295
 \pgf@nodesepend=\dimen296
-) (/home/msantillan/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+)
+(/home/msantillan/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-versio
+n-1-18.sty
 Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
-)) (/home/msantillan/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/home/msantillan/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/home/msantillan/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+))
+(/home/msantillan/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/home/msantillan/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+)) (/home/msantillan/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
 \pgffor@iter=\dimen297
 \pgffor@skip=\dimen298
 \pgffor@stack=\toks35
 \pgffor@toks=\toks36
-)) (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+))
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.co
+de.tex
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
- (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotha
+ndlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@plot@mark@count=\count331
 \pgfplotmarksize=\dimen299
@@ -549,35 +687,103 @@ File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikznumberofchildren=\count333
 \tikznumberofcurrentchild=\count334
 \tikz@fig@count=\count335
- (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.co
+de.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfmatrixcurrentrow=\count336
 \pgfmatrixcurrentcolumn=\count337
 \pgf@matrix@numberofcolumns=\count338
 )
 \tikz@expandcount=\count339
- (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librari
+es/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex (/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+)))
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
 \t@pgfplots@toka=\toks37
 \t@pgfplots@tokb=\toks38
 \t@pgfplots@tokc=\toks39
 \pgfplots@tmpa=\dimen308
 \c@pgfplots@coordindex=\count340
 \c@pgfplots@scanlineindex=\count341
- (/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex)) (/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex) (/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
+
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneri
+c.code.tex))
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.
+code.tex)
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplo
+tsoldpgfsupp_loader.code.tex
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.co
+de.tex)
 Package pgfplots: loading complementary utilities for your pgf version...
 \t@pgf@toka=\toks40
 \t@pgf@tokb=\toks41
 \t@pgf@tokc=\toks42
-(/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgfutil-common-lists.tex)) (/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex (/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure.code.tex) (/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructureext.code.tex) (/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.tex
+
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplo
+tsoldpgfsupp_pgfutil-common-lists.tex))
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.cod
+e.tex
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplot
+sliststructure.code.tex)
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplot
+sliststructureext.code.tex)
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplot
+sarray.code.tex
 \c@pgfplotsarray@tmp=\count342
-) (/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.tex) (/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.tex
+)
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplot
+smatrix.code.tex)
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstabl
+eshared.code.tex
 \c@pgfplotstable@counta=\count343
 \t@pgfplotstable@a=\toks43
-) (/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.tex) (/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex (/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex)) (/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex) (/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading.code.tex
+)
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplot
+sdeque.code.tex)
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.c
+ode.tex
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.d
+ata.code.tex))
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.ver
+b.code.tex)
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplo
+ts.surfshading.code.tex
 \c@pgfplotslibrarysurf@no=\count344
- (/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex (/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) (/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex (/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex (/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex))) (/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex) (/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex) (/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex) (/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
+
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplot
+s.surfshading.pgfsys-pdftex.def)))
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap
+.code.tex
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.co
+de.tex))
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.
+code.tex)
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.
+code.tex
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandl
+er.code.tex
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage
+.code.tex)))
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code
+.tex)
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessi
+ng.code.tex)
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.co
+de.tex)
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code
+.tex)
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.te
+x)
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.t
+ex)
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librari
+es/tikzlibrarydecorations.code.tex
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecoratio
+ns.code.tex
 \pgfdecoratedcompleteddistance=\dimen309
 \pgfdecoratedremainingdistance=\dimen310
 \pgfdecoratedinputsegmentcompleteddistance=\dimen311
@@ -588,7 +794,17 @@ Package pgfplots: loading complementary utilities for your pgf version...
 \pgfdecorationsegmentlength=\dimen315
 )
 \tikz@lib@dec@box=\box113
-) (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex)) (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex)) (/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.contourlua.code.tex)
+)
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librari
+es/tikzlibrarydecorations.pathmorphing.code.tex
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgfl
+ibrarydecorations.pathmorphing.code.tex))
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librari
+es/tikzlibrarydecorations.pathreplacing.code.tex
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgfl
+ibrarydecorations.pathreplacing.code.tex))
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfpl
+ots.contourlua.code.tex)
 \pgfplots@numplots=\count346
 \pgfplots@xmin@reg=\dimen316
 \pgfplots@xmax@reg=\dimen317
@@ -596,18 +812,26 @@ Package pgfplots: loading complementary utilities for your pgf version...
 \pgfplots@ymax@reg=\dimen319
 \pgfplots@zmin@reg=\dimen320
 \pgfplots@zmax@reg=\dimen321
-) (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryplotmarks.code.tex
+)
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librari
+es/tikzlibraryplotmarks.code.tex
 File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (/home/msantillan/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
+
+(/home/msantillan/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotma
+rks.code.tex
 File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (/home/msantillan/texlive/texmf-dist/tex/latex/textgreek/textgreek.sty
+)))
+(/home/msantillan/texlive/texmf-dist/tex/latex/textgreek/textgreek.sty
 Package: textgreek 2011/10/09 v0.7 Greek symbols in text
-Package textgreek Info: Loading the definitions for the Greek fontencoding. on input line 39.
- (/home/msantillan/texlive/texmf-dist/tex/latex/greek-fontenc/lgrenc.def
+Package textgreek Info: Loading the definitions for the Greek fontencoding. on 
+input line 39.
+
+(/home/msantillan/texlive/texmf-dist/tex/latex/greek-fontenc/lgrenc.def
 File: lgrenc.def 2023-09-12 2.5 LGR Greek font encoding definitions
 Now handling font encoding LGR ...
 ... processing UTF-8 mapping file for font encoding LGR
- (/home/msantillan/texlive/texmf-dist/tex/latex/greek-inputenc/lgrenc.dfu
+
+(/home/msantillan/texlive/texmf-dist/tex/latex/greek-inputenc/lgrenc.dfu
 File: lgrenc.dfu 2023-03-21 1.9 UTF-8 support for Greek
    defining Unicode char U+00A8 (decimal 168)
    defining Unicode char U+00AB (decimal 171)
@@ -958,14 +1182,17 @@ File: lgrenc.dfu 2023-03-21 1.9 UTF-8 support for Greek
    defining Unicode char U+10145 (decimal 65861)
    defining Unicode char U+10146 (decimal 65862)
    defining Unicode char U+10147 (decimal 65863)
-) (/home/msantillan/texlive/texmf-dist/tex/latex/greek-fontenc/greek-fontenc.def
+)
+(/home/msantillan/texlive/texmf-dist/tex/latex/greek-fontenc/greek-fontenc.def
 File: greek-fontenc.def 2023-09-12 2.5 Common Greek font encoding definitions
 ))
-Package textgreek Info: Loaded fontmap: {eur/*/*}{U/eur/*/*} {phv/*/*}{U/psy/*/*}. on input line 69.
+Package textgreek Info: Loaded fontmap: {eur/*/*}{U/eur/*/*} {phv/*/*}{U/psy/*/
+*}. on input line 69.
 ) (/home/msantillan/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-) (/home/msantillan/texlive/texmf-dist/tex/latex/cancel/cancel.sty
+)
+(/home/msantillan/texlive/texmf-dist/tex/latex/cancel/cancel.sty
 Package: cancel 2013/04/12 v2.2 Cancel math terms
 )
 \@indexfile=\write4
@@ -973,14 +1200,21 @@ Package: cancel 2013/04/12 v2.2 Cancel math terms
 
 
 Writing index file main.idx
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 57.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 5
+7.
 (/home/msantillan/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-) (/home/msantillan/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+)
+(/home/msantillan/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count347
 \l__pdf_internal_box=\box114
-) (./main.aux (./ch01.aux) (./ch02.aux) (./ch03.aux) (./ch04.aux) (./ch05.aux) (./ch06.aux) (./ch07.aux) (./ch08.aux) (./ch09.aux) (./ch10.aux) (./ch11.aux) (./ch12.aux) (./ch13.aux) (./ch14.aux) (./ch15.aux) (./ch16.aux) (./ch17.aux) (./ch18.aux) (./ch19.aux) (./ch20.aux) (./ch21.aux) (./ch22.aux) (./ch23.aux) (./ch24.aux) (./ch25.aux) (./ch26.aux) (./ch27.aux) (./referenc.aux))
+)
+(./main.aux (./ch01.aux) (./ch02.aux) (./ch03.aux) (./ch04.aux) (./ch05.aux)
+(./ch06.aux) (./ch07.aux) (./ch08.aux) (./ch09.aux) (./ch10.aux) (./ch11.aux)
+(./ch12.aux) (./ch13.aux) (./ch14.aux) (./ch15.aux) (./ch16.aux) (./ch17.aux)
+(./ch18.aux) (./ch19.aux) (./ch20.aux) (./ch21.aux) (./ch22.aux) (./ch23.aux)
+(./ch24.aux) (./ch25.aux) (./ch26.aux) (./ch27.aux) (./referenc.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
@@ -998,12 +1232,15 @@ LaTeX Font Info:    ... okay on input line 57.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
 LaTeX Font Info:    ... okay on input line 57.
 LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 57.
-LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 57.
- (/home/msantillan/texlive/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
+LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 5
+7.
+
+(/home/msantillan/texlive/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
 LaTeX Font Info:    ... okay on input line 57.
- (/home/msantillan/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+
+(/home/msantillan/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count348
 \scratchdimen=\dimen322
@@ -1018,17 +1255,21 @@ LaTeX Font Info:    ... okay on input line 57.
 \everyMPtoPDFconversion=\toks45
 ) (/home/msantillan/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (/home/msantillan/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+(/home/msantillan/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
 ))
-Package pgfplots notification 'compat/show suggested version=true': you might benefit from \pgfplotsset{compat=1.18} (current compat level: 1.17).
+Package pgfplots notification 'compat/show suggested version=true': you might b
+enefit from \pgfplotsset{compat=1.18} (current compat level: 1.17).
 
 
 
 [1
 
-{/home/msantillan/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/home/msantillan/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}]
+{/home/msantillan/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/home/m
+santillan/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}]
 
 [2
 
@@ -1038,20 +1279,27 @@ Package pgfplots notification 'compat/show suggested version=true': you might be
 Package mathptmx Warning: There are no bold math fonts on input line 70.
 
 (./main.toc
-LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 1.
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
+ 1.
  (/home/msantillan/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 1.
- (/home/msantillan/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
+ 1.
+
+(/home/msantillan/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 1.
- (/home/msantillan/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
+ 1.
+
+(/home/msantillan/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 1.
- (/home/msantillan/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
+ 1.
+
+(/home/msantillan/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
@@ -1163,7 +1411,8 @@ Package pdftex.def Info: Figures/fig-02.04.pdf  used on input line 143.
 [14]
 
 [15]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 234.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
+34.
  (/home/msantillan/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
@@ -1268,7 +1517,8 @@ Package pdftex.def Info: Figures/fig-06.01.pdf  used on input line 37.
 
 [40]
 Overfull \hbox (8.80861pt too wide) in paragraph at lines 105--106
-\OT1/ptm/m/n/10 Find the steady states and char-ac-ter-ize their sta-bil-ity for the fol-low-ing one-dimensional
+\OT1/ptm/m/n/10 Find the steady states and char-ac-ter-ize their sta-bil-ity fo
+r the fol-low-ing one-dimensional
  []
 
 
@@ -1368,7 +1618,8 @@ Package pdftex.def Info: Figures/fig-09.02.pdf  used on input line 63.
 (pdftex.def)             Requested size: 216.81pt x 162.6071pt.
 
 Overfull \hbox (3.83945pt too wide) in paragraph at lines 74--75
-\OT1/ptm/m/n/10 model: in-creased back-ground mor-tal-ity and an Allee ef-fect. By in-cor-po-rat-ing density-
+\OT1/ptm/m/n/10 model: in-creased back-ground mor-tal-ity and an Allee ef-fect.
+ By in-cor-po-rat-ing density-
  []
 
 
@@ -1392,7 +1643,8 @@ Chapter 10.
 
 [63]
 Overfull \hbox (2.57947pt too wide) in paragraph at lines 32--33
-[]\OT1/ptm/m/n/10 By elu-ci-dat-ing analo-gies be-tween con-tin-u-ous and dis-crete rep-re-sen-ta-tions through
+[]\OT1/ptm/m/n/10 By elu-ci-dat-ing analo-gies be-tween con-tin-u-ous and dis-c
+rete rep-re-sen-ta-tions through
  []
 
 
@@ -1405,7 +1657,8 @@ Overfull \hbox (2.57947pt too wide) in paragraph at lines 32--33
 
 [67]
 Overfull \hbox (18.91939pt too wide) in paragraph at lines 108--109
-\OT1/ptm/m/n/10 col-lab-o-ra-tions un-cov-ered new di-men-sions of in-tri-cacy even within classically-understood
+\OT1/ptm/m/n/10 col-lab-o-ra-tions un-cov-ered new di-men-sions of in-tri-cacy 
+even within classically-understood
  []
 
 
@@ -1458,7 +1711,8 @@ Package pdftex.def Info: Figures/fig-11.02.V.pdf  used on input line 150.
 
 [75 <./Figures/fig-11.01.pdf>]
 
-[76 <./Figures/fig-11.02.I.pdf> <./Figures/fig-11.02.II.pdf> <./Figures/fig-11.02.V.pdf>]
+[76 <./Figures/fig-11.02.I.pdf> <./Figures/fig-11.02.II.pdf> <./Figures/fig-11.
+02.V.pdf>]
 <Figures/fig-11.03.III.pdf, id=471, 433.62pt x 433.62pt>
 File: Figures/fig-11.03.III.pdf Graphic file (type pdf)
 <use Figures/fig-11.03.III.pdf>
@@ -1540,7 +1794,8 @@ Package pdftex.def Info: Figures/fig-13.01.D.pdf  used on input line 168.
 
 [89]
 
-[90 <./Figures/fig-13.01.A.pdf> <./Figures/fig-13.01.B.pdf> <./Figures/fig-13.01.C.pdf> <./Figures/fig-13.01.D.pdf>])
+[90 <./Figures/fig-13.01.A.pdf> <./Figures/fig-13.01.B.pdf> <./Figures/fig-13.0
+1.C.pdf> <./Figures/fig-13.01.D.pdf>])
 
 [91]
 \openout2 = `ch14.aux'.
@@ -1604,7 +1859,8 @@ Chapter 15.
 
 [102]
 Overfull \hbox (2.08931pt too wide) in paragraph at lines 42--43
-[]\OT1/ptm/m/n/10 When con-sid-er-ing evo-lu-tion-ary re-quire-ments, it be-comes clear that sim-ply shrink-
+[]\OT1/ptm/m/n/10 When con-sid-er-ing evo-lu-tion-ary re-quire-ments, it be-com
+es clear that sim-ply shrink-
  []
 
 
@@ -1957,7 +2213,8 @@ Chapter 25.
 
 [176]
 Overfull \hbox (8.61934pt too wide) in paragraph at lines 32--33
-\OT1/ptm/m/n/10 Desmond Bernal ap-plied X-ray crys-tal-log-ra-phy to an-a-lyze larger bi-o-log-i-cal molecules.
+\OT1/ptm/m/n/10 Desmond Bernal ap-plied X-ray crys-tal-log-ra-phy to an-a-lyze 
+larger bi-o-log-i-cal molecules.
  []
 
 
@@ -1966,7 +2223,8 @@ Overfull \hbox (8.61934pt too wide) in paragraph at lines 32--33
 
 [178]
 Overfull \hbox (3.84998pt too wide) in paragraph at lines 58--59
-[]\OT1/ptm/m/n/10 These ef-forts ex-em-pli-fied pro-duc-tive col-lab-o-ra-tion even dur-ing wartime, as French
+[]\OT1/ptm/m/n/10 These ef-forts ex-em-pli-fied pro-duc-tive col-lab-o-ra-tion 
+even dur-ing wartime, as French
  []
 
 
@@ -1991,7 +2249,8 @@ Chapter 26.
 [182]
 
 [183]
-LaTeX Font Info:    Trying to load font information for LGR+ptm on input line 78.
+LaTeX Font Info:    Trying to load font information for LGR+ptm on input line 7
+8.
 LaTeX Font Info:    No file LGRptm.fd. on input line 78.
 
 
@@ -2027,47 +2286,57 @@ Chapter 27.
 \openout2 = `referenc.aux'.
 
  (./referenc.tex (./main.bbl
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 11.
- (/home/msantillan/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 1
+4.
+
+(/home/msantillan/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-Underfull \hbox (badness 1694) in paragraph at lines 11--12
-\OT1/ptm/m/n/10 Lon-don, DOI $10 . 1007 / 978-[]0-[]85729-[]115-[]8$, URL $\OT1/pcr/m/n/10 http : / / dx . doi . org /
+Underfull \hbox (badness 1694) in paragraph at lines 12--15
+\OT1/ptm/m/n/10 Lon-don, DOI $10 . 1007 / 978-[]0-[]85729-[]115-[]8$, URL $\OT1
+/pcr/m/n/10 http : / / dx . doi . org /
  []
 
 
-Underfull \hbox (badness 4981) in paragraph at lines 17--18
-[]\OT1/ptm/m/n/10 Bassett DR (2002) Sci-en-tific con-tri-bu-tions of a. v. hill: ex-er-cise phys-
+Underfull \hbox (badness 4981) in paragraph at lines 21--25
+[]\OT1/ptm/m/n/10 Bassett DR (2002) Sci-en-tific con-tri-bu-tions of a. v. hill
+: ex-er-cise phys-
  []
 
 
-Underfull \hbox (badness 3907) in paragraph at lines 17--18
-\OT1/ptm/m/n/10 i-ol-ogy pi-o-neer. Jour-nal of Ap-plied Phys-i-ol-ogy 93(5):1567--1582, DOI 
+Underfull \hbox (badness 3907) in paragraph at lines 21--25
+\OT1/ptm/m/n/10 i-ol-ogy pi-o-neer. Jour-nal of Ap-plied Phys-i-ol-ogy 93(5):15
+67--1582, DOI 
  []
 
 
-Underfull \hbox (badness 1515) in paragraph at lines 35--36
-\OT1/ptm/m/n/10 els for ery-thro-poiesis. Math-e-mat-i-cal Bio-sciences 128(1--2):317--346, DOI 
+Underfull \hbox (badness 1515) in paragraph at lines 50--54
+\OT1/ptm/m/n/10 els for ery-thro-poiesis. Math-e-mat-i-cal Bio-sciences 128(1--
+2):317--346, DOI 
  []
 
 
-Underfull \hbox (badness 4108) in paragraph at lines 35--36
-\OT1/ptm/m/n/10 10 . 1016 / 0025-[]5564(94 ) 00078-[]e$, URL $\OT1/pcr/m/n/10 http : / / dx . doi . org / 10 . 1016 /
+Underfull \hbox (badness 4108) in paragraph at lines 50--54
+\OT1/ptm/m/n/10 10 . 1016 / 0025-[]5564(94 ) 00078-[]e$, URL $\OT1/pcr/m/n/10 h
+ttp : / / dx . doi . org / 10 . 1016 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--39
-[]\OT1/ptm/m/n/10 Cajori F (1913a) His-tory of the ex-ponene-tial and log-a-rith-mic con-
+Underfull \hbox (badness 10000) in paragraph at lines 56--60
+[]\OT1/ptm/m/n/10 Cajori F (1913a) His-tory of the ex-ponene-tial and log-a-rit
+h-mic con-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--39
-\OT1/ptm/m/n/10 cepts. The Amer-i-can Math-e-mat-i-cal Monthly 20(5):148--151, DOI 
+Underfull \hbox (badness 10000) in paragraph at lines 56--60
+\OT1/ptm/m/n/10 cepts. The Amer-i-can Math-e-mat-i-cal Monthly 20(5):148--151, 
+DOI 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--39
-\OT1/ptm/m/n/10 10 . 1080 / 00029890 . 1913 . 11997942$, URL $\OT1/pcr/m/n/10 http : / / dx . doi . org / 10 .
+Underfull \hbox (badness 10000) in paragraph at lines 56--60
+\OT1/ptm/m/n/10 10 . 1080 / 00029890 . 1913 . 11997942$, URL $\OT1/pcr/m/n/10 h
+ttp : / / dx . doi . org / 10 .
  []
 
 
@@ -2077,40 +2346,51 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
-[]\OT1/ptm/m/n/10 Cajori F (1913g) His-tory of the ex-po-nen-tial and log-a-rith-mic con-
+Underfull \hbox (badness 10000) in paragraph at lines 91--95
+[]\OT1/ptm/m/n/10 Cajori F (1913g) His-tory of the ex-po-nen-tial and log-a-rit
+h-mic con-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
-\OT1/ptm/m/n/10 cepts. The Amer-i-can Math-e-mat-i-cal Monthly 20(7):205--210, DOI 
+Underfull \hbox (badness 10000) in paragraph at lines 91--95
+\OT1/ptm/m/n/10 cepts. The Amer-i-can Math-e-mat-i-cal Monthly 20(7):205--210, 
+DOI 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
-\OT1/ptm/m/n/10 10 . 1080 / 00029890 . 1913 . 11997960$, URL $\OT1/pcr/m/n/10 http : / / dx . doi . org / 10 .
+Underfull \hbox (badness 10000) in paragraph at lines 91--95
+\OT1/ptm/m/n/10 10 . 1080 / 00029890 . 1913 . 11997960$, URL $\OT1/pcr/m/n/10 h
+ttp : / / dx . doi . org / 10 .
  []
 
 
-Underfull \hbox (badness 5847) in paragraph at lines 74--75
-[]\OT1/ptm/m/n/10 Izhikevich E, FitzHugh R (2006) FitzHugh-nagumo model. Schol-ar-pe-dia
+Underfull \hbox (badness 5847) in paragraph at lines 118--121
+[]\OT1/ptm/m/n/10 Izhikevich E, FitzHugh R (2006) FitzHugh-nagumo model. Schol-
+ar-pe-dia
  []
 
 
 
 [192]
-Underfull \hbox (badness 10000) in paragraph at lines 122--123
-[]\OT1/ptm/m/n/10 Stent GS (1968) That was the molec-u-lar bi-ol-ogy that was. Sci-ence
+Underfull \hbox (badness 10000) in paragraph at lines 199--202
+[]\OT1/ptm/m/n/10 Stent GS (1968) That was the molec-u-lar bi-ol-ogy that was. 
+Sci-ence
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--123
-\OT1/ptm/m/n/10 160(3826):390{395, DOI $10 . 1126 / science . 160 . 3826 . 390$, URL $\OT1/pcr/m/n/10 http :
+Underfull \hbox (badness 10000) in paragraph at lines 199--202
+\OT1/ptm/m/n/10 160(3826):390{395, DOI $10 . 1126 / science . 160 . 3826 . 390$
+, URL $\OT1/pcr/m/n/10 http :
  []
 
 ))
 
-[193] (./main.aux (./ch01.aux) (./ch02.aux) (./ch03.aux) (./ch04.aux) (./ch05.aux) (./ch06.aux) (./ch07.aux) (./ch08.aux) (./ch09.aux) (./ch10.aux) (./ch11.aux) (./ch12.aux) (./ch13.aux) (./ch14.aux) (./ch15.aux) (./ch16.aux) (./ch17.aux) (./ch18.aux) (./ch19.aux) (./ch20.aux) (./ch21.aux) (./ch22.aux) (./ch23.aux) (./ch24.aux) (./ch25.aux) (./ch26.aux) (./ch27.aux) (./referenc.aux))
+[193] (./main.aux (./ch01.aux) (./ch02.aux) (./ch03.aux) (./ch04.aux)
+(./ch05.aux) (./ch06.aux) (./ch07.aux) (./ch08.aux) (./ch09.aux) (./ch10.aux)
+(./ch11.aux) (./ch12.aux) (./ch13.aux) (./ch14.aux) (./ch15.aux) (./ch16.aux)
+(./ch17.aux) (./ch18.aux) (./ch19.aux) (./ch20.aux) (./ch21.aux) (./ch22.aux)
+(./ch23.aux) (./ch24.aux) (./ch25.aux) (./ch26.aux) (./ch27.aux)
+(./referenc.aux))
  ***********
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-09>
@@ -2121,15 +2401,28 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 28146 strings out of 475038
- 691570 string characters out of 5762021
- 1168691 words of memory out of 5000000
- 50426 multiletter control sequences out of 15000+600000
+ 28147 strings out of 475038
+ 691508 string characters out of 5762021
+ 1168689 words of memory out of 5000000
+ 50428 multiletter control sequences out of 15000+600000
  616601 words of font info for 151 fonts, out of 8000000 for 9000
  107 hyphenation exceptions out of 8191
- 99i,21n,107p,1371b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</home/msantillan/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></home/msantillan/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/msantillan/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/msantillan/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/msantillan/texlive/texmf-dist/fonts/type1/public/cbfonts/grmn1000.pfb></home/msantillan/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></home/msantillan/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></home/msantillan/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></home/msantillan/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></home/msantillan/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></home/msantillan/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></home/msantillan/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></home/msantillan/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></home/msantillan/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (201 pages, 1225091 bytes).
+ 99i,21n,107p,1332b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</home/msantillan/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pf
+b></home/msantillan/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pf
+b></home/msantillan/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
+></home/msantillan/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+></home/msantillan/texlive/texmf-dist/fonts/type1/public/cbfonts/grmn1000.pfb><
+/home/msantillan/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10
+.pfb></home/msantillan/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/m
+sam10.pfb></home/msantillan/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.p
+fb></home/msantillan/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></home/
+msantillan/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></home/msantillan
+/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></home/msantillan/texlive/
+texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></home/msantillan/texlive/texmf-di
+st/fonts/type1/urw/times/utmr8a.pfb></home/msantillan/texlive/texmf-dist/fonts/
+type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (201 pages, 1226227 bytes).
 PDF statistics:
  1437 PDF objects out of 1440 (max. 8388607)
  745 compressed objects within 8 object streams

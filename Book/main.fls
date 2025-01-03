@@ -2,7 +2,7 @@ PWD /home/msantillan/Trabajo/NLD_Book/Book
 INPUT /home/msantillan/texlive/texmf.cnf
 INPUT /home/msantillan/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /home/msantillan/texlive/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /home/msantillan/Trabajo/NLD_Book/Book/main.tex
+INPUT main.tex
 OUTPUT main.log
 INPUT ./svmono.cls
 INPUT svmono.cls
