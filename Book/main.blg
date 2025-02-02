@@ -1,37 +1,67 @@
-This is BibTeX, Version 0.99d (TeX Live 2024)
+This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
 A level-1 auxiliary file: ch01.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
 A level-1 auxiliary file: ch02.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
 A level-1 auxiliary file: ch03.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
 A level-1 auxiliary file: ch04.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
 A level-1 auxiliary file: ch05.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
 A level-1 auxiliary file: ch06.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
 A level-1 auxiliary file: ch07.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
 A level-1 auxiliary file: ch08.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
 A level-1 auxiliary file: ch09.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
 A level-1 auxiliary file: ch10.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
 A level-1 auxiliary file: ch11.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
 A level-1 auxiliary file: ch12.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
 A level-1 auxiliary file: ch13.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
 A level-1 auxiliary file: ch14.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
 A level-1 auxiliary file: ch15.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
 A level-1 auxiliary file: ch16.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
 A level-1 auxiliary file: ch17.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
 A level-1 auxiliary file: ch18.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
 A level-1 auxiliary file: ch19.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
 A level-1 auxiliary file: ch20.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
 A level-1 auxiliary file: ch21.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
 A level-1 auxiliary file: ch22.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
 A level-1 auxiliary file: ch23.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
 A level-1 auxiliary file: ch24.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
 A level-1 auxiliary file: ch25.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
 A level-1 auxiliary file: ch26.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
 A level-1 auxiliary file: ch27.aux
+Reallocating 'name_of_file' (item size: 1) to 13 items.
 A level-1 auxiliary file: referenc.aux
+Reallocating 'name_of_file' (item size: 1) to 8 items.
 The style file: spbasic.bst
+Reallocating 'name_of_file' (item size: 1) to 5 items.
 Database file #1: main.bib
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 You've used 41 entries,
             3269 wiz_defined-function locations,
             1018 strings with 11495 characters,

@@ -186,12 +186,13 @@
 \contentsline {chapter}{\numberline {26}Gene Regulation}{181}{}%
 \contentsline {section}{\numberline {26.1}Introduction}{181}{}%
 \contentsline {section}{\numberline {26.2}The Central Dogma of Molecular Biology}{182}{}%
-\contentsline {section}{\numberline {26.3}Gene Regulatory Networks}{182}{}%
-\contentsline {section}{\numberline {26.4}The Tryptophan Operon}{183}{}%
-\contentsline {section}{\numberline {26.5}The Lactose Operon}{184}{}%
-\contentsline {section}{\numberline {26.6}Discussion}{185}{}%
-\contentsline {chapter}{\numberline {27}Mathematical Modelling of Simple BacterialGene Regulatory Networks}{187}{}%
-\contentsline {section}{\numberline {27.1}Introduction}{187}{}%
-\contentsline {section}{\numberline {27.2}General Model Development}{187}{}%
-\contentsline {section}{\numberline {27.3}Redundant Negative Feedback regulation}{188}{}%
-\contentsline {section}{References}{191}{}%
+\contentsline {section}{\numberline {26.3}Gene Regulatory Networks}{183}{}%
+\contentsline {section}{\numberline {26.4}The Amino Acid Tryptophan}{183}{}%
+\contentsline {section}{\numberline {26.5}The Tryptophan Operon}{184}{}%
+\contentsline {section}{\numberline {26.6}The Tryptophanase Operon}{185}{}%
+\contentsline {section}{\numberline {26.7}Discussion}{186}{}%
+\contentsline {chapter}{\numberline {27}Mathematical Modelling of Simple BacterialGene Regulatory Networks}{189}{}%
+\contentsline {section}{\numberline {27.1}Introduction}{189}{}%
+\contentsline {section}{\numberline {27.2}General Model Development}{189}{}%
+\contentsline {section}{\numberline {27.3}Redundant Negative Feedback regulation}{190}{}%
+\contentsline {section}{References}{193}{}%
