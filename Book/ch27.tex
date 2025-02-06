@@ -31,7 +31,7 @@ Enzymes are often inhibited or activated when they are bound by specific metabol
 g(P)=\frac{1}{2} \frac{(K_g^{n_g}+P^{n_g})\pm(K_g^{n_g}-P^{n_g})}{K_g^{n_g}+P^{n_g}}.
 \end{equation*}
 
-\section{Redundant Negative Feedback regulation}
+\section{The Tryptophan Operon}
 
 A specific model for the tryptophan operon, discussed in the previous chapter, can be derived from our general model as follows:
 \begin{eqnarray}
@@ -95,3 +95,47 @@ is the theoretical upper bound for the intracellular tryptophan concentration.
 Note that $\rho < 0$ since $f'(T^*), g'(T^*) < 0$, implying that the steady state is locally stable. On the other hand, $-\gamma_E$ is the upper bound of $\rho$, which is achieved when $f'(T^*) = 0$. This indicates that transcriptional regulation plays a fundamental role in accelerating the system's response after a perturbation from the steady state. Notably, repression and transcriptional attenuation achieve maximal sensitivity at quite different tryptophan levels; repression at about $T^*$ and transcriptional attenuation one order of magnitude below $T^*$ \citep{Santillan2004}. This may ensure a rapid response over a wide range of tryptophan concentrations.
 
 Regarding enzyme inhibition, observe in Eq. \eqref{eq:27.11} that $\rho$ increases (becomes less negative) as $g(T^*)$ decreases. Thus, this regulatory mechanism slows down the system's response instead of accelerating it. Interestingly, the dissociation constant for the binding of tryptophan to anthranilate synthase is one order of magnitude smaller than $T^*$, implying that $g(T^*) \approx 0$ because enzyme inhibition is in the saturation regime at the steady state \citep{Santillan2004}. This indicates that enzyme inhibition plays an energetic rather than a dynamical role. By releasing inhibited enzymes, it ensures an efficient response when tryptophan levels are very low, without having to wait for more enzymes to be synthesized.
+
+\section{The Tryptophanase Operon}
+
+A simple mathematical model that captures the key regulatory features of the tryptophanase operon can be writen as follows:
+\begin{eqnarray*}
+\dot{P}&=&k_P(G_E) \frac{W^n}{W^n+K_P^n}-\mu_P P, \\
+\dot{W}&=&k_W(W_E) P-\gamma_W P W-\mu_W W.
+\end{eqnarray*}
+In these equations, $P$ denotes the level of the tryptophanase operon proteins (TnaA and TnaB), while $W$ represents the intracellular tryptophan concentration. The parameter $k_P(G_E)$ is the maximum transcription rate of the operon, which is negatively regulated (decreases) by external glucose $G_E$ via catabolite repression. The Hill function $\frac{W^n}{W^n+K_P^n}$ accounts for the positive regulation of transcription by intracellular tryptophan $W$ (mediated by inactivation of the $\rho$ terminator). The term $\mu_P P$ represents protein degradation and dilution due to cell growth. The rate of tryptophan uptake is given by $k_W(W_E) P$, where $k_W(W_E)$ is an increasing function of the external tryptophan level $W_E$, reflecting the role of TnaB as a tryptophan permease. The term $\gamma_W P W$ is the rate at which intracellular tryptophan is metabolized by the TnaA enzyme. Finally, $\mu_W W$ accounts for tryptophan consumption by other processes like protein synthesis and dilution by growth.
+
+To simplify the analysis, we assume the tryptophan metabolism flux $\gamma_W P W$ is much smaller than the other tryptophan consumption terms ($\mu_W W$). This yields the reduced model:
+\begin{eqnarray*}
+\dot{P}&=&k_P(G_E) \frac{W^n}{W^n+K_P^n}-\mu_P P, \\
+\dot{W}&=&k_W(W_E) P -\mu_W W.
+\end{eqnarray*}
+Introducing the dimensionless variables $p = P/\left(k_P(G_E)/\mu_P\right)$, $w = W/\left(k_P k_W/(\mu_P \mu_W)\right)$, $t' = \mu_P t$, and defining $\mu = \mu_W/\mu_P$, $K(G_E,W_E) = K_P(G_E) \mu_P\mu_W/(k_P(G_E) k_W(W_E))$, the model becomes:
+\begin{eqnarray*}
+\dot{p}&=&\frac{w^n}{w^n+K^n(G_E,W_E)}-p,\\
+\dot{w}&=&\mu\left( p - w \right).
+\end{eqnarray*}
+Note that $K(G_E,W_E)$ increases with $G_E$ (repressing operon expression) and decreases with $W_E$ (enhancing expression).
+
+To find steady states, we set $\dot{p}=\dot{w}=0$, yielding:
+\begin{eqnarray*}
+p&=&\frac{w^n}{w^n+K^n(G_E,W_E)},\\
+w&=&p.
+\end{eqnarray*}
+Thus, the steady-state value of $p$ satisfy:
+\begin{equation*}
+p = \frac{p^n}{p^n + K^n(G_E,W_E)}.
+\end{equation*}
+Graphical analysis (Fig. x) reveals that for large $K$, this equation has a single solution $p=0$ (no expression). As $K$ decreases, two additional steady states emerge via a saddle-node bifurcation: an intermediate state and a high expression state near $p=1$.
+
+To study stability, we compute the Jacobian matrix:
+\begin{equation*}
+J =
+\begin{bmatrix}
+-1 & H'\left(w\right) \\
+\mu & -\mu
+\end{bmatrix},
+\end{equation*}
+where $H'(w) = d/dw \left(w^n/(w^n+K^n)\right)$ is the derivative of the Hill function. The trace $\tau = -(1+\mu)$ is negative, while the determinant is $\Delta = \mu(1-H'(w))$. A steady state is stable if $\Delta > 0$, i.e. $H'(w^*) < 1$ at the steady state $w^*$.  Since the sigmoidal curve $w(p)$ has a slope less than 1 at the low and high stable states, these are stable nodes. However, the intermediate state has $H'(w^*)>1$, making it an unstable saddle point.
+
+In summary, the tryptophanase operon can exhibit bistable expression dynamics when tryptophan and glucose levels permit it. At low tryptophan or high glucose, it is stably off. But with sufficient tryptophan induction and low glucose, the operon enters a bistability region allowin the operon to switch to a stably activated state thanks to noisy perturbations. This bistable switch-like response may help optimize the operon's regulation and resource allocation.

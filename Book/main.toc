@@ -194,5 +194,6 @@
 \contentsline {chapter}{\numberline {27}Mathematical Modelling of Simple BacterialGene Regulatory Networks}{189}{}%
 \contentsline {section}{\numberline {27.1}Introduction}{189}{}%
 \contentsline {section}{\numberline {27.2}General Model Development}{189}{}%
-\contentsline {section}{\numberline {27.3}Redundant Negative Feedback regulation}{190}{}%
-\contentsline {section}{References}{193}{}%
+\contentsline {section}{\numberline {27.3}The Tryptophan Operon}{190}{}%
+\contentsline {section}{\numberline {27.4}The Tryptophanase Operon}{193}{}%
+\contentsline {section}{References}{195}{}%

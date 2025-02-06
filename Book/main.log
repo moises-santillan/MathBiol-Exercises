@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.21)  1 FEB 2025 21:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.5)  5 FEB 2025 13:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2017,9 +2017,18 @@ Chapter 27.
 
 [190]
 
-[191])
+[191]
 
 [192]
+Overfull \hbox (14.6834pt too wide) in paragraph at lines 112--114
+\OT1/ptm/m/n/10 Introducing the di-men-sion-less vari-ables $\OML/ztmcm/m/it/10 p \OT1/ztmcm/m/n/10 = \OML/ztmcm/m/it/10 P= []$\OT1/ptm/m/n/10 , $\OML/ztmcm/m/it/10 w \OT1/ztmcm/m/n/10 = \OML/ztmcm/m/it/10 W= []$\OT1/ptm/m/n/10 ,
+ []
+
+
+
+[193])
+
+[194]
 \openout2 = `referenc.aux'.
 
  (referenc.tex (main.bbl
@@ -2068,7 +2077,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--60
 
 
 
-[193
+[195
 
 
 
@@ -2094,7 +2103,7 @@ Underfull \hbox (badness 5847) in paragraph at lines 118--121
 
 
 
-[194]
+[196]
 Underfull \hbox (badness 10000) in paragraph at lines 199--202
 []\OT1/ptm/m/n/10 Stent GS (1968) That was the molec-u-lar bi-ol-ogy that was. Sci-ence
  []
@@ -2106,7 +2115,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 199--202
 
 ))
 
-[195] (main.aux (ch01.aux) (ch02.aux) (ch03.aux) (ch04.aux) (ch05.aux) (ch06.aux) (ch07.aux) (ch08.aux) (ch09.aux) (ch10.aux) (ch11.aux) (ch12.aux) (ch13.aux) (ch14.aux) (ch15.aux) (ch16.aux) (ch17.aux) (ch18.aux) (ch19.aux) (ch20.aux) (ch21.aux) (ch22.aux) (ch23.aux) (ch24.aux) (ch25.aux) (ch26.aux) (ch27.aux) (referenc.aux))
+[197] (main.aux (ch01.aux) (ch02.aux) (ch03.aux) (ch04.aux) (ch05.aux) (ch06.aux) (ch07.aux) (ch08.aux) (ch09.aux) (ch10.aux) (ch11.aux) (ch12.aux) (ch13.aux) (ch14.aux) (ch15.aux) (ch16.aux) (ch17.aux) (ch18.aux) (ch19.aux) (ch20.aux) (ch21.aux) (ch22.aux) (ch23.aux) (ch24.aux) (ch25.aux) (ch26.aux) (ch27.aux) (referenc.aux))
  ***********
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-25>
@@ -2114,16 +2123,16 @@ L3 programming layer <2024-12-25>
  ) 
 Here is how much of TeX's memory you used:
  28140 strings out of 473536
- 693116 string characters out of 5725023
+ 693116 string characters out of 5725024
  1173192 words of memory out of 5000000
  50663 multiletter control sequences out of 15000+600000
  616685 words of font info for 150 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,21n,107p,1392b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/latxfont/line10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (203 pages, 1397663 bytes).
+Output written on main.pdf (205 pages, 1403798 bytes).
 PDF statistics:
- 1428 PDF objects out of 1440 (max. 8388607)
+ 1435 PDF objects out of 1440 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  188 words of extra memory for PDF output out of 10000 (max. 10000000)
 
