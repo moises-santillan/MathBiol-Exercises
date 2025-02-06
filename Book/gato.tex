@@ -1,0 +1,141 @@
+\chapter{Mathematical Modelling of Simple BacterialGene Regulatory Networks}
+\label{ch27}
+
+\chaptermark{Chapter 27}
+
+\abstract{.}
+
+\section{Introduction}
+
+
+\section{General Model Development}
+
+Gene expression is a complex process involving numerous chemical reactions at each step of transcription and translation. However, we can build a simple model based on the central dogma of molecular biology.
+
+Consider a basic operon whose genes code for an enzyme $E$ that catalyzes the synthesis of a metabolite $P$. The synthesis of the operon's mRNA, $M$, via transcription is feedback-regulated by $P$. Additionally, the activity of the $E$ enzymes may also be feedback-regulated by $P$. With these considerations, the dynamics of $M$, $E$, and $P$ are governed by the following ordinary differential equations (ODEs):
+\begin{eqnarray}
+\dot{M} &=& k_M f(P) - \gamma_M M, \label{eq:27.01}\\
+\dot{E} &=& k_E M - \gamma_E E,\label{eq:27.02}\\
+\dot{P} &=& k_P g(P) E - \gamma_P P, \label{eq:27.03}
+\end{eqnarray}
+Here, $k_M$ represents the maximum transcription initiation rate, $\gamma_M$ is the rate constant for mRNA degradation, $k_E$ denotes the translation initiation rate, $\gamma_E$ is the rate constant for enzyme degradation, $k_P$ is the maximum metabolite synthesis rate per enzyme molecule, and $\gamma_P$ is the rate constant for metabolite degradation. The functions $f(P)$ and $g(P)$ denote feedback regulation in terms of metabolite concentration. $f(P)$ can be interpreted as the probability that the promoter is not repressed, while $g(P)$ represents the fraction of un-inhibited enzyme molecules. These functions are decreasing (increasing) functions of $P$ in case of negative (positive) feedback regulation.
+
+The functions $f(P)$ and $g(P)$ take values in the interval $[0, 1]$ as they can be understood as probabilities. $f(P)$ is the probability that the mRNA polymerase binding site is not blocked by a repressor molecule, which depends on the amount of active repressor molecules. Depending on the system, repressor molecules are active when they are free from or bound by specific metabolites. In summary, transcriptional repression can be reduced to a, more or less intricate, ligand-receptor interaction. Thus, based on the results in Chapter \ref{ch24}, the function $f(P)$ can be approximated by a growing or decreasing Hill function, depending on whether it accounts for positive or negative feedback regulation:
+\begin{equation*}
+f(P)=\frac{1}{2} \frac{(K_f^{n_f}+P^{n_f})\pm(K_f^{n_f}-P^{n_f})}{K_f^{n_f}+P^{n_f}}.
+\end{equation*}
+In the equation above, $K_f$ is the half-saturation constant ($f(K_f)=1/2$), and $n_f \geq 1$ is the so-called Hill exponent. It measures the sigmoidicity of the Hill function. When $n_f=1$, the function $f(P)$ becomes a Michaelis-Menten equation, whereas it approaches a step function when $n_f \to \infty$. The sign $+$ ($-$) is chosen to account for negative (positive) regulation.
+
+Enzymes are often inhibited or activated when they are bound by specific metabolites. Thus, enzyme inhibition can also be reduced to a ligand-receptor problem, and the function $g(P)$ can be approximated by a Hill function:
+\begin{equation*}
+g(P)=\frac{1}{2} \frac{(K_g^{n_g}+P^{n_g})\pm(K_g^{n_g}-P^{n_g})}{K_g^{n_g}+P^{n_g}}.
+\end{equation*}
+
+\section{The Tryptophan Operon}
+
+A specific model for the tryptophan operon, discussed in the previous chapter, can be derived from our general model as follows:
+\begin{eqnarray}
+\dot{M} &=& k_M f(P) - \gamma_M M, \label{eq:27.04}\\
+\dot{E} &=& k_E M - \gamma_E E,\label{eq:27.05}\\
+\dot{T} &=& k_T g(T) E - \gamma_T T, \label{eq:27.06}
+\end{eqnarray}
+with
+\begin{eqnarray*}
+f(T)&=&\frac{K_M^{n_M}}{K_M^{n_M}+T^{n_M}},\\
+g(T)&=&\frac{K_T^{n_T}}{K_T^{n_T}+T^{n_T}}.
+\end{eqnarray*}
+In these equations, $T$ represents the intracellular concentration of tryptophan, the amino acid produced by the tryptophan operon. $E$ denotes the concentration of the enzyme anthranilate synthase, a tetrameric protein composed of two peptides resulting from the expression of the first gene (\emph{trpE}) and two peptides from the second gene (\emph{trpD}) of the tryptophan operon. Anthranilate synthase catalyzes the rate-limiting step in tryptophan biosynthesis, and its activity is feedback-regulated by the end product, tryptophan.
+
+The first equation describes the dynamics of mRNA concentration, where $k_M$ is the maximum rate of mRNA synthesis, $K_M$ is the half-saturation constant for tryptophan's negative feedback on gene transcription, and $n_M$ is the Hill coefficient governing the cooperativity of this feedback regulation.
+
+The second equation models anthranilate synthase dynamics. $k_E$ is the enzyme synthesis rate per mRNA molecule and $\gamma_M$ is the rate constant for enzyme degradation. 
+
+The third equation models the dynamics of tryptophan concentration, where $k_T$ is the maximum rate of tryptophan synthesis, $K_T$ is the half-saturation constant for tryptophan's negative feedback on its own synthesis, $n_T$ is the corresponding Hill coefficient, and $\gamma_T$ is the rate constant for tryptophan degradation or consumption.
+
+This model captures the essential features of the tryptophan operon, including the multi-layered negative feedback regulation mechanisms employed to control tryptophan biosynthesis. Firstly, the transcription of the operon is negatively regulated by tryptophan through two distinct mechanisms: repression and transcriptional attenuation, both of which are accounted for by a single regulatory function. Secondly, the activity of the key enzyme anthranilate synthase is directly inhibited by tryptophan through allosteric regulation. 
+
+One of the first questions that arises is the reason for redundant negative feedback mechanisms in the tryptophan operon system. We address this question by analyzing the stability of the system's steady states. But first, it convenient to simplify the model.
+
+According to \cite{Santillan2004}, , the half-life of mRNA is about one minute, while that of anthranilate synthase is a few hours, and that of tryptophan is a few seconds. This suggests that mRNA and tryptophan have much faster dynamics than anthranilate synthase. Therefore, we can make quasi-steady-state approximations for $M$ and $T$.
+
+From the condition $\dot{M}=0$, we get:
+\begin{equation}
+M = \frac{k_M}{\gamma_M} f(T), \label{eq:27.07}
+\end{equation}
+On the other hand, the condition $\dot{T}=0$ implies:
+\begin{equation*}
+E = h(T)=\frac{\gamma_T}{k_T} \frac{T}{g(T)}.
+\end{equation*}
+Since $g(T)$ is a continuous decreasing function of $T$, representing the negative feedback regulation of enzyme activity by tryptophan, $h(T)$ is a continuous growing function that can be inverted to give:
+\begin{equation}
+T= h^{-1}(E). \label{eq:27.08}
+\end{equation}
+
+Substituting Eqs. \eqref{eq:27.07} and \eqref{eq:27.08} into the equation for $\dot{E}$ (Eq. \eqref{eq:27.05}), we obtain a reduced model that ignores the rapid transients of $M$ and $T$ and focuses on the slow dynamics of $E$:
+\begin{equation}
+\dot{E} = \frac{k_M k_E}{\gamma_M} f(h^{-1}(E)) - \gamma_E E. \label{eq:27.09}
+\end{equation}
+
+The value of $E$ at the steady states can be computed from the condition $\dot{E}=0$, which yields:
+\begin{equation}
+E = \frac{k_M k_E}{\gamma_M \gamma_E} f(h^{-1}(E)). \label{eq:27.10}
+\end{equation}
+The left-hand side of this equation is the 45-degree diagonal straight line, while the right-hand side is a continuously decreasing function of $E$ that is greater than zero at $E=0$. It can be proven from these facts that the two curves intersect at a single point, implying that our model has only one steady state given by the solution of Eq. \eqref{eq:27.10}. The steady-state values of $M$ and $T$ can then be obtained by substituting the stationary value of $E$ into Eqs. \eqref{eq:27.07} and \eqref{eq:27.08}, respectively.
+
+The stability of the steady state is determined by the derivative of the right-hand side of Eq. \eqref{eq:27.09}. After some algebraic manipulation, it can be shown that this derivative is given by the following expression:
+\begin{equation}
+\rho = \gamma_E  \left( T_{max} \frac{f'(T^*) g^2(T^*)}{g(T^*)-T^* g'(T^*)} - 1\right), \label{eq:27.11}
+\end{equation}
+where
+\begin{equation*}
+T_{max}=\frac{k_M k_E k_T}{\gamma_M \gamma_E \gamma_T}
+\end{equation*}
+is the theoretical upper bound for the intracellular tryptophan concentration.
+
+Note that $\rho < 0$ since $f'(T^*), g'(T^*) < 0$, implying that the steady state is locally stable. On the other hand, $-\gamma_E$ is the upper bound of $\rho$, which is achieved when $f'(T^*) = 0$. This indicates that transcriptional regulation plays a fundamental role in accelerating the system's response after a perturbation from the steady state. Notably, repression and transcriptional attenuation achieve maximal sensitivity at quite different tryptophan levels; repression at about $T^*$ and transcriptional attenuation one order of magnitude below $T^*$ \citep{Santillan2004}. This may ensure a rapid response over a wide range of tryptophan concentrations.
+
+Regarding enzyme inhibition, observe in Eq. \eqref{eq:27.11} that $\rho$ increases (becomes less negative) as $g(T^*)$ decreases. Thus, this regulatory mechanism slows down the system's response instead of accelerating it. Interestingly, the dissociation constant for the binding of tryptophan to anthranilate synthase is one order of magnitude smaller than $T^*$, implying that $g(T^*) \approx 0$ because enzyme inhibition is in the saturation regime at the steady state \citep{Santillan2004}. This indicates that enzyme inhibition plays an energetic rather than a dynamical role. By releasing inhibited enzymes, it ensures an efficient response when tryptophan levels are very low, without having to wait for more enzymes to be synthesized.
+
+\section{The Tryptophanase Operon}
+
+A simple mathematical model that captures the key regulatory features of the tryptophanase operon can be writen as follows:
+\begin{eqnarray*}
+\dot{P}&=&k_P(G_E) \frac{W^n}{W^n+K_P^n}-\mu_P P, \\
+\dot{W}&=&k_W(W_E) P-\gamma_W P W-\mu_W W.
+\end{eqnarray*}
+In these equations, $P$ denotes the level of the tryptophanase operon proteins (TnaA and TnaB), while $W$ represents the intracellular tryptophan concentration. The parameter $k_P(G_E)$ is the maximum transcription rate of the operon, which is negatively regulated (decreases) by external glucose $G_E$ via catabolite repression. The Hill function $\frac{W^n}{W^n+K_P^n}$ accounts for the positive regulation of transcription by intracellular tryptophan $W$ (mediated by inactivation of the $\rho$ terminator). The term $\mu_P P$ represents protein degradation and dilution due to cell growth. The rate of tryptophan uptake is given by $k_W(W_E) P$, where $k_W(W_E)$ is an increasing function of the external tryptophan level $W_E$, reflecting the role of TnaB as a tryptophan permease. The term $\gamma_W P W$ is the rate at which intracellular tryptophan is metabolized by the TnaA enzyme. Finally, $\mu_W W$ accounts for tryptophan consumption by other processes like protein synthesis and dilution by growth.
+
+To simplify the analysis, we assume the tryptophan metabolism flux $\gamma_W P W$ is much smaller than the other tryptophan consumption terms ($\mu_W W$). This yields the reduced model:
+\begin{eqnarray*}
+\dot{P}&=&k_P(G_E) \frac{W^n}{W^n+K_P^n}-\mu_P P, \\
+\dot{W}&=&k_W(W_E) P -\mu_W W.
+\end{eqnarray*}
+Introducing the dimensionless variables $p = P/\left(k_P(G_E)/\mu_P\right)$, $w = W/\left(k_P k_W/(\mu_P \mu_W)\right)$, $t' = \mu_P t$, and defining $\mu = \mu_W/\mu_P$, $K(G_E,W_E) = K_P(G_E) \mu_P\mu_W/(k_P(G_E) k_W(W_E))$, the model becomes:
+\begin{eqnarray*}
+\dot{p}&=&\frac{w^n}{w^n+K^n(G_E,W_E)}-p,\\
+\dot{w}&=&\mu\left( p - w \right).
+\end{eqnarray*}
+Note that $K(G_E,W_E)$ increases with $G_E$ (repressing operon expression) and decreases with $W_E$ (enhancing expression).
+
+To find steady states, we set $\dot{p}=\dot{w}=0$, yielding:
+\begin{eqnarray*}
+p&=&\frac{w^n}{w^n+K^n(G_E,W_E)},\\
+w&=&p.
+\end{eqnarray*}
+Thus, the steady-state value of $p$ satisfy:
+\begin{equation*}
+p = \frac{p^n}{p^n + K^n(G_E,W_E)}.
+\end{equation*}
+Graphical analysis (Fig. x) reveals that for large $K$, this equation has a single solution $p=0$ (no expression). As $K$ decreases, two additional steady states emerge via a saddle-node bifurcation: an intermediate state and a high expression state near $p=1$.
+
+To study stability, we compute the Jacobian matrix:
+\begin{equation*}
+J =
+\begin{bmatrix}
+-1 & H'\left(w\right) \\
+\mu & -\mu
+\end{bmatrix},
+\end{equation*}
+where $H'(w) = d/dw \left(w^n/(w^n+K^n)\right)$ is the derivative of the Hill function. The trace $\tau = -(1+\mu)$ is negative, while the determinant is $\Delta = \mu(1-H'(w))$. A steady state is stable if $\Delta > 0$, i.e. $H'(w^*) < 1$ at the steady state $w^*$.  Since the sigmoidal curve $w(p)$ has a slope less than 1 at the low and high stable states, these are stable nodes. However, the intermediate state has $H'(w^*)>1$, making it an unstable saddle point.
+
+In summary, the tryptophanase operon can exhibit bistable expression dynamics when tryptophan and glucose levels permit it. At low tryptophan or high glucose, it is stably off. But with sufficient tryptophan induction and low glucose, the operon enters a bistability region allowin the operon to switch to a stably activated state thanks to noisy perturbations. This bistable switch-like response may help optimize the operon's regulation and resource allocation.
