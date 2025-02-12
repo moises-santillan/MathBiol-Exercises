@@ -3,7 +3,9 @@
 
 \chaptermark{Chapter 27}
 
-\abstract{.}
+\abstract{
+This chapter explores the mathematical modeling of gene regulatory networks, focusing on both negative and positive feedback mechanisms through the lens of the tryptophan and tryptophanase operons. We develop ordinary differential equations to capture the dynamics of gene expression, enzyme activity, and metabolite synthesis, revealing the underlying feedback mechanisms that govern these processes. The tryptophan operon exemplifies a system characterized by redundant negative feedback regulation, highlighting the roles of transcriptional attenuation and repression in maintaining homeostasis and enabling rapid responses to environmental changes. In contrast, the tryptophanase operon showcases positive feedback regulation, demonstrating how such mechanisms can lead to bistability under specific conditions. This bistable behavior allows for toggling between distinct expression states, enhancing the operon's adaptability in fluctuating environments. Overall, our findings underscore the intricate interplay between feedback regulation and gene expression, emphasizing their critical roles in bacterial survival and resilience.
+}
 
 \section{Introduction}
 
@@ -35,14 +37,14 @@ g(P)=\frac{1}{2} \frac{(K_g^{n_g}+P^{n_g})\pm(K_g^{n_g}-P^{n_g})}{K_g^{n_g}+P^{n
 
 A specific model for the tryptophan operon, discussed in the previous chapter, can be derived from our general model as follows:
 \begin{eqnarray}
-\dot{M} &=& k_M f(P) - \gamma_M M, \label{eq:27.04}\\
+\dot{M} &=& k_M f(W) - \gamma_M M, \label{eq:27.04}\\
 \dot{E} &=& k_E M - \gamma_E E,\label{eq:27.05}\\
-\dot{T} &=& k_T g(T) E - \gamma_T T, \label{eq:27.06}
+\dot{W} &=& k_W g(W) E - \gamma_W W, \label{eq:27.06}
 \end{eqnarray}
 with
 \begin{eqnarray*}
-f(T)&=&\frac{K_M^{n_M}}{K_M^{n_M}+T^{n_M}},\\
-g(T)&=&\frac{K_T^{n_T}}{K_T^{n_T}+T^{n_T}}.
+f(W)&=&\frac{K_M^{n_M}}{K_M^{n_M}+W^{n_M}},\\
+g(W)&=&\frac{K_W^{n_W}}{K_E^{n_W}+E^{n_W}}.
 \end{eqnarray*}
 In these equations, $T$ represents the intracellular concentration of tryptophan, the amino acid produced by the tryptophan operon. $E$ denotes the concentration of the enzyme anthranilate synthase, a tetrameric protein composed of two peptides resulting from the expression of the first gene (\emph{trpE}) and two peptides from the second gene (\emph{trpD}) of the tryptophan operon. Anthranilate synthase catalyzes the rate-limiting step in tryptophan biosynthesis, and its activity is feedback-regulated by the end product, tryptophan.
 
@@ -103,18 +105,19 @@ A simple mathematical model that captures the key regulatory features of the try
 \dot{P}&=&k_P(G_E) \frac{W^n}{W^n+K_P^n}-\mu_P P, \\
 \dot{W}&=&k_W(W_E) P-\gamma_W P W-\mu_W W.
 \end{eqnarray*}
-In these equations, $P$ denotes the level of the tryptophanase operon proteins (TnaA and TnaB), while $W$ represents the intracellular tryptophan concentration. The parameter $k_P(G_E)$ is the maximum transcription rate of the operon, which is negatively regulated (decreases) by external glucose $G_E$ via catabolite repression. The Hill function $\frac{W^n}{W^n+K_P^n}$ accounts for the positive regulation of transcription by intracellular tryptophan $W$ (mediated by inactivation of the $\rho$ terminator). The term $\mu_P P$ represents protein degradation and dilution due to cell growth. The rate of tryptophan uptake is given by $k_W(W_E) P$, where $k_W(W_E)$ is an increasing function of the external tryptophan level $W_E$, reflecting the role of TnaB as a tryptophan permease. The term $\gamma_W P W$ is the rate at which intracellular tryptophan is metabolized by the TnaA enzyme. Finally, $\mu_W W$ accounts for tryptophan consumption by other processes like protein synthesis and dilution by growth.
+In these equations, $P$ denotes the level of the tryptophanase operon proteins (TnaA and TnaB), while $W$ represents the intracellular tryptophan concentration. The parameter $k_P(G_E)$ is the maximum transcription rate of the operon, which is negatively regulated by external glucose $G_E$ via catabolite repression. The Hill function $\frac{W^n}{W^n+K_P^n}$ accounts for the positive regulation of transcription by intracellular tryptophan $W$ (mediated by inactivation of the $\rho$ terminator). The term $\mu_P P$ represents protein degradation and dilution due to cell growth. The rate of tryptophan uptake is given by $k_W(W_E) P$, where $k_W(W_E)$ is an increasing function of the external tryptophan level $W_E$, reflecting the role of TnaB as a tryptophan permease. The term $\gamma_W P W$ is the rate at which intracellular tryptophan is metabolized by the TnaA enzyme. Finally, $\mu_W W$ accounts for tryptophan consumption by other processes like protein synthesis and dilution by growth.
 
 To simplify the analysis, we assume the tryptophan metabolism flux $\gamma_W P W$ is much smaller than the other tryptophan consumption terms ($\mu_W W$). This yields the reduced model:
 \begin{eqnarray*}
 \dot{P}&=&k_P(G_E) \frac{W^n}{W^n+K_P^n}-\mu_P P, \\
 \dot{W}&=&k_W(W_E) P -\mu_W W.
 \end{eqnarray*}
-Introducing the dimensionless variables $p = P/\left(k_P(G_E)/\mu_P\right)$, $w = W/\left(k_P k_W/(\mu_P \mu_W)\right)$, $t' = \mu_P t$, and defining $\mu = \mu_W/\mu_P$, $K(G_E,W_E) = K_P(G_E) \mu_P\mu_W/(k_P(G_E) k_W(W_E))$, the model becomes:
-\begin{eqnarray*}
-\dot{p}&=&\frac{w^n}{w^n+K^n(G_E,W_E)}-p,\\
-\dot{w}&=&\mu\left( p - w \right).
-\end{eqnarray*}
+
+By introducing the dimensionless variables $p = P/\left(k_P(G_E)/\mu_P\right)$, $w = W/\left(k_P k_W/(\mu_P \mu_W)\right)$, $t' = \mu_P t$, and defining $\mu = \mu_W/\mu_P$, $K(G_E,W_E) = K_P(G_E) \mu_P\mu_W/(k_P(G_E) k_W(W_E))$, the model becomes:
+\begin{eqnarray}
+\dot{p}&=&\frac{w^n}{w^n+K^n(G_E,W_E)}-p, \label{eq:27.12} \\
+\dot{w}&=&\mu\left( p - w \right). \label{eq:27.13}
+\end{eqnarray}
 Note that $K(G_E,W_E)$ increases with $G_E$ (repressing operon expression) and decreases with $W_E$ (enhancing expression).
 
 To find steady states, we set $\dot{p}=\dot{w}=0$, yielding:
@@ -126,7 +129,13 @@ Thus, the steady-state value of $p$ satisfy:
 \begin{equation*}
 p = \frac{p^n}{p^n + K^n(G_E,W_E)}.
 \end{equation*}
-Graphical analysis (Fig. x) reveals that for large $K$, this equation has a single solution $p=0$ (no expression). As $K$ decreases, two additional steady states emerge via a saddle-node bifurcation: an intermediate state and a high expression state near $p=1$.
+Graphical analysis (Fig. \ref{fig:27.01}) reveals that for large $K$, this equation has a single solution $p=0$ (no expression). As $K$ decreases, two additional steady states emerge via a saddle-node bifurcation: an intermediate state and a high expression state near $p=1$.
+
+\begin{figure}[h]
+\centering
+\caption{.}
+\label{fig:27.01}
+\end{figure}
 
 To study stability, we compute the Jacobian matrix:
 \begin{equation*}
@@ -138,4 +147,16 @@ J =
 \end{equation*}
 where $H'(w) = d/dw \left(w^n/(w^n+K^n)\right)$ is the derivative of the Hill function. The trace $\tau = -(1+\mu)$ is negative, while the determinant is $\Delta = \mu(1-H'(w))$. A steady state is stable if $\Delta > 0$, i.e. $H'(w^*) < 1$ at the steady state $w^*$.  Since the sigmoidal curve $w(p)$ has a slope less than 1 at the low and high stable states, these are stable nodes. However, the intermediate state has $H'(w^*)>1$, making it an unstable saddle point.
 
-In summary, the tryptophanase operon can exhibit bistable expression dynamics when tryptophan and glucose levels permit it. At low tryptophan or high glucose, it is stably off. But with sufficient tryptophan induction and low glucose, the operon enters a bistability region allowin the operon to switch to a stably activated state thanks to noisy perturbations. This bistable switch-like response may help optimize the operon's regulation and resource allocation.
+In summary, the tryptophanase operon can exhibit bistable expression dynamics when tryptophan and glucose levels permit it. In bacterial populations, gene expression is not uniform; instead, it exhibits a phenomenon known as biochemical noise. In the presence of bistability, this variability can lead to some individual bacteria expressing genes at low rates (corresponding to the low-expression steady state) while others express them at high rates (corresponding to the high expression steady state). This heterogeneity can be particularly advantageous for bacterial populations facing rapidly changing environments as it can facilitate a form of bet-hedging, where the population as a whole can respond more flexibly to environmental shifts. For instance, if a sudden change in the environment favors a particular metabolic pathway, those bacteria with higher expression levels of the relevant genes are more likely to thrive. At the same time, the presence of low-expressing cells ensures that not all members are similarly affected by deleterious environmental changes, thereby providing a reservoir of potential adaptability. This dynamic interplay of expression levels, driven by biochemical noise, underscores the importance of gene regulatory networks, such as the tryptophanase operon, in enabling bacterial populations to swiftly adapt to their surroundings.
+
+\section{Discussion}
+
+In this chapter, we have delved into the mathematical modeling of gene regulatory networks, particularly focusing on two key feedback regulatory motifs: negative and positive feedback regulation, using the tryptophan and tryptophanase operons as representative examples.
+
+Through the development of ordinary differential equations, we have captured the dynamics of gene expression, enzyme activity, and metabolite synthesis, shedding light on the origins of the feedback mechanisms that govern these processes.
+
+The tryptophan operon serves as a prototypical example of gene networks characterized by redundant negative feedback regulation. Our analysis revealed the critical roles of transcriptional attenuation and repression in maintaining homeostasis while facilitating rapid responses to environmental changes. Interestingly, while allosteric enzyme inhibition does not accelerate system responses, it enhances the energetic efficiency of tryptophan biosynthesis.
+
+In contrast, we examined the tryptophanase operon as an example of gene expression influenced by positive feedback regulation. We demonstrated that this positive regulation can lead to the emergence of bistability under certain conditions. This bistable behavior underscores the operon's capacity to toggle between distinct expression states, providing a robust mechanism for adaptation in fluctuating environments.
+
+Overall, our exploration of these operons highlights the intricate interplay between feedback mechanisms and gene expression, emphasizing their significance in bacterial adaptation and resilience.

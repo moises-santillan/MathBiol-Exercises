@@ -196,4 +196,5 @@
 \contentsline {section}{\numberline {27.2}General Model Development}{189}{}%
 \contentsline {section}{\numberline {27.3}The Tryptophan Operon}{190}{}%
 \contentsline {section}{\numberline {27.4}The Tryptophanase Operon}{193}{}%
-\contentsline {section}{References}{195}{}%
+\contentsline {section}{\numberline {27.5}Discussion}{195}{}%
+\contentsline {section}{References}{196}{}%
