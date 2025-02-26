@@ -77,7 +77,7 @@ At steady state, the concentration $[\text{R}_L]$ becomes time-independent. Taki
 \end{equation}
 This represents an equilibrium condition where the forward and reverse reaction rates balance each other. The fraction of receptors bound at equilibrium is given by:
 \begin{equation*}
-	f_\text{bound} = \frac{\overline{[\text{LR}]}}{[\text{R}_T]} = \frac{k_\text{on}[\text{L}]}{k_\text{off}+k_\text{on}[\text{L}]} = \frac{[\text{L}]}{K_D+[\text{L}]}.
+	f_\text{bound} = \frac{\overline{[\text{R}_L]}}{[\text{R}_T]} = \frac{k_\text{on}[\text{L}]}{k_\text{off}+k_\text{on}[\text{L}]} = \frac{[\text{L}]}{K_D+[\text{L}]}.
 \end{equation*}
 The fraction of free receptors is given by
 \begin{equation*}
@@ -124,7 +124,7 @@ So far we have assumed independent, non-interacting binding of ligands to recept
 
 To incorporate cooperativity, we modify the binding scheme in previous section such that the dissociation constant, $K_D^{(m)}$, of the $m$th binding site depends on the number of ligands $m-1$ already bound:
 \begin{eqnarray*}
-    \text{L} + \text{R} & \xrightleftharpoons{K_D^{(1)}/n}& \text{LR}, \\
+    \text{L} + \text{R} & \xrightleftharpoons{K_D^{(1)}/n}& \text{R}_L, \\
     \text{L} + \text{R}_L & \xrightleftharpoons{2K_D^{(2)}/(n-1)}& \text{R}_{2L}, \\
     & \vdots &  \nonumber \\
     \text{L} + \text{R}_{(n-1)L} & \xrightleftharpoons{nK_D^{(n)}} & \text{R}_{nL}. 

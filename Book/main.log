@@ -1,23 +1,20 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2025.2.8)  12 FEB 2025 15:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.26)  26 FEB 2025 15:28
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**main.tex
-(./main.tex
-LaTeX2e <2024-11-01> patch level 2
-L3 programming layer <2025-01-18>
-(./svmono.cls
+**"c:/Users/moise/OneDrive - CINVESTAV/Trabajo/NLD_Book/Book/main.tex"
+(c:/Users/moise/OneDrive - CINVESTAV/Trabajo/NLD_Book/Book/main.tex
+LaTeX2e <2024-11-01> patch level 1
+L3 programming layer <2024-12-25>
+(svmono.cls
 Document Class: svmono 2009/12/17 v5.5 
 Springer Verlag global LaTeX document class for monographs
 Class Springer-SVMono Info: extra/valid Springer sub-package 
 (Springer-SVMono)           not found in option list - using "global" style.
-
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/base/a
-rticle.cls
+(C:\Program Files\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
-
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/base/s
-ize10.clo
+(C:\Program Files\MiKTeX\tex/latex/base\size10.clo
 File: size10.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count196
@@ -85,34 +82,22 @@ LaTeX Font Info:    Redeclaring math symbol \Omega on input line 842.
 \tabcapgap=\dimen163
 \c@merk=\count287
 LaTeX Info: Redefining \abstract on input line 1894.
-)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/graphi
-cs/color.sty
+) (C:\Program Files\MiKTeX\tex/latex/graphics\color.sty
 Package: color 2024/06/23 v1.3e Standard LaTeX Color (DPC)
-
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/graphi
-cs-cfg/color.cfg
+ (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
-
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/graphi
-cs-def/pdftex.def
+ (C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
-)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/graphi
-cs/mathcolor.ltx))
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/framed
-/framed.sty
+) (C:\Program Files\MiKTeX\tex/latex/graphics\mathcolor.ltx)) (C:\Users\moise\AppData\Roaming\MiKTeX\tex/latex/framed\framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \OuterFrameSep=\skip51
 \fb@frw=\dimen164
 \fb@frh=\dimen165
 \FrameRule=\dimen166
 \FrameSep=\dimen167
-)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/psnfss
-/mathptmx.sty
+) (C:\Users\moise\AppData\Roaming\MiKTeX\tex/latex/psnfss\mathptmx.sty
 Package: mathptmx 2020/03/25 PSNFSS-v9.3 Times w/ Math, improved (SPQR, WaS) 
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -147,52 +132,31 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
 LaTeX Info: Redefining \hbar on input line 50.
-)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/psnfss
-/helvet.sty
+) (C:\Users\moise\AppData\Roaming\MiKTeX\tex/latex/psnfss\helvet.sty
 Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS) 
-
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/graphi
-cs/keyval.sty
+ (C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
-))
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/psnfss
-/courier.sty
+)) (C:\Users\moise\AppData\Roaming\MiKTeX\tex/latex/psnfss\courier.sty
 Package: courier 2020/03/25 PSNFSS-v9.3 (WaS) 
-)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/type1c
-m/type1cm.sty
-Package: type1cm 2002/09/05 v0.04 BlueSky/Y&Y Type1 CM font definitions (DPC, p
-atched RF)
-)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/base/m
-akeidx.sty
+) (C:\Users\moise\AppData\Roaming\MiKTeX\tex/latex/type1cm\type1cm.sty
+Package: type1cm 2002/09/05 v0.04 BlueSky/Y&Y Type1 CM font definitions (DPC, patched RF)
+) (C:\Program Files\MiKTeX\tex/latex/base\makeidx.sty
 Package: makeidx 2021/10/04 v1.0m Standard LaTeX package
-)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/graphi
-cs/graphicx.sty
+) (C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
-
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/graphi
-cs/graphics.sty
+ (C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
-
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/graphi
-cs/trig.sty
+ (C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
-)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/graphi
-cs-cfg/graphics.cfg
+) (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 106.
 )
 \Gin@req@height=\dimen168
 \Gin@req@width=\dimen169
-)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/tools/
-multicol.sty
+) (C:\Program Files\MiKTeX\tex/latex/tools\multicol.sty
 Package: multicol 2024/09/14 v1.9i multicolumn formatting (FMi)
 \c@tracingmulticols=\count288
 \mult@box=\box53
@@ -261,9 +225,7 @@ Package: multicol 2024/09/14 v1.9i multicolumn formatting (FMi)
 \mult@nat@firstbox=\box97
 \colbreak@box=\box98
 \mc@col@check@num=\count297
-)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/footmi
-sc/footmisc.sty
+) (C:\Users\moise\AppData\Roaming\MiKTeX\tex/latex/footmisc\footmisc.sty
 Package: footmisc 2024/12/24 v6.0g a miscellany of footnote facilities
 \FN@temptoken=\toks18
 \footnotemargin=\dimen179
@@ -272,48 +234,32 @@ Package footmisc Info: Declaring symbol style bringhurst on input line 699.
 Package footmisc Info: Declaring symbol style chicago on input line 707.
 Package footmisc Info: Declaring symbol style wiley on input line 716.
 Package footmisc Info: Declaring symbol style lamport-robust on input line 727.
-
 Package footmisc Info: Declaring symbol style lamport* on input line 747.
-Package footmisc Info: Declaring symbol style lamport*-robust on input line 768
-.
-)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/amsfon
-ts/amssymb.sty
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 768.
+) (C:\Program Files\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/amsfon
-ts/amsfonts.sty
+ (C:\Program Files\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks19
 \symAMSa=\mathgroup6
 \symAMSb=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/amsmat
-h/amsmath.sty
+)) (C:\Program Files\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2024/11/05 v2.17t AMS math features
 \@mathmargin=\skip54
 
 For additional information on amsmath, use the `?' option.
-
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/amsmat
-h/amstext.sty
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
-
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/amsmat
-h/amsgen.sty
+ (C:\Program Files\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks20
 \ex@=\dimen181
-))
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/amsmat
-h/amsbsy.sty
+)) (C:\Program Files\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen182
-)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/amsmat
-h/amsopn.sty
+) (C:\Program Files\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count298
@@ -363,13 +309,9 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \mathdisplay@stack=\toks24
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/mathto
-ols/mathtools.sty
+) (C:\Users\moise\AppData\Roaming\MiKTeX\tex/latex/mathtools\mathtools.sty
 Package: mathtools 2024/10/04 v1.31 mathematical typesetting tools
-
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/tools/
-calc.sty
+ (C:\Program Files\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count310
 \calc@Bcount=\count311
@@ -381,9 +323,7 @@ LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count312
 \calc@Cskip=\skip59
-)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/mathto
-ols/mhsetup.sty
+) (C:\Users\moise\AppData\Roaming\MiKTeX\tex/latex/mathtools\mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
 \g_MT_multlinerow_int=\count313
@@ -397,18 +337,14 @@ Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 \l_MT_below_shortintertext_sep=\dimen198
 \xmathstrut@box=\box101
 \xmathstrut@dim=\dimen199
-)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/natbib
-/natbib.sty
+) (C:\Users\moise\AppData\Roaming\MiKTeX\tex/latex/natbib\natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip61
 \bibsep=\skip62
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count314
-)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/subfig
-ure/subfigure.sty
-Package: subfigure 2002/03/15 v2.1.5 subfigure package
+) (C:\Users\moise\AppData\Roaming\MiKTeX\tex/latex/subfigure\subfigure.sty
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfigtopskip=\skip63
 \subfigcapskip=\skip64
 \subfigcaptopadj=\dimen256
@@ -423,57 +359,27 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
-
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/subfig
-ure/subfigure.cfg)
+(C:\Users\moise\AppData\Roaming\MiKTeX\tex/latex/subfigure\subfigure.cfg)
 \subfig@top=\skip67
 \subfig@bottom=\skip68
-)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/pgfplo
-ts/pgfplots.sty
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgfp
-lots/pgfplots.revision.tex)
+) (C:\Program Files\MiKTeX\tex/latex/pgfplots\pgfplots.sty (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.revision.tex)
 Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
-
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/pgf/fr
-ontendlayer/tikz.sty
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/pgf/ba
-siclayer/pgf.sty
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/pgf/ut
-ilities/pgfrcs.sty
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-utilities/pgfutil-common.tex
+ (C:\Program Files\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
 \pgfutil@everybye=\toks25
 \pgfutil@tempdima=\dimen258
 \pgfutil@tempdimb=\dimen259
-)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-utilities/pgfutil-latex.def
+) (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
 \pgfutil@abb=\box102
-)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-utilities/pgfrcs.code.tex
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-pgf.revision.tex)
+) (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf\pgf.revision.tex)
 Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
 ))
 Package: pgf 2023-01-15 v3.1.10 (3.1.10)
-
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/pgf/ba
-siclayer/pgfcore.sty
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/pgf/sy
-stemlayer/pgfsys.sty
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-systemlayer/pgfsys.code.tex
+ (C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty (C:\Program Files\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
 Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
-
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-utilities/pgfkeys.code.tex
+ (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks26
 \pgfkeys@temptoks=\toks27
-
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-utilities/pgfkeyslibraryfiltered.code.tex
+ (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex
 \pgfkeys@tmptoks=\toks28
 ))
 \pgf@x=\dimen260
@@ -496,44 +402,28 @@ utilities/pgfkeyslibraryfiltered.code.tex
 \t@pgf@tokb=\toks30
 \t@pgf@tokc=\toks31
 \pgf@sys@id@count=\count323
-
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-systemlayer/pgf.cfg
+ (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
 Driver file for pgf: pgfsys-pdftex.def
-
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-systemlayer/pgfsys-pdftex.def
+ (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
 File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
-
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-systemlayer/pgfsys-common-pdf.def
+ (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
-)))
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-systemlayer/pgfsyssoftpath.code.tex
+))) (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfsyssoftpath@smallbuffer@items=\count324
 \pgfsyssoftpath@bigbuffer@items=\count325
-)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-systemlayer/pgfsysprotocol.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/xcolor
-/xcolor.sty
+)) (C:\Program Files\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
-
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/graphi
-cs-cfg/color.cfg
+ (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 274.
 LaTeX Info: Redefining \color on input line 762.
-
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/graphi
-cs/mathcolor.ltx)
+ (C:\Program Files\MiKTeX\tex/latex/graphics\mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
 Package xcolor Info: Model `RGB' extended on input line 1365.
@@ -543,52 +433,18 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
-)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-basiclayer/pgfcore.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
 Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
-
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-math/pgfmath.code.tex
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-math/pgfmathutil.code.tex)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-math/pgfmathparser.code.tex
+ (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
 \pgfmath@dimen=\dimen270
 \pgfmath@count=\count326
 \pgfmath@box=\box103
 \pgfmath@toks=\toks32
 \pgfmath@stack@operand=\toks33
 \pgfmath@stack@operation=\toks34
-)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-math/pgfmathfunctions.code.tex)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-math/pgfmathfunctions.basic.code.tex)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-math/pgfmathfunctions.trigonometric.code.tex)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-math/pgfmathfunctions.random.code.tex)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-math/pgfmathfunctions.comparison.code.tex)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-math/pgfmathfunctions.base.code.tex)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-math/pgfmathfunctions.round.code.tex)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-math/pgfmathfunctions.misc.code.tex)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-math/pgfmathfunctions.integerarithmetics.code.tex)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-math/pgfmathcalc.code.tex)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-math/pgfmathfloat.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count327
-))
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-math/pgfint.code.tex)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-basiclayer/pgfcorepoints.code.tex
+)) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@picminx=\dimen271
 \pgf@picmaxx=\dimen272
@@ -604,131 +460,75 @@ File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@yy=\dimen282
 \pgf@zx=\dimen283
 \pgf@zy=\dimen284
-)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-basiclayer/pgfcorepathconstruct.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@path@lastx=\dimen285
 \pgf@path@lasty=\dimen286
-)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-basiclayer/pgfcorepathusage.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@shorten@end@additional=\dimen287
 \pgf@shorten@start@additional=\dimen288
-)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-basiclayer/pgfcorescopes.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfpic=\box104
 \pgf@hbox=\box105
 \pgf@layerbox@main=\box106
 \pgf@picture@serial@count=\count328
-)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-basiclayer/pgfcoregraphicstate.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgflinewidth=\dimen289
-)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-basiclayer/pgfcoretransformations.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@pt@x=\dimen290
 \pgf@pt@y=\dimen291
 \pgf@pt@temp=\dimen292
-)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-basiclayer/pgfcorequick.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-basiclayer/pgfcoreobjects.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-basiclayer/pgfcorepathprocessing.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-basiclayer/pgfcorearrows.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfarrowsep=\dimen293
-)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-basiclayer/pgfcoreshade.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@max=\dimen294
 \pgf@sys@shading@range@num=\count329
 \pgf@shadingcount=\count330
-)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-basiclayer/pgfcoreimage.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-basiclayer/pgfcoreexternal.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfexternal@startupbox=\box107
-)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-basiclayer/pgfcorelayers.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-basiclayer/pgfcoretransparency.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
 File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-basiclayer/pgfcorepatterns.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
 File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-basiclayer/pgfcorerdf.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
 File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)))
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-modules/pgfmoduleshapes.code.tex
+))) (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfnodeparttextbox=\box108
-)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-modules/pgfmoduleplot.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/pgf/co
-mpatibility/pgfcomp-version-0-65.sty
+) (C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
 \pgf@nodesepstart=\dimen295
 \pgf@nodesepend=\dimen296
-)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/pgf/co
-mpatibility/pgfcomp-version-1-18.sty
+) (C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
-))
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/pgf/ut
-ilities/pgffor.sty
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/pgf/ut
-ilities/pgfkeys.sty
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-utilities/pgfkeys.code.tex))
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/pgf/ma
-th/pgfmath.sty
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-math/pgfmath.code.tex))
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-utilities/pgffor.code.tex
+)) (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgffor.sty (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex)) (C:\Program Files\MiKTeX\tex/latex/pgf/math\pgfmath.sty (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
 \pgffor@iter=\dimen297
 \pgffor@skip=\dimen298
 \pgffor@stack=\toks35
 \pgffor@toks=\toks36
-))
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-frontendlayer/tikz/tikz.code.tex
+)) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
-
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-libraries/pgflibraryplothandlers.code.tex
+ (C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@plot@mark@count=\count331
 \pgfplotmarksize=\dimen299
@@ -749,105 +549,35 @@ File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikznumberofchildren=\count333
 \tikznumberofcurrentchild=\count334
 \tikz@fig@count=\count335
-
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-modules/pgfmodulematrix.code.tex
+ (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfmatrixcurrentrow=\count336
 \pgfmatrixcurrentcolumn=\count337
 \pgf@matrix@numberofcolumns=\count338
 )
 \tikz@expandcount=\count339
-
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+ (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)))
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgfp
-lots/pgfplots.code.tex
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgfp
-lots/pgfplotscore.code.tex
+))) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.code.tex (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotscore.code.tex
 \t@pgfplots@toka=\toks37
 \t@pgfplots@tokb=\toks38
 \t@pgfplots@tokc=\toks39
 \pgfplots@tmpa=\dimen308
 \c@pgfplots@coordindex=\count340
 \c@pgfplots@scanlineindex=\count341
-
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgfp
-lots/sys/pgfplotssysgeneric.code.tex))
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgfp
-lots/libs/pgfplotslibrary.code.tex)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgfp
-lots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-libraries/pgflibraryfpu.code.tex)
+ (C:\Program Files\MiKTeX\tex/generic/pgfplots/sys\pgfplotssysgeneric.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgfplots/libs\pgfplotslibrary.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp_loader.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryfpu.code.tex)
 Package pgfplots: loading complementary utilities for your pgf version...
 \t@pgf@toka=\toks40
 \t@pgf@tokb=\toks41
 \t@pgf@tokc=\toks42
-
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgfp
-lots/oldpgfcompatib/pgfplotsoldpgfsupp_pgfutil-common-lists.tex))
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgfp
-lots/util/pgfplotsutil.code.tex
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgfp
-lots/liststructure/pgfplotsliststructure.code.tex)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgfp
-lots/liststructure/pgfplotsliststructureext.code.tex)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgfp
-lots/liststructure/pgfplotsarray.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp_pgfutil-common-lists.tex)) (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.code.tex (C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructure.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructureext.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsarray.code.tex
 \c@pgfplotsarray@tmp=\count342
-)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgfp
-lots/liststructure/pgfplotsmatrix.code.tex)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgfp
-lots/numtable/pgfplotstableshared.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsmatrix.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/numtable\pgfplotstableshared.code.tex
 \c@pgfplotstable@counta=\count343
 \t@pgfplotstable@a=\toks43
-)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgfp
-lots/liststructure/pgfplotsdeque.code.tex)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgfp
-lots/util/pgfplotsbinary.code.tex
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgfp
-lots/util/pgfplotsbinary.data.code.tex))
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgfp
-lots/util/pgfplotsutil.verb.code.tex)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgfp
-lots/libs/pgflibrarypgfplots.surfshading.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsdeque.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.code.tex (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.data.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.verb.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/libs\pgflibrarypgfplots.surfshading.code.tex
 \c@pgfplotslibrarysurf@no=\count344
-
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgfp
-lots/sys/pgflibrarypgfplots.surfshading.pgfsys-pdftex.def)))
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgfp
-lots/util/pgfplotscolormap.code.tex
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgfp
-lots/util/pgfplotscolor.code.tex))
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgfp
-lots/pgfplotsstackedplots.code.tex)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgfp
-lots/pgfplotsplothandlers.code.tex
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgfp
-lots/pgfplotsmeshplothandler.code.tex
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgfp
-lots/pgfplotsmeshplotimage.code.tex)))
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgfp
-lots/pgfplots.scaling.code.tex)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgfp
-lots/pgfplotscoordprocessing.code.tex)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgfp
-lots/pgfplots.errorbars.code.tex)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgfp
-lots/pgfplots.markers.code.tex)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgfp
-lots/pgfplotsticks.code.tex)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgfp
-lots/pgfplots.paths.code.tex)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-modules/pgfmoduledecorations.code.tex
+ (C:\Program Files\MiKTeX\tex/generic/pgfplots/sys\pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotscolormap.code.tex (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotscolor.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsstackedplots.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsplothandlers.code.tex (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplothandler.code.tex (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplotimage.code.tex))) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.scaling.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotscoordprocessing.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.errorbars.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.markers.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsticks.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.paths.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduledecorations.code.tex
 \pgfdecoratedcompleteddistance=\dimen309
 \pgfdecoratedremainingdistance=\dimen310
 \pgfdecoratedinputsegmentcompleteddistance=\dimen311
@@ -858,17 +588,7 @@ modules/pgfmoduledecorations.code.tex
 \pgfdecorationsegmentlength=\dimen315
 )
 \tikz@lib@dec@box=\box113
-)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex))
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex))
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgfp
-lots/libs/tikzlibrarypgfplots.contourlua.code.tex)
+) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathmorphing.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathmorphing.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathreplacing.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathreplacing.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgfplots/libs\tikzlibrarypgfplots.contourlua.code.tex)
 \pgfplots@numplots=\count346
 \pgfplots@xmin@reg=\dimen316
 \pgfplots@xmax@reg=\dimen317
@@ -876,29 +596,18 @@ lots/libs/tikzlibrarypgfplots.contourlua.code.tex)
 \pgfplots@ymax@reg=\dimen319
 \pgfplots@zmin@reg=\dimen320
 \pgfplots@zmax@reg=\dimen321
-)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-frontendlayer/tikz/libraries/tikzlibraryplotmarks.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryplotmarks.code.tex
 File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
-
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
-libraries/pgflibraryplotmarks.code.tex
+ (C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)))
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/textgr
-eek/textgreek.sty
+))) (C:\Users\moise\AppData\Roaming\MiKTeX\tex/latex/textgreek\textgreek.sty
 Package: textgreek 2011/10/09 v0.7 Greek symbols in text
-Package textgreek Info: Loading the definitions for the Greek fontencoding. on 
-input line 39.
-
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/greek-
-fontenc/lgrenc.def
+Package textgreek Info: Loading the definitions for the Greek fontencoding. on input line 39.
+ (C:\Users\moise\AppData\Roaming\MiKTeX\tex/latex/greek-fontenc\lgrenc.def
 File: lgrenc.def 2023-09-12 2.5 LGR Greek font encoding definitions
 Now handling font encoding LGR ...
 ... processing UTF-8 mapping file for font encoding LGR
-
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/greek-
-inputenc/lgrenc.dfu
+ (C:\Users\moise\AppData\Roaming\MiKTeX\tex/latex/greek-inputenc\lgrenc.dfu
 File: lgrenc.dfu 2023-03-21 1.9 UTF-8 support for Greek
    defining Unicode char U+00A8 (decimal 168)
    defining Unicode char U+00AB (decimal 171)
@@ -1249,21 +958,14 @@ File: lgrenc.dfu 2023-03-21 1.9 UTF-8 support for Greek
    defining Unicode char U+10145 (decimal 65861)
    defining Unicode char U+10146 (decimal 65862)
    defining Unicode char U+10147 (decimal 65863)
-)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/greek-
-fontenc/greek-fontenc.def
+) (C:\Users\moise\AppData\Roaming\MiKTeX\tex/latex/greek-fontenc\greek-fontenc.def
 File: greek-fontenc.def 2023-09-12 2.5 Common Greek font encoding definitions
 ))
-Package textgreek Info: Loaded fontmap: {eur/*/*}{U/eur/*/*} {phv/*/*}{U/psy/*/
-*}. on input line 69.
-)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/url/ur
-l.sty
+Package textgreek Info: Loaded fontmap: {eur/*/*}{U/eur/*/*} {phv/*/*}{U/psy/*/*}. on input line 69.
+) (C:\Program Files\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/cancel
-/cancel.sty
+) (C:\Users\moise\AppData\Roaming\MiKTeX\tex/latex/cancel\cancel.sty
 Package: cancel 2013/04/12 v2.2 Cancel math terms
 )
 \@indexfile=\write4
@@ -1271,24 +973,14 @@ Package: cancel 2013/04/12 v2.2 Cancel math terms
 
 
 Writing index file main.idx
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 5
-7.
-
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/psnfss
-/ot1ptm.fd
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 57.
+(C:\Users\moise\AppData\Roaming\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/l3back
-end/l3backend-pdftex.def
+) (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count347
 \l__pdf_internal_box=\box114
-) (./main.aux (./ch01.aux) (./ch02.aux) (./ch03.aux)
-(./ch04.aux) (./ch05.aux) (./ch06.aux) (./ch07.aux) (./ch08.aux) (./ch09.aux)
-(./ch10.aux) (./ch11.aux) (./ch12.aux) (./ch13.aux) (./ch14.aux) (./ch15.aux)
-(./ch16.aux) (./ch17.aux) (./ch18.aux) (./ch19.aux) (./ch20.aux) (./ch21.aux)
-(./ch22.aux) (./ch23.aux) (./ch24.aux) (./ch25.aux) (./ch26.aux) (./ch27.aux)
-(./referenc.aux))
+) (main.aux (ch01.aux) (ch02.aux) (ch03.aux) (ch04.aux) (ch05.aux) (ch06.aux) (ch07.aux) (ch08.aux) (ch09.aux) (ch10.aux) (ch11.aux) (ch12.aux) (ch13.aux) (ch14.aux) (ch15.aux) (ch16.aux) (ch17.aux) (ch18.aux) (ch19.aux) (ch20.aux) (ch21.aux) (ch22.aux) (ch23.aux) (ch24.aux) (ch25.aux) (ch26.aux) (ch27.aux) (referenc.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
@@ -1306,17 +998,12 @@ LaTeX Font Info:    ... okay on input line 57.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
 LaTeX Font Info:    ... okay on input line 57.
 LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 57.
-LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 5
-7.
-
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/cbfont
-s-fd/lgrcmr.fd
+LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 57.
+ (C:\Users\moise\AppData\Roaming\MiKTeX\tex/latex/cbfonts-fd\lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
 LaTeX Font Info:    ... okay on input line 57.
-
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/context/base
-/mkii/supp-pdf.mkii
+ (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count348
 \scratchdimen=\dimen322
@@ -1329,28 +1016,19 @@ LaTeX Font Info:    ... okay on input line 57.
 \MPnumerator=\count352
 \makeMPintoPDFobject=\count353
 \everyMPtoPDFconversion=\toks45
-)
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/epstop
-df-pkg/epstopdf-base.sty
+) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/latexc
-onfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package pgfplots notification 'compat/show suggested version=true': you might b
-enefit from \pgfplotsset{compat=1.18} (current compat level: 1.17).
+Package pgfplots notification 'compat/show suggested version=true': you might benefit from \pgfplotsset{compat=1.18} (current compat level: 1.17).
 
 
 
 [1
 
-{/data/data/com.termux/files/usr/share/texlive/2024/texmf-var/fonts/map/pdftex/
-updmap/pdftex.map}{/data/data/com.termux/files/usr/share/texlive/2024/texmf-dis
-t/fonts/enc/dvips/base/8r.enc}]
+{C:/Users/moise/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}]
 
 [2
 
@@ -1359,33 +1037,21 @@ t/fonts/enc/dvips/base/8r.enc}]
 
 Package mathptmx Warning: There are no bold math fonts on input line 70.
 
-(./main.toc
-LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 1.
-
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/psnfss
-/ot1ztmcm.fd
+(main.toc
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 1.
+ (C:\Users\moise\AppData\Roaming\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 1.
-
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/psnfss
-/omlztmcm.fd
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 1.
+ (C:\Users\moise\AppData\Roaming\MiKTeX\tex/latex/psnfss\omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 1.
-
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/psnfss
-/omsztmcm.fd
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 1.
+ (C:\Users\moise\AppData\Roaming\MiKTeX\tex/latex/psnfss\omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 1.
-
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/psnfss
-/omxztmcm.fd
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 1.
+ (C:\Users\moise\AppData\Roaming\MiKTeX\tex/latex/psnfss\omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
@@ -1416,7 +1082,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 [10]
 \openout2 = `ch01.aux'.
 
- (./ch01.tex
+ (ch01.tex
 Chapter 1.
 
 
@@ -1439,7 +1105,7 @@ Chapter 1.
 [6]
 \openout2 = `ch02.aux'.
 
- (./ch02.tex
+ (ch02.tex
 Chapter 2.
 
 
@@ -1452,7 +1118,7 @@ Chapter 2.
 ]
 
 [8]
-<Figures/fig-02.01.pdf, id=64, 289.08pt x 289.08pt>
+<Figures/fig-02.01.pdf, id=63, 289.08pt x 289.08pt>
 File: Figures/fig-02.01.pdf Graphic file (type pdf)
 <use Figures/fig-02.01.pdf>
 Package pdftex.def Info: Figures/fig-02.01.pdf  used on input line 53.
@@ -1462,7 +1128,7 @@ Package pdftex.def Info: Figures/fig-02.01.pdf  used on input line 53.
 [9]
 
 [10 <./Figures/fig-02.01.pdf>]
-<Figures/fig-02.02.pdf, id=81, 462.52798pt x 346.89601pt>
+<Figures/fig-02.02.pdf, id=80, 462.52798pt x 346.89601pt>
 File: Figures/fig-02.02.pdf Graphic file (type pdf)
 <use Figures/fig-02.02.pdf>
 Package pdftex.def Info: Figures/fig-02.02.pdf  used on input line 101.
@@ -1477,7 +1143,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5.10005> not available
 
 
 [11 <./Figures/fig-02.02.pdf>]
-<Figures/fig-02.03.pdf, id=108, 462.52798pt x 346.89601pt>
+<Figures/fig-02.03.pdf, id=107, 462.52798pt x 346.89601pt>
 File: Figures/fig-02.03.pdf Graphic file (type pdf)
 <use Figures/fig-02.03.pdf>
 Package pdftex.def Info: Figures/fig-02.03.pdf  used on input line 122.
@@ -1485,7 +1151,7 @@ Package pdftex.def Info: Figures/fig-02.03.pdf  used on input line 122.
 
 
 [12 <./Figures/fig-02.03.pdf>]
-<Figures/fig-02.04.pdf, id=135, 289.08pt x 289.08pt>
+<Figures/fig-02.04.pdf, id=134, 289.08pt x 289.08pt>
 File: Figures/fig-02.04.pdf Graphic file (type pdf)
 <use Figures/fig-02.04.pdf>
 Package pdftex.def Info: Figures/fig-02.04.pdf  used on input line 143.
@@ -1497,11 +1163,8 @@ Package pdftex.def Info: Figures/fig-02.04.pdf  used on input line 143.
 [14]
 
 [15]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
-34.
-
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/psnfss
-/ts1ptm.fd
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 234.
+ (C:\Users\moise\AppData\Roaming\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 
@@ -1510,7 +1173,7 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 [17]
 \openout2 = `ch03.aux'.
 
- (./ch03.tex
+ (ch03.tex
 
 [18
 
@@ -1533,7 +1196,7 @@ Chapter 3.
 [23]
 \openout2 = `ch04.aux'.
 
- (./ch04.tex
+ (ch04.tex
 
 [24
 
@@ -1560,7 +1223,7 @@ Chapter 4.
 [31]
 \openout2 = `ch05.aux'.
 
- (./ch05.tex
+ (ch05.tex
 
 [32
 
@@ -1581,7 +1244,7 @@ Chapter 5.
 [36]
 \openout2 = `ch06.aux'.
 
- (./ch06.tex
+ (ch06.tex
 Chapter 6.
 
 
@@ -1592,7 +1255,7 @@ Chapter 6.
 
 
 ]
-<Figures/fig-06.01.pdf, id=233, 462.52798pt x 346.89601pt>
+<Figures/fig-06.01.pdf, id=231, 462.52798pt x 346.89601pt>
 File: Figures/fig-06.01.pdf Graphic file (type pdf)
 <use Figures/fig-06.01.pdf>
 Package pdftex.def Info: Figures/fig-06.01.pdf  used on input line 37.
@@ -1605,8 +1268,7 @@ Package pdftex.def Info: Figures/fig-06.01.pdf  used on input line 37.
 
 [40]
 Overfull \hbox (8.80861pt too wide) in paragraph at lines 105--106
-\OT1/ptm/m/n/10 Find the steady states and char-ac-ter-ize their sta-bil-ity fo
-r the fol-low-ing one-dimensional
+\OT1/ptm/m/n/10 Find the steady states and char-ac-ter-ize their sta-bil-ity for the fol-low-ing one-dimensional
  []
 
 
@@ -1616,7 +1278,7 @@ r the fol-low-ing one-dimensional
 [42]
 \openout2 = `ch07.aux'.
 
- (./ch07.tex
+ (ch07.tex
 Chapter 7.
 
 
@@ -1639,7 +1301,7 @@ Chapter 7.
 [48]
 \openout2 = `ch08.aux'.
 
- (./ch08.tex
+ (ch08.tex
 Chapter 8.
 
 
@@ -1654,7 +1316,7 @@ Chapter 8.
 [50]
 
 [51]
-<Figures/fig-08.01.pdf, id=295, 462.52798pt x 346.89601pt>
+<Figures/fig-08.01.pdf, id=293, 462.52798pt x 346.89601pt>
 File: Figures/fig-08.01.pdf Graphic file (type pdf)
 <use Figures/fig-08.01.pdf>
 Package pdftex.def Info: Figures/fig-08.01.pdf  used on input line 78.
@@ -1662,7 +1324,7 @@ Package pdftex.def Info: Figures/fig-08.01.pdf  used on input line 78.
 
 
 [52]
-<Figures/fig-08.02.pdf, id=299, 578.16pt x 433.62pt>
+<Figures/fig-08.02.pdf, id=297, 578.16pt x 433.62pt>
 File: Figures/fig-08.02.pdf Graphic file (type pdf)
 <use Figures/fig-08.02.pdf>
 Package pdftex.def Info: Figures/fig-08.02.pdf  used on input line 93.
@@ -1676,7 +1338,7 @@ Package pdftex.def Info: Figures/fig-08.02.pdf  used on input line 93.
 [55]
 \openout2 = `ch09.aux'.
 
- (./ch09.tex
+ (ch09.tex
 
 [56
 
@@ -1689,7 +1351,7 @@ Chapter 9.
 
 
 [57]
-<Figures/fig-09.01.pdf, id=349, 462.52798pt x 346.89601pt>
+<Figures/fig-09.01.pdf, id=347, 462.52798pt x 346.89601pt>
 File: Figures/fig-09.01.pdf Graphic file (type pdf)
 <use Figures/fig-09.01.pdf>
 Package pdftex.def Info: Figures/fig-09.01.pdf  used on input line 35.
@@ -1699,15 +1361,14 @@ Package pdftex.def Info: Figures/fig-09.01.pdf  used on input line 35.
 [58 <./Figures/fig-09.01.pdf>]
 
 [59]
-<Figures/fig-09.02.pdf, id=373, 462.52798pt x 346.89601pt>
+<Figures/fig-09.02.pdf, id=370, 462.52798pt x 346.89601pt>
 File: Figures/fig-09.02.pdf Graphic file (type pdf)
 <use Figures/fig-09.02.pdf>
 Package pdftex.def Info: Figures/fig-09.02.pdf  used on input line 63.
 (pdftex.def)             Requested size: 216.81pt x 162.6071pt.
 
 Overfull \hbox (3.83945pt too wide) in paragraph at lines 74--75
-\OT1/ptm/m/n/10 model: in-creased back-ground mor-tal-ity and an Allee ef-fect.
- By in-cor-po-rat-ing density-
+\OT1/ptm/m/n/10 model: in-creased back-ground mor-tal-ity and an Allee ef-fect. By in-cor-po-rat-ing density-
  []
 
 
@@ -1717,7 +1378,7 @@ Overfull \hbox (3.83945pt too wide) in paragraph at lines 74--75
 [61]
 \openout2 = `ch10.aux'.
 
- (./ch10.tex
+ (ch10.tex
 
 [62
 
@@ -1731,8 +1392,7 @@ Chapter 10.
 
 [63]
 Overfull \hbox (2.57947pt too wide) in paragraph at lines 32--33
-[]\OT1/ptm/m/n/10 By elu-ci-dat-ing analo-gies be-tween con-tin-u-ous and dis-c
-rete rep-re-sen-ta-tions through
+[]\OT1/ptm/m/n/10 By elu-ci-dat-ing analo-gies be-tween con-tin-u-ous and dis-crete rep-re-sen-ta-tions through
  []
 
 
@@ -1745,8 +1405,7 @@ rete rep-re-sen-ta-tions through
 
 [67]
 Overfull \hbox (18.91939pt too wide) in paragraph at lines 108--109
-\OT1/ptm/m/n/10 col-lab-o-ra-tions un-cov-ered new di-men-sions of in-tri-cacy 
-even within classically-understood
+\OT1/ptm/m/n/10 col-lab-o-ra-tions un-cov-ered new di-men-sions of in-tri-cacy even within classically-understood
  []
 
 
@@ -1756,7 +1415,7 @@ even within classically-understood
 [69]
 \openout2 = `ch11.aux'.
 
- (./ch11.tex
+ (ch11.tex
 
 [70
 
@@ -1775,22 +1434,22 @@ Chapter 11.
 [73]
 
 [74]
-<Figures/fig-11.01.pdf, id=441, 433.62pt x 433.62pt>
+<Figures/fig-11.01.pdf, id=438, 433.62pt x 433.62pt>
 File: Figures/fig-11.01.pdf Graphic file (type pdf)
 <use Figures/fig-11.01.pdf>
 Package pdftex.def Info: Figures/fig-11.01.pdf  used on input line 132.
 (pdftex.def)             Requested size: 216.81pt x 216.80946pt.
-<Figures/fig-11.02.I.pdf, id=442, 433.62pt x 433.62pt>
+<Figures/fig-11.02.I.pdf, id=439, 433.62pt x 433.62pt>
 File: Figures/fig-11.02.I.pdf Graphic file (type pdf)
 <use Figures/fig-11.02.I.pdf>
 Package pdftex.def Info: Figures/fig-11.02.I.pdf  used on input line 144.
 (pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<Figures/fig-11.02.II.pdf, id=443, 433.62pt x 433.62pt>
+<Figures/fig-11.02.II.pdf, id=440, 433.62pt x 433.62pt>
 File: Figures/fig-11.02.II.pdf Graphic file (type pdf)
 <use Figures/fig-11.02.II.pdf>
 Package pdftex.def Info: Figures/fig-11.02.II.pdf  used on input line 147.
 (pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<Figures/fig-11.02.V.pdf, id=444, 433.62pt x 433.62pt>
+<Figures/fig-11.02.V.pdf, id=441, 433.62pt x 433.62pt>
 File: Figures/fig-11.02.V.pdf Graphic file (type pdf)
 <use Figures/fig-11.02.V.pdf>
 Package pdftex.def Info: Figures/fig-11.02.V.pdf  used on input line 150.
@@ -1799,14 +1458,13 @@ Package pdftex.def Info: Figures/fig-11.02.V.pdf  used on input line 150.
 
 [75 <./Figures/fig-11.01.pdf>]
 
-[76 <./Figures/fig-11.02.I.pdf> <./Figures/fig-11.02.II.pdf> <./Figures/fig-11.
-02.V.pdf>]
-<Figures/fig-11.03.III.pdf, id=471, 433.62pt x 433.62pt>
+[76 <./Figures/fig-11.02.I.pdf> <./Figures/fig-11.02.II.pdf> <./Figures/fig-11.02.V.pdf>]
+<Figures/fig-11.03.III.pdf, id=468, 433.62pt x 433.62pt>
 File: Figures/fig-11.03.III.pdf Graphic file (type pdf)
 <use Figures/fig-11.03.III.pdf>
 Package pdftex.def Info: Figures/fig-11.03.III.pdf  used on input line 172.
 (pdftex.def)             Requested size: 108.405pt x 108.40472pt.
-<Figures/fig-11.03.IV.pdf, id=472, 433.62pt x 433.62pt>
+<Figures/fig-11.03.IV.pdf, id=469, 433.62pt x 433.62pt>
 File: Figures/fig-11.03.IV.pdf Graphic file (type pdf)
 <use Figures/fig-11.03.IV.pdf>
 Package pdftex.def Info: Figures/fig-11.03.IV.pdf  used on input line 175.
@@ -1818,7 +1476,7 @@ Package pdftex.def Info: Figures/fig-11.03.IV.pdf  used on input line 175.
 [78]
 \openout2 = `ch12.aux'.
 
- (./ch12.tex
+ (ch12.tex
 Chapter 12.
 
 
@@ -1839,7 +1497,7 @@ Chapter 12.
 [83]
 \openout2 = `ch13.aux'.
 
- (./ch13.tex
+ (ch13.tex
 
 [84
 
@@ -1858,22 +1516,22 @@ Chapter 13.
 [87]
 
 [88]
-<Figures/fig-13.01.A.pdf, id=513, 433.62pt x 433.62pt>
+<Figures/fig-13.01.A.pdf, id=510, 433.62pt x 433.62pt>
 File: Figures/fig-13.01.A.pdf Graphic file (type pdf)
 <use Figures/fig-13.01.A.pdf>
 Package pdftex.def Info: Figures/fig-13.01.A.pdf  used on input line 156.
 (pdftex.def)             Requested size: 144.54pt x 144.53743pt.
-<Figures/fig-13.01.B.pdf, id=514, 433.62pt x 433.62pt>
+<Figures/fig-13.01.B.pdf, id=511, 433.62pt x 433.62pt>
 File: Figures/fig-13.01.B.pdf Graphic file (type pdf)
 <use Figures/fig-13.01.B.pdf>
 Package pdftex.def Info: Figures/fig-13.01.B.pdf  used on input line 160.
 (pdftex.def)             Requested size: 144.54pt x 144.53743pt.
-<Figures/fig-13.01.C.pdf, id=515, 433.62pt x 433.62pt>
+<Figures/fig-13.01.C.pdf, id=512, 433.62pt x 433.62pt>
 File: Figures/fig-13.01.C.pdf Graphic file (type pdf)
 <use Figures/fig-13.01.C.pdf>
 Package pdftex.def Info: Figures/fig-13.01.C.pdf  used on input line 164.
 (pdftex.def)             Requested size: 144.54pt x 144.53743pt.
-<Figures/fig-13.01.D.pdf, id=516, 433.62pt x 433.62pt>
+<Figures/fig-13.01.D.pdf, id=513, 433.62pt x 433.62pt>
 File: Figures/fig-13.01.D.pdf Graphic file (type pdf)
 <use Figures/fig-13.01.D.pdf>
 Package pdftex.def Info: Figures/fig-13.01.D.pdf  used on input line 168.
@@ -1882,13 +1540,12 @@ Package pdftex.def Info: Figures/fig-13.01.D.pdf  used on input line 168.
 
 [89]
 
-[90 <./Figures/fig-13.01.A.pdf> <./Figures/fig-13.01.B.pdf> <./Figures/fig-13.0
-1.C.pdf> <./Figures/fig-13.01.D.pdf>])
+[90 <./Figures/fig-13.01.A.pdf> <./Figures/fig-13.01.B.pdf> <./Figures/fig-13.01.C.pdf> <./Figures/fig-13.01.D.pdf>])
 
 [91]
 \openout2 = `ch14.aux'.
 
- (./ch14.tex
+ (ch14.tex
 
 [92
 
@@ -1901,7 +1558,7 @@ Chapter 14.
 
 
 [93]
-<Figures/fig-14.01.pdf, id=632, 433.62pt x 144.54pt>
+<Figures/fig-14.01.pdf, id=628, 433.62pt x 144.54pt>
 File: Figures/fig-14.01.pdf Graphic file (type pdf)
 <use Figures/fig-14.01.pdf>
 Package pdftex.def Info: Figures/fig-14.01.pdf  used on input line 36.
@@ -1917,7 +1574,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [95 <./Figures/fig-14.01.pdf>]
 
 [96]
-<Figures/fig-14.02.pdf, id=663, 722.7pt x 289.08pt>
+<Figures/fig-14.02.pdf, id=659, 722.7pt x 289.08pt>
 File: Figures/fig-14.02.pdf Graphic file (type pdf)
 <use Figures/fig-14.02.pdf>
 Package pdftex.def Info: Figures/fig-14.02.pdf  used on input line 138.
@@ -1933,7 +1590,7 @@ Package pdftex.def Info: Figures/fig-14.02.pdf  used on input line 138.
 [100]
 \openout2 = `ch15.aux'.
 
- (./ch15.tex
+ (ch15.tex
 Chapter 15.
 
 
@@ -1947,8 +1604,7 @@ Chapter 15.
 
 [102]
 Overfull \hbox (2.08931pt too wide) in paragraph at lines 42--43
-[]\OT1/ptm/m/n/10 When con-sid-er-ing evo-lu-tion-ary re-quire-ments, it be-com
-es clear that sim-ply shrink-
+[]\OT1/ptm/m/n/10 When con-sid-er-ing evo-lu-tion-ary re-quire-ments, it be-comes clear that sim-ply shrink-
  []
 
 
@@ -1958,7 +1614,7 @@ es clear that sim-ply shrink-
 [104]
 \openout2 = `ch16.aux'.
 
- (./ch16.tex
+ (ch16.tex
 Chapter 16.
 
 
@@ -1979,7 +1635,7 @@ Chapter 16.
 [109]
 \openout2 = `ch17.aux'.
 
- (./ch17.tex
+ (ch17.tex
 
 [110
 
@@ -2008,7 +1664,7 @@ Chapter 17.
 [118]
 \openout2 = `ch18.aux'.
 
- (./ch18.tex
+ (ch18.tex
 Chapter 18.
 
 
@@ -2019,7 +1675,7 @@ Chapter 18.
 
 
 ]
-<Figures/fig-18.01.pdf, id=757, 462.52798pt x 346.89601pt>
+<Figures/fig-18.01.pdf, id=753, 462.52798pt x 346.89601pt>
 File: Figures/fig-18.01.pdf Graphic file (type pdf)
 <use Figures/fig-18.01.pdf>
 Package pdftex.def Info: Figures/fig-18.01.pdf  used on input line 40.
@@ -2027,7 +1683,7 @@ Package pdftex.def Info: Figures/fig-18.01.pdf  used on input line 40.
 
 
 [120]
-<Figures/fig-18.02.pdf, id=762, 462.52798pt x 346.89601pt>
+<Figures/fig-18.02.pdf, id=757, 462.52798pt x 346.89601pt>
 File: Figures/fig-18.02.pdf Graphic file (type pdf)
 <use Figures/fig-18.02.pdf>
 Package pdftex.def Info: Figures/fig-18.02.pdf  used on input line 68.
@@ -2037,7 +1693,7 @@ Package pdftex.def Info: Figures/fig-18.02.pdf  used on input line 68.
 [121 <./Figures/fig-18.01.pdf>]
 
 [122 <./Figures/fig-18.02.pdf>]
-<Figures/fig-18.03.pdf, id=789, 144.90135pt x 155.41953pt>
+<Figures/fig-18.03.pdf, id=784, 144.90135pt x 155.41953pt>
 File: Figures/fig-18.03.pdf Graphic file (type pdf)
 <use Figures/fig-18.03.pdf>
 Package pdftex.def Info: Figures/fig-18.03.pdf  used on input line 97.
@@ -2051,7 +1707,7 @@ Package pdftex.def Info: Figures/fig-18.03.pdf  used on input line 97.
 [125]
 \openout2 = `ch19.aux'.
 
- (./ch19.tex
+ (ch19.tex
 
 [126
 
@@ -2066,7 +1722,7 @@ Chapter 19.
 [127]
 
 [128]
-<Figures/fig-19.01.pdf, id=818, 433.62pt x 433.62pt>
+<Figures/fig-19.01.pdf, id=813, 433.62pt x 433.62pt>
 File: Figures/fig-19.01.pdf Graphic file (type pdf)
 <use Figures/fig-19.01.pdf>
 Package pdftex.def Info: Figures/fig-19.01.pdf  used on input line 46.
@@ -2074,12 +1730,12 @@ Package pdftex.def Info: Figures/fig-19.01.pdf  used on input line 46.
 
 
 [129 <./Figures/fig-19.01.pdf>]
-<Figures/fig-19.02.A.pdf, id=854, 433.62pt x 433.62pt>
+<Figures/fig-19.02.A.pdf, id=849, 433.62pt x 433.62pt>
 File: Figures/fig-19.02.A.pdf Graphic file (type pdf)
 <use Figures/fig-19.02.A.pdf>
 Package pdftex.def Info: Figures/fig-19.02.A.pdf  used on input line 82.
 (pdftex.def)             Requested size: 144.54pt x 144.53743pt.
-<Figures/fig-19.02.B.pdf, id=855, 433.62pt x 433.62pt>
+<Figures/fig-19.02.B.pdf, id=850, 433.62pt x 433.62pt>
 File: Figures/fig-19.02.B.pdf Graphic file (type pdf)
 <use Figures/fig-19.02.B.pdf>
 Package pdftex.def Info: Figures/fig-19.02.B.pdf  used on input line 86.
@@ -2087,7 +1743,7 @@ Package pdftex.def Info: Figures/fig-19.02.B.pdf  used on input line 86.
 
 
 [130]
-<Figures/fig-19.03.pdf, id=859, 433.62pt x 433.62pt>
+<Figures/fig-19.03.pdf, id=854, 433.62pt x 433.62pt>
 File: Figures/fig-19.03.pdf Graphic file (type pdf)
 <use Figures/fig-19.03.pdf>
 Package pdftex.def Info: Figures/fig-19.03.pdf  used on input line 101.
@@ -2105,7 +1761,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [133]
 \openout2 = `ch20.aux'.
 
- (./ch20.tex
+ (ch20.tex
 
 [134
 
@@ -2118,7 +1774,7 @@ Chapter 20.
 
 
 [135]
-<Figures/fig-20.01.pdf, id=981, 473.2661pt x 231.62535pt>
+<Figures/fig-20.01.pdf, id=976, 473.2661pt x 231.62535pt>
 File: Figures/fig-20.01.pdf Graphic file (type pdf)
 <use Figures/fig-20.01.pdf>
 Package pdftex.def Info: Figures/fig-20.01.pdf  used on input line 31.
@@ -2130,7 +1786,7 @@ Package pdftex.def Info: Figures/fig-20.01.pdf  used on input line 31.
 [137 <./Figures/fig-20.01.pdf>]
 
 [138]
-<Figures/fig-20.02.pdf, id=1006, 433.62pt x 433.62pt>
+<Figures/fig-20.02.pdf, id=1001, 433.62pt x 433.62pt>
 File: Figures/fig-20.02.pdf Graphic file (type pdf)
 <use Figures/fig-20.02.pdf>
 Package pdftex.def Info: Figures/fig-20.02.pdf  used on input line 95.
@@ -2140,12 +1796,12 @@ Package pdftex.def Info: Figures/fig-20.02.pdf  used on input line 95.
 [139]
 
 [140 <./Figures/fig-20.02.pdf>]
-<Figures/fig-20.03.A.pdf, id=1039, 433.62pt x 433.62pt>
+<Figures/fig-20.03.A.pdf, id=1033, 433.62pt x 433.62pt>
 File: Figures/fig-20.03.A.pdf Graphic file (type pdf)
 <use Figures/fig-20.03.A.pdf>
 Package pdftex.def Info: Figures/fig-20.03.A.pdf  used on input line 125.
 (pdftex.def)             Requested size: 144.54pt x 144.53743pt.
-<Figures/fig-20.03.B.pdf, id=1040, 433.62pt x 433.62pt>
+<Figures/fig-20.03.B.pdf, id=1034, 433.62pt x 433.62pt>
 File: Figures/fig-20.03.B.pdf Graphic file (type pdf)
 <use Figures/fig-20.03.B.pdf>
 Package pdftex.def Info: Figures/fig-20.03.B.pdf  used on input line 129.
@@ -2153,7 +1809,7 @@ Package pdftex.def Info: Figures/fig-20.03.B.pdf  used on input line 129.
 
 
 [141 <./Figures/fig-20.03.A.pdf> <./Figures/fig-20.03.B.pdf>]
-<Figures/fig-20.04.pdf, id=1102, 433.62pt x 433.62pt>
+<Figures/fig-20.04.pdf, id=1096, 433.62pt x 433.62pt>
 File: Figures/fig-20.04.pdf Graphic file (type pdf)
 <use Figures/fig-20.04.pdf>
 Package pdftex.def Info: Figures/fig-20.04.pdf  used on input line 146.
@@ -2171,7 +1827,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [144]
 \openout2 = `ch21.aux'.
 
- (./ch21.tex
+ (ch21.tex
 Chapter 21.
 
 
@@ -2182,7 +1838,7 @@ Chapter 21.
 
 
 ]
-<Figures/fig-21.01.pdf, id=1147, 182.74673pt x 141.68935pt>
+<Figures/fig-21.01.pdf, id=1141, 182.74673pt x 141.68935pt>
 File: Figures/fig-21.01.pdf Graphic file (type pdf)
 <use Figures/fig-21.01.pdf>
 Package pdftex.def Info: Figures/fig-21.01.pdf  used on input line 31.
@@ -2204,7 +1860,7 @@ Package pdftex.def Info: Figures/fig-21.01.pdf  used on input line 31.
 [152]
 \openout2 = `ch22.aux'.
 
- (./ch22.tex
+ (ch22.tex
 Chapter 22.
 
 
@@ -2229,7 +1885,7 @@ Chapter 22.
 [159]
 \openout2 = `ch23.aux'.
 
- (./ch23.tex
+ (ch23.tex
 
 [160
 
@@ -2248,7 +1904,7 @@ Chapter 23.
 [163]
 \openout2 = `ch24.aux'.
 
- (./ch24.tex
+ (ch24.tex
 
 [164
 
@@ -2273,7 +1929,7 @@ Chapter 24.
 [170]
 
 [171]
-<Figures/fig-24.01.pdf, id=1248, 462.52798pt x 578.16pt>
+<Figures/fig-24.01.pdf, id=1241, 462.52798pt x 578.16pt>
 File: Figures/fig-24.01.pdf Graphic file (type pdf)
 <use Figures/fig-24.01.pdf>
 Package pdftex.def Info: Figures/fig-24.01.pdf  used on input line 194.
@@ -2285,7 +1941,7 @@ Package pdftex.def Info: Figures/fig-24.01.pdf  used on input line 194.
 [173]
 \openout2 = `ch25.aux'.
 
- (./ch25.tex
+ (ch25.tex
 
 [174
 
@@ -2301,8 +1957,7 @@ Chapter 25.
 
 [176]
 Overfull \hbox (8.61934pt too wide) in paragraph at lines 32--33
-\OT1/ptm/m/n/10 Desmond Bernal ap-plied X-ray crys-tal-log-ra-phy to an-a-lyze 
-larger bi-o-log-i-cal molecules.
+\OT1/ptm/m/n/10 Desmond Bernal ap-plied X-ray crys-tal-log-ra-phy to an-a-lyze larger bi-o-log-i-cal molecules.
  []
 
 
@@ -2311,8 +1966,7 @@ larger bi-o-log-i-cal molecules.
 
 [178]
 Overfull \hbox (3.84998pt too wide) in paragraph at lines 58--59
-[]\OT1/ptm/m/n/10 These ef-forts ex-em-pli-fied pro-duc-tive col-lab-o-ra-tion 
-even dur-ing wartime, as French
+[]\OT1/ptm/m/n/10 These ef-forts ex-em-pli-fied pro-duc-tive col-lab-o-ra-tion even dur-ing wartime, as French
  []
 
 
@@ -2322,7 +1976,7 @@ even dur-ing wartime, as French
 [180]
 \openout2 = `ch26.aux'.
 
- (./ch26.tex
+ (ch26.tex
 Chapter 26.
 
 
@@ -2347,7 +2001,7 @@ Chapter 26.
 [187]
 \openout2 = `ch27.aux'.
 
- (./ch27.tex
+ (ch27.tex
 
 [188
 
@@ -2367,10 +2021,7 @@ Chapter 27.
 
 [192]
 Overfull \hbox (39.70328pt too wide) in paragraph at lines 116--117
-[]\OT1/ptm/m/n/10 By in-tro-duc-ing the di-men-sion-less vari-ables $\OML/ztmcm
-/m/it/10 p \OT1/ztmcm/m/n/10 = \OML/ztmcm/m/it/10 P= []$\OT1/ptm/m/n/10 , $\OML
-/ztmcm/m/it/10 w \OT1/ztmcm/m/n/10 = \OML/ztmcm/m/it/10 W= []$\OT1/ptm/m/n/10 ,
-
+[]\OT1/ptm/m/n/10 By in-tro-duc-ing the di-men-sion-less vari-ables $\OML/ztmcm/m/it/10 p \OT1/ztmcm/m/n/10 = \OML/ztmcm/m/it/10 P= []$\OT1/ptm/m/n/10 , $\OML/ztmcm/m/it/10 w \OT1/ztmcm/m/n/10 = \OML/ztmcm/m/it/10 W= []$\OT1/ptm/m/n/10 ,
  []
 
 
@@ -2382,59 +2033,48 @@ Overfull \hbox (39.70328pt too wide) in paragraph at lines 116--117
 [195]
 \openout2 = `referenc.aux'.
 
- (./referenc.tex (./main.bbl
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 1
-4.
-
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/psnfss
-/ot1pcr.fd
+ (referenc.tex (main.bbl
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 14.
+ (C:\Users\moise\AppData\Roaming\MiKTeX\tex/latex/psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 Underfull \hbox (badness 1694) in paragraph at lines 12--15
-\OT1/ptm/m/n/10 Lon-don, DOI $10 . 1007 / 978-[]0-[]85729-[]115-[]8$, URL $\OT1
-/pcr/m/n/10 http : / / dx . doi . org /
+\OT1/ptm/m/n/10 Lon-don, DOI $10 . 1007 / 978-[]0-[]85729-[]115-[]8$, URL $\OT1/pcr/m/n/10 http : / / dx . doi . org /
  []
 
 
 Underfull \hbox (badness 4981) in paragraph at lines 21--25
-[]\OT1/ptm/m/n/10 Bassett DR (2002) Sci-en-tific con-tri-bu-tions of a. v. hill
-: ex-er-cise phys-
+[]\OT1/ptm/m/n/10 Bassett DR (2002) Sci-en-tific con-tri-bu-tions of a. v. hill: ex-er-cise phys-
  []
 
 
 Underfull \hbox (badness 3907) in paragraph at lines 21--25
-\OT1/ptm/m/n/10 i-ol-ogy pi-o-neer. Jour-nal of Ap-plied Phys-i-ol-ogy 93(5):15
-67--1582, DOI 
+\OT1/ptm/m/n/10 i-ol-ogy pi-o-neer. Jour-nal of Ap-plied Phys-i-ol-ogy 93(5):1567--1582, DOI 
  []
 
 
 Underfull \hbox (badness 1515) in paragraph at lines 50--54
-\OT1/ptm/m/n/10 els for ery-thro-poiesis. Math-e-mat-i-cal Bio-sciences 128(1--
-2):317--346, DOI 
+\OT1/ptm/m/n/10 els for ery-thro-poiesis. Math-e-mat-i-cal Bio-sciences 128(1--2):317--346, DOI 
  []
 
 
 Underfull \hbox (badness 4108) in paragraph at lines 50--54
-\OT1/ptm/m/n/10 10 . 1016 / 0025-[]5564(94 ) 00078-[]e$, URL $\OT1/pcr/m/n/10 h
-ttp : / / dx . doi . org / 10 . 1016 /
+\OT1/ptm/m/n/10 10 . 1016 / 0025-[]5564(94 ) 00078-[]e$, URL $\OT1/pcr/m/n/10 http : / / dx . doi . org / 10 . 1016 /
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 56--60
-[]\OT1/ptm/m/n/10 Cajori F (1913a) His-tory of the ex-ponene-tial and log-a-rit
-h-mic con-
+[]\OT1/ptm/m/n/10 Cajori F (1913a) His-tory of the ex-ponene-tial and log-a-rith-mic con-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 56--60
-\OT1/ptm/m/n/10 cepts. The Amer-i-can Math-e-mat-i-cal Monthly 20(5):148--151, 
-DOI 
+\OT1/ptm/m/n/10 cepts. The Amer-i-can Math-e-mat-i-cal Monthly 20(5):148--151, DOI 
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 56--60
-\OT1/ptm/m/n/10 10 . 1080 / 00029890 . 1913 . 11997942$, URL $\OT1/pcr/m/n/10 h
-ttp : / / dx . doi . org / 10 .
+\OT1/ptm/m/n/10 10 . 1080 / 00029890 . 1913 . 11997942$, URL $\OT1/pcr/m/n/10 http : / / dx . doi . org / 10 .
  []
 
 
@@ -2445,88 +2085,56 @@ ttp : / / dx . doi . org / 10 .
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 91--95
-[]\OT1/ptm/m/n/10 Cajori F (1913g) His-tory of the ex-po-nen-tial and log-a-rit
-h-mic con-
+[]\OT1/ptm/m/n/10 Cajori F (1913g) His-tory of the ex-po-nen-tial and log-a-rith-mic con-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 91--95
-\OT1/ptm/m/n/10 cepts. The Amer-i-can Math-e-mat-i-cal Monthly 20(7):205--210, 
-DOI 
+\OT1/ptm/m/n/10 cepts. The Amer-i-can Math-e-mat-i-cal Monthly 20(7):205--210, DOI 
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 91--95
-\OT1/ptm/m/n/10 10 . 1080 / 00029890 . 1913 . 11997960$, URL $\OT1/pcr/m/n/10 h
-ttp : / / dx . doi . org / 10 .
+\OT1/ptm/m/n/10 10 . 1080 / 00029890 . 1913 . 11997960$, URL $\OT1/pcr/m/n/10 http : / / dx . doi . org / 10 .
  []
 
 
 Underfull \hbox (badness 5847) in paragraph at lines 118--121
-[]\OT1/ptm/m/n/10 Izhikevich E, FitzHugh R (2006) FitzHugh-nagumo model. Schol-
-ar-pe-dia
+[]\OT1/ptm/m/n/10 Izhikevich E, FitzHugh R (2006) FitzHugh-nagumo model. Schol-ar-pe-dia
  []
 
 
 
 [197]
 Underfull \hbox (badness 10000) in paragraph at lines 199--202
-[]\OT1/ptm/m/n/10 Stent GS (1968) That was the molec-u-lar bi-ol-ogy that was. 
-Sci-ence
+[]\OT1/ptm/m/n/10 Stent GS (1968) That was the molec-u-lar bi-ol-ogy that was. Sci-ence
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 199--202
-\OT1/ptm/m/n/10 160(3826):390{395, DOI $10 . 1126 / science . 160 . 3826 . 390$
-, URL $\OT1/pcr/m/n/10 http :
+\OT1/ptm/m/n/10 160(3826):390{395, DOI $10 . 1126 / science . 160 . 3826 . 390$, URL $\OT1/pcr/m/n/10 http :
  []
 
 ))
 
-[198] (./main.aux (./ch01.aux) (./ch02.aux) (./ch03.aux) (./ch04.aux)
-(./ch05.aux) (./ch06.aux) (./ch07.aux) (./ch08.aux) (./ch09.aux) (./ch10.aux)
-(./ch11.aux) (./ch12.aux) (./ch13.aux) (./ch14.aux) (./ch15.aux) (./ch16.aux)
-(./ch17.aux) (./ch18.aux) (./ch19.aux) (./ch20.aux) (./ch21.aux) (./ch22.aux)
-(./ch23.aux) (./ch24.aux) (./ch25.aux) (./ch26.aux) (./ch27.aux)
-(./referenc.aux))
+[198] (main.aux (ch01.aux) (ch02.aux) (ch03.aux) (ch04.aux) (ch05.aux) (ch06.aux) (ch07.aux) (ch08.aux) (ch09.aux) (ch10.aux) (ch11.aux) (ch12.aux) (ch13.aux) (ch14.aux) (ch15.aux) (ch16.aux) (ch17.aux) (ch18.aux) (ch19.aux) (ch20.aux) (ch21.aux) (ch22.aux) (ch23.aux) (ch24.aux) (ch25.aux) (ch26.aux) (ch27.aux) (referenc.aux))
  ***********
-LaTeX2e <2024-11-01> patch level 2
-L3 programming layer <2025-01-18>
+LaTeX2e <2024-11-01> patch level 1
+L3 programming layer <2024-12-25>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 28140 strings out of 474300
- 700936 string characters out of 5728367
- 1171707 words of memory out of 5000000
- 50527 multiletter control sequences out of 15000+600000
+ 28143 strings out of 473536
+ 693147 string characters out of 5725023
+ 1173193 words of memory out of 5000000
+ 50666 multiletter control sequences out of 15000+600000
  616685 words of font info for 150 fonts, out of 8000000 for 9000
- 445 hyphenation exceptions out of 8191
- 99i,21n,105p,1415b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmex10.pfb></data/data/com.termux/files/usr/share/texlive/2024
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></data/data/com.termux/fi
-les/usr/share/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-</data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmsy10.pfb></data/data/com.termux/files/usr/share/texlive/2024/t
-exmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></data/data/com.termu
-x/files/usr/share/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/m
-sam10.pfb></data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/fonts/
-type1/urw/courier/ucrr8a.pfb></data/data/com.termux/files/usr/share/texlive/202
-4/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></data/data/com.termux/files/usr/s
-hare/texlive/2024/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></data/data/com.te
-rmux/files/usr/share/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><
-/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/fonts/type1/urw/t
-imes/utmbi8a.pfb></data/data/com.termux/files/usr/share/texlive/2024/texmf-dist
-/fonts/type1/urw/times/utmr8a.pfb></data/data/com.termux/files/usr/share/texliv
-e/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (206 pages, 1228337 bytes).
+ 1141 hyphenation exceptions out of 8191
+ 99i,21n,107p,1475b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/latxfont/line10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (206 pages, 1406990 bytes).
 PDF statistics:
- 1447 PDF objects out of 1728 (max. 8388607)
- 753 compressed objects within 8 object streams
+ 1438 PDF objects out of 1440 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  188 words of extra memory for PDF output out of 10000 (max. 10000000)
 
