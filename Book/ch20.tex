@@ -171,3 +171,28 @@ Examination of the model's phase plane portraits and vector field flows demonstr
 Importantly, simulations and applications to diverse excitable media indicated the FitzHugh-Nagumo model captures universal organizing principles, not just details specific to neurons. It provides a computationally simpler framework than biophysical models while still faithfully replicating qualitative excitable phenomena.
 
 Overall, the FitzHugh-Nagumo equations established a new paradigm for conceptualizing and mathematically investigating excitability. Their development illuminated fundamental properties of excitable systems and excitation wave propagation in a more tractable setting than earlier approaches. This makes the FitzHugh-Nagumo model highly influential as a foundational tool for studying excitation across many fields.
+
+\section{Exercises}
+
+\begin{enumerate}
+    \item Numerically solve the Fitzhugh-Nagumo model and plot the solutions in the phase plane, including the system's nullclines. Explore various parameter sets and confirm that the behavior aligns with that of excitable cells when the fixed point is stable and $\epsilon \gg 0$. Specifically, demonstrate that an action potential occurs whenever the initial condition lies to the right of the middle branch of the cubic nullcline.
+  
+    \item A phase response curve (PRC) is a tool used to analyze the timing of action potentials in oscillatory systems. It describes how the timing of a subsequent spike is affected by perturbations (e.g., small inputs) at different phases of the oscillation cycle. In this exercise, you will compute and plot the phase response curve for the Fitzhugh-Nagumo model under parameters that cause it to behave as a relaxation oscillator.\\
+  \textbf{Instructions:}
+  
+    \begin{enumerate}
+      \item Set Up the Fitzhugh-Nagumo Model. Choose parameters such that the system exhibits relaxation oscillations.
+  
+      \item Numerically solve the system using appropriate initial conditions to generate a limit cycle.
+  
+      \item Apply small perturbations to the system at various phases of the oscillation. For example, modify $x$ by a small amount $\delta$ at different points in the cycle.
+  
+      \item For each perturbation, measure the resulting phase shift of the next action potential. This can be done by observing the time until the next spike occurs.
+  
+      \item Plot the phase shifts against the phase of the oscillation at which the perturbations were applied. The x-axis should represent the phase of the cycle (ranging from 0 to 1), and the y-axis should represent the corresponding phase shifts.
+  
+      \item Discuss the characteristics of the phase response curve. Identify regions of phase advance and delay and relate them to the dynamics of the Fitzhugh-Nagumo model.
+  
+    \end{enumerate}
+  \end{enumerate}
+  

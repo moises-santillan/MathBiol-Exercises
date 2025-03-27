@@ -115,3 +115,29 @@ Historically, the van der Pol oscillator played a pivotal role in conceptualizin
 Indeed, relaxation-type oscillations provide insightful analogies for cyclic behaviors across disciplines. In neuroscience, they have helped quantify electrical spiking patterns in excitable cells like neurons. In cardiovascular physiology, relaxation oscillations resemble pressure-volume loops associated with the heartbeat.
 
 By deriving the first model exhibiting relaxation oscillations, van der Pol laid foundations not only for oscillator theory but also quantitative modeling applications to biological rhythms. The ubiquitous nature of relaxation phenomena continues motivating research at the intersections of physics, engineering, mathematics and the life sciences.
+
+\section{Exercises}
+
+\begin{enumerate}
+    \item Consider the following dynamical system: $$\ddot{x} + a \dot{x}(x^2 - 4) + x = 1.$$ Find and characterize the fixed points. Use both analytical and numerical arguments to demonstrate that the system has a limit cycle. Characterize the stability of the limit cycle. Use Liénard's theorem (\url{https://en.wikipedia.org/wiki/Li%C3%A9nard_equation}).
+  
+    \item Consider the equation: 
+    \begin{equation*}
+        \ddot{x} + \mu f(x) \dot{x} + x = 0,
+    \end{equation*}
+    where $f(x) = -1$ for $|x| < 1$ and $f(x) = 1$ for $|x| \geq 1$. Using Liénard's theorem, show that the equivalent two-dimensional system is 
+    \begin{equation*}
+        \dot{x} = \mu(y - F(x)), \quad \dot{y} = -\frac{x}{\mu},
+    \end{equation*}
+    with the function $F(x)$ defined as 
+    \begin{equation*}
+        F(x) = \begin{cases} 
+        x + 2, & x \leq -1, \\ 
+        -x, & |x| < 1, \\ 
+        x - 2, & x \geq 1.
+     \end{cases}
+    \end{equation*}
+    Graph the nullclines. Demonstrate that the system behaves like a relaxation oscillator when $\mu \gg 1$ and draw the corresponding limit cycle in the phase plane.
+  
+ \end{enumerate}
+  

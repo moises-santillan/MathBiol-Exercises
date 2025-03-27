@@ -99,6 +99,7 @@
 \contentsline {section}{\numberline {14.3}Normalizing the Model}{95}{}%
 \contentsline {section}{\numberline {14.4}Fixed Points and Stability Analysis}{96}{}%
 \contentsline {section}{\numberline {14.5}Discussion}{99}{}%
+\contentsline {section}{\numberline {14.6}Exercises}{100}{}%
 \contentsline {chapter}{\numberline {15}A Matter of Scales}{101}{}%
 \contentsline {section}{\numberline {15.1}Introduction}{101}{}%
 \contentsline {section}{\numberline {15.2}Structural scaling}{102}{}%
@@ -111,6 +112,7 @@
 \contentsline {section}{\numberline {16.3}Analysis of Disease-Free Equilibria}{107}{}%
 \contentsline {section}{\numberline {16.4}Characterizing Outbreak Dynamics}{107}{}%
 \contentsline {section}{\numberline {16.5}Discussion}{108}{}%
+\contentsline {section}{\numberline {16.6}Exercises}{109}{}%
 \contentsline {chapter}{\numberline {17}The Interdisciplinary Journey of Oscillators: From Transatlantic Navigation to Neurophysiology}{111}{}%
 \contentsline {section}{\numberline {17.1}Introduction}{111}{}%
 \contentsline {section}{\numberline {17.2}The Longitude Problem and the Development of Clocks}{112}{}%
@@ -132,6 +134,7 @@
 \contentsline {section}{\numberline {19.4}Existence of a limit cycle}{130}{}%
 \contentsline {section}{\numberline {19.5}Relaxation Oscillations}{131}{}%
 \contentsline {section}{\numberline {19.6}Discussion}{132}{}%
+\contentsline {section}{\numberline {19.7}Exercises}{133}{}%
 \contentsline {chapter}{\numberline {20}The FitzHugh-Nagumo Model}{135}{}%
 \contentsline {section}{\numberline {20.1}Introduction}{135}{}%
 \contentsline {section}{\numberline {20.2}The Hodgkin-Huxley Model}{136}{}%
@@ -142,59 +145,62 @@
 \contentsline {section}{\numberline {20.7}Relaxation oscillator behavior}{142}{}%
 \contentsline {section}{\numberline {20.8}Applications to Excitable Systems}{142}{}%
 \contentsline {section}{\numberline {20.9}Discussion}{143}{}%
-\contentsline {chapter}{\numberline {21}Quasisteady State Approximation}{145}{}%
-\contentsline {section}{\numberline {21.1}Introduction}{145}{}%
-\contentsline {section}{\numberline {21.2}RC Low-Pass Filter Circuit}{146}{}%
-\contentsline {section}{\numberline {21.3}A Generalized Response Equation}{147}{}%
-\contentsline {section}{\numberline {21.4}Solution Forms for Specific Input Cases}{148}{}%
-\contentsline {subsection}{\numberline {21.4.1}Constant Input}{148}{}%
-\contentsline {subsection}{\numberline {21.4.2}Sinusoidal input}{148}{}%
-\contentsline {subsection}{\numberline {21.4.3}General Time-Varying Input}{149}{}%
-\contentsline {section}{\numberline {21.5}Timescale Separation}{150}{}%
-\contentsline {section}{\numberline {21.6}Comparing Steady States and Stability of the Full and Reduced Systems}{150}{}%
-\contentsline {section}{\numberline {21.7}Conclusions}{152}{}%
-\contentsline {chapter}{\numberline {22}Hematopoiesis Regulation}{153}{}%
-\contentsline {section}{\numberline {22.1}Introduction}{153}{}%
-\contentsline {section}{\numberline {22.2}Hematopoiesis Physiology}{154}{}%
-\contentsline {section}{\numberline {22.3}Mathematical modeling of erythropoiesis}{155}{}%
-\contentsline {section}{\numberline {22.4}Quasi-steady state approximation}{156}{}%
-\contentsline {section}{\numberline {22.5}Steady State Analysis}{156}{}%
-\contentsline {section}{\numberline {22.6}Stability Analysis}{157}{}%
-\contentsline {section}{\numberline {22.7}Discussion}{158}{}%
-\contentsline {chapter}{\numberline {23}A.V. Hill and the Origins of Modern Biophysics}{161}{}%
-\contentsline {section}{\numberline {23.1}Education and Early Career}{161}{}%
-\contentsline {section}{\numberline {23.2}Studies on Muscle Physiology}{162}{}%
-\contentsline {section}{\numberline {23.3}Hemoglobin saturation and the Hill equation}{163}{}%
-\contentsline {section}{\numberline {23.4}Discussion}{163}{}%
-\contentsline {chapter}{\numberline {24}Ligand-Receptor Dynamics}{165}{}%
-\contentsline {section}{\numberline {24.1}Introduction}{165}{}%
-\contentsline {section}{\numberline {24.2}Chemical Reactions}{166}{}%
-\contentsline {section}{\numberline {24.3}Chemical Kinetics Approach}{166}{}%
-\contentsline {section}{\numberline {24.4}Modeling Ligand Binding to a Receptor with Single Binding Site}{167}{}%
-\contentsline {section}{\numberline {24.5}Modeling Ligand Binding to Receptors with Multiple Independent Binding Sites}{168}{}%
-\contentsline {section}{\numberline {24.6}Extension to Cooperatively Binding Ligands}{169}{}%
-\contentsline {section}{\numberline {24.7}Saturation Fraction, Cooperativity and the Hill Function}{171}{}%
-\contentsline {section}{\numberline {24.8}Discussion}{173}{}%
-\contentsline {chapter}{\numberline {25}The Interdisciplinary Origins of Molecular Biology}{175}{}%
-\contentsline {section}{\numberline {25.1}Introduction}{175}{}%
-\contentsline {section}{\numberline {25.2}Early Steps Towards a Physical and Molecular View of Genes}{176}{}%
-\contentsline {section}{\numberline {25.3}The Structural School in Molecular Biology}{177}{}%
-\contentsline {section}{\numberline {25.4}The Informational School and its Origins in Quantum Physics}{178}{}%
-\contentsline {section}{\numberline {25.5}The Emergence of Molecular Biology in France}{178}{}%
-\contentsline {section}{\numberline {25.6}The Discovery of the Double Helix}{179}{}%
-\contentsline {section}{\numberline {25.7}Discussion}{180}{}%
-\contentsline {chapter}{\numberline {26}Gene Regulation}{181}{}%
-\contentsline {section}{\numberline {26.1}Introduction}{181}{}%
-\contentsline {section}{\numberline {26.2}The Central Dogma of Molecular Biology}{182}{}%
-\contentsline {section}{\numberline {26.3}Gene Regulatory Networks}{183}{}%
-\contentsline {section}{\numberline {26.4}The Amino Acid Tryptophan}{183}{}%
-\contentsline {section}{\numberline {26.5}The Tryptophan Operon}{184}{}%
-\contentsline {section}{\numberline {26.6}The Tryptophanase Operon}{185}{}%
-\contentsline {section}{\numberline {26.7}Discussion}{186}{}%
-\contentsline {chapter}{\numberline {27}Mathematical Modelling of Simple BacterialGene Regulatory Networks}{189}{}%
-\contentsline {section}{\numberline {27.1}Introduction}{189}{}%
-\contentsline {section}{\numberline {27.2}General Model Development}{189}{}%
-\contentsline {section}{\numberline {27.3}The Tryptophan Operon}{190}{}%
-\contentsline {section}{\numberline {27.4}The Tryptophanase Operon}{193}{}%
-\contentsline {section}{\numberline {27.5}Discussion}{195}{}%
-\contentsline {section}{References}{196}{}%
+\contentsline {section}{\numberline {20.10}Exercises}{144}{}%
+\contentsline {chapter}{\numberline {21}Quasisteady State Approximation}{147}{}%
+\contentsline {section}{\numberline {21.1}Introduction}{147}{}%
+\contentsline {section}{\numberline {21.2}RC Low-Pass Filter Circuit}{148}{}%
+\contentsline {section}{\numberline {21.3}A Generalized Response Equation}{149}{}%
+\contentsline {section}{\numberline {21.4}Solution Forms for Specific Input Cases}{150}{}%
+\contentsline {subsection}{\numberline {21.4.1}Constant Input}{150}{}%
+\contentsline {subsection}{\numberline {21.4.2}Sinusoidal input}{150}{}%
+\contentsline {subsection}{\numberline {21.4.3}General Time-Varying Input}{151}{}%
+\contentsline {section}{\numberline {21.5}Timescale Separation}{152}{}%
+\contentsline {section}{\numberline {21.6}Comparing Steady States and Stability of the Full and Reduced Systems}{152}{}%
+\contentsline {section}{\numberline {21.7}Conclusions}{154}{}%
+\contentsline {chapter}{\numberline {22}Hematopoiesis Regulation}{155}{}%
+\contentsline {section}{\numberline {22.1}Introduction}{155}{}%
+\contentsline {section}{\numberline {22.2}Hematopoiesis Physiology}{156}{}%
+\contentsline {section}{\numberline {22.3}Mathematical modeling of erythropoiesis}{157}{}%
+\contentsline {section}{\numberline {22.4}Quasi-steady state approximation}{158}{}%
+\contentsline {section}{\numberline {22.5}Steady State Analysis}{158}{}%
+\contentsline {section}{\numberline {22.6}Stability Analysis}{159}{}%
+\contentsline {section}{\numberline {22.7}Discussion}{160}{}%
+\contentsline {section}{\numberline {22.8}Exercises}{161}{}%
+\contentsline {chapter}{\numberline {23}A.V. Hill and the Origins of Modern Biophysics}{163}{}%
+\contentsline {section}{\numberline {23.1}Education and Early Career}{163}{}%
+\contentsline {section}{\numberline {23.2}Studies on Muscle Physiology}{164}{}%
+\contentsline {section}{\numberline {23.3}Hemoglobin saturation and the Hill equation}{165}{}%
+\contentsline {section}{\numberline {23.4}Discussion}{165}{}%
+\contentsline {chapter}{\numberline {24}Ligand-Receptor Dynamics}{167}{}%
+\contentsline {section}{\numberline {24.1}Introduction}{167}{}%
+\contentsline {section}{\numberline {24.2}Chemical Reactions}{168}{}%
+\contentsline {section}{\numberline {24.3}Chemical Kinetics Approach}{168}{}%
+\contentsline {section}{\numberline {24.4}Modeling Ligand Binding to a Receptor with Single Binding Site}{169}{}%
+\contentsline {section}{\numberline {24.5}Modeling Ligand Binding to Receptors with Multiple Independent Binding Sites}{170}{}%
+\contentsline {section}{\numberline {24.6}Extension to Cooperatively Binding Ligands}{171}{}%
+\contentsline {section}{\numberline {24.7}Saturation Fraction, Cooperativity and the Hill Function}{173}{}%
+\contentsline {section}{\numberline {24.8}Discussion}{175}{}%
+\contentsline {chapter}{\numberline {25}The Interdisciplinary Origins of Molecular Biology}{177}{}%
+\contentsline {section}{\numberline {25.1}Introduction}{177}{}%
+\contentsline {section}{\numberline {25.2}Early Steps Towards a Physical and Molecular View of Genes}{178}{}%
+\contentsline {section}{\numberline {25.3}The Structural School in Molecular Biology}{179}{}%
+\contentsline {section}{\numberline {25.4}The Informational School and its Origins in Quantum Physics}{180}{}%
+\contentsline {section}{\numberline {25.5}The Emergence of Molecular Biology in France}{180}{}%
+\contentsline {section}{\numberline {25.6}The Discovery of the Double Helix}{181}{}%
+\contentsline {section}{\numberline {25.7}Discussion}{182}{}%
+\contentsline {chapter}{\numberline {26}Gene Regulation}{183}{}%
+\contentsline {section}{\numberline {26.1}Introduction}{183}{}%
+\contentsline {section}{\numberline {26.2}The Central Dogma of Molecular Biology}{184}{}%
+\contentsline {section}{\numberline {26.3}Gene Regulatory Networks}{185}{}%
+\contentsline {section}{\numberline {26.4}The Amino Acid Tryptophan}{185}{}%
+\contentsline {section}{\numberline {26.5}The Tryptophan Operon}{186}{}%
+\contentsline {section}{\numberline {26.6}The Tryptophanase Operon}{187}{}%
+\contentsline {section}{\numberline {26.7}Discussion}{188}{}%
+\contentsline {chapter}{\numberline {27}Mathematical Modelling of Simple BacterialGene Regulatory Networks}{191}{}%
+\contentsline {section}{\numberline {27.1}Introduction}{191}{}%
+\contentsline {section}{\numberline {27.2}General Model Development}{191}{}%
+\contentsline {section}{\numberline {27.3}The Tryptophan Operon}{192}{}%
+\contentsline {section}{\numberline {27.4}The Tryptophanase Operon}{195}{}%
+\contentsline {section}{\numberline {27.5}Discussion}{197}{}%
+\contentsline {section}{\numberline {27.6}Exercises}{197}{}%
+\contentsline {section}{References}{199}{}%
