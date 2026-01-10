@@ -160,3 +160,20 @@ The tryptophan operon serves as a prototypical example of gene networks characte
 In contrast, we examined the tryptophanase operon as an example of gene expression influenced by positive feedback regulation. We demonstrated that this positive regulation can lead to the emergence of bistability under certain conditions. This bistable behavior underscores the operon's capacity to toggle between distinct expression states, providing a robust mechanism for adaptation in fluctuating environments.
 
 Overall, our exploration of these operons highlights the intricate interplay between feedback mechanisms and gene expression, emphasizing their significance in bacterial adaptation and resilience.
+
+\section{Exercises}
+
+\begin{enumerate}
+
+\item Consider the following toy model of a gene regulatory network subject to negative feedback regulation:
+\begin{equation*}
+    \dot{x} = \frac{1 + K^n}{x^n + K^n} - x.
+\end{equation*}
+Here, $x$ represents the concentration of a protein, $K$ is a positive constant standing for the sensitivity of the feedback regulation to $x$, and $n$ is a positive Hill exponent. Analyze the steady states of the system and determine their stability properties. Particularly, investigate the effect of $n$  on the relaxation times associated with the system's response to perturbations.
+
+\item Consider the following toy model of a gene regulatory network subject to positive feedback regulation:
+\begin{equation*}
+    \dot{x} = \frac{x^n (1 + K^n)}{x^n + K^n} - x.
+\end{equation*}
+Here, $x$ represents the concentration of a protein, $K$ is a positive constant standing for the sensitivity of the feedback regulation to $x$, and $n$ is a positive Hill exponent. Analyze the steady states of the system and determine their stability properties. Analyze the steady states of the system and determine their stability properties. In particular, investigate the influence of the Hill exponent $n$ on the number and stability of the steady states, as well as the relaxation times associated with the stable states.
+\end{enumerate}

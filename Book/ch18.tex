@@ -165,3 +165,25 @@ However, damped harmonic oscillator have some limitations in capturing certain b
 This sets the stage for the next chapter, where we will introduce and analyze relaxation oscillators. Characterizing these self-sustained oscillating systems will advance our quantitative and mechanistic understanding of rhythmic processes in living tissues and their relationship to cellular-level properties of excitability and threshold dynamics.
 
 The overarching goal of examining damped and relaxation oscillators is to build dynamical system models that provide conceptual links between distinct realms which, at the component level, may seem very different but share underlying mathematical commonalities at a system-wide scale.
+
+\section*{Exercises}
+
+\begin{enumerate}
+    \item Numerically solve the differential equation 
+    \begin{equation*}
+            \ddot{x} + b \dot{x} + x = 0
+    \end{equation*}
+    for various values of the parameter $b$, both above and below the critically damped regime ($b = 2$). Consider the initial conditions $x(0)=1$, $\dot{x}(0)=0$. Plot the solutions of $x$ versus $t$. Identify the value of $b$ that results in the fastest decay and explain the underlying reasons for this behavior.
+  
+    \item Numerically solve the differential equation from the previous exercise with the initial condition $x(0) = 1$ and various values of $\dot{x}(0)$, both positive and negative. Plot the solutions of $x$ versus $t$. Next, repeat the exercise for increasing values of the parameter $b$. Discuss the behavior of the solutions in the regime where $b \gg 1$. Additionally, compare these results with the solutions of the differential equation 
+    \begin{equation*}
+        \dot{x} = -\frac{x}{b}
+    \end{equation*}
+    with the initial condition $x(0) = 1$, which yields 
+    \begin{equation*}
+        x(t) = \exp\left(-\frac{t}{b}\right).
+    \end{equation*}
+    Reflect on your observations.
+  
+  \end{enumerate}
+  
