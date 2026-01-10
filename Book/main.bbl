@@ -4,56 +4,94 @@
 \providecommand{\urlprefix}{URL }
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{DOI~\discretionary{}{}{}#1}\else
-  \providecommand{\doi}{DOI~\discretionary{}{}{}\begingroup \urlstyle{rm}\Url}\fi
+  \providecommand{\doi}{DOI~\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
 \providecommand{\eprint}[2][]{\url{#2}}
 
 \bibitem[{Bacaër(2011)}]{Bacar2011}
-Bacaër N (2011) A Short History of Mathematical Population Dynamics. Springer London, \doi{10.1007/978-0-85729-115-8}, \urlprefix\url{http://dx.doi.org/10.1007/978-0-85729-115-8}
+Bacaër N (2011) A Short History of Mathematical Population Dynamics. Springer
+  London, \doi{10.1007/978-0-85729-115-8},
+  \urlprefix\url{http://dx.doi.org/10.1007/978-0-85729-115-8}
 
 \bibitem[{Baigrie(2006)}]{Baigrie2006}
-Baigrie B (2006) Electricity and magnetism. Greenwood Guides to Great Ideas in Science, Greenwood Press, Westport, CT
+Baigrie B (2006) Electricity and magnetism. Greenwood Guides to Great Ideas in
+  Science, Greenwood Press, Westport, CT
 
 \bibitem[{Bassett(2002)}]{Bassett2002}
-Bassett DR (2002) Scientific contributions of a. v. hill: exercise physiology pioneer. Journal of Applied Physiology 93(5):1567--1582, \doi{10.1152/japplphysiol.01246.2001}, \urlprefix\url{http://dx.doi.org/10.1152/japplphysiol.01246.2001}
+Bassett DR (2002) Scientific contributions of a. v. hill: exercise physiology
+  pioneer. Journal of Applied Physiology 93(5):1567--1582,
+  \doi{10.1152/japplphysiol.01246.2001},
+  \urlprefix\url{http://dx.doi.org/10.1152/japplphysiol.01246.2001}
 
 \bibitem[{Borges(1982)}]{Borges1982}
-Borges J (1982) El hacedor, 16th edn, Emecé Editores SA, chap Del rigor en la ciencia
+Borges J (1982) El hacedor, 16th edn, Emecé Editores SA, chap Del rigor en la
+  ciencia
 
 \bibitem[{Box(1976)}]{Box1976}
-Box E (1976) Science and statistics. Journal of the American Statistical Association 71(356):791--799
+Box E (1976) Science and statistics. Journal of the American Statistical
+  Association 71(356):791--799
 
-\bibitem[{Bremmer et~al.(1960)Bremmer, Bouwkamp, and {Pol, van der}}]{vanderPol1960}
-Bremmer H, Bouwkamp C, {Pol, van der} B (eds)  (1960) Selected scientific papers Balthasar van der Pol. North-Holland Publishing Company, Netherlands
+\bibitem[{Bremmer et~al.(1960)Bremmer, Bouwkamp, and {Pol, van
+  der}}]{vanderPol1960}
+Bremmer H, Bouwkamp C, {Pol, van der} B (eds)  (1960) Selected scientific
+  papers Balthasar van der Pol. North-Holland Publishing Company, Netherlands
 
 \bibitem[{Brown(2020)}]{Brown2020}
-Brown A (2020) A companion guide to the {Hodgkin-Huxley} papers. Physiological Society
+Brown A (2020) A companion guide to the {Hodgkin-Huxley} papers. Physiological
+  Society
 
 \bibitem[{Burian and Gayon(1999)}]{Burian1999}
-Burian R, Gayon J (1999) The french school of genetics: From physiological and population genetics to regulatory molecular genetics. Annual Review of Genetics 33(1):313–349, \doi{10.1146/annurev.genet.33.1.313}, \urlprefix\url{http://dx.doi.org/10.1146/annurev.genet.33.1.313}
+Burian R, Gayon J (1999) The french school of genetics: From physiological and
+  population genetics to regulatory molecular genetics. Annual Review of
+  Genetics 33(1):313–349, \doi{10.1146/annurev.genet.33.1.313},
+  \urlprefix\url{http://dx.doi.org/10.1146/annurev.genet.33.1.313}
 
 \bibitem[{Bélair et~al.(1995)Bélair, Mackey, and Mahaffy}]{Belair1995}
-Bélair J, Mackey MC, Mahaffy JM (1995) Age-structured and two-delay models for erythropoiesis. Mathematical Biosciences 128(1--2):317--346, \doi{10.1016/0025-5564(94)00078-e}, \urlprefix\url{http://dx.doi.org/10.1016/0025-5564(94)00078-E}
+Bélair J, Mackey MC, Mahaffy JM (1995) Age-structured and two-delay models for
+  erythropoiesis. Mathematical Biosciences 128(1--2):317--346,
+  \doi{10.1016/0025-5564(94)00078-e},
+  \urlprefix\url{http://dx.doi.org/10.1016/0025-5564(94)00078-E}
 
 \bibitem[{Cajori(1913{\natexlab{a}})}]{Cajori1913e}
-Cajori F (1913{\natexlab{a}}) History of the exponenetial and logarithmic concepts. The American Mathematical Monthly 20(5):148--151, \doi{10.1080/00029890.1913.11997942}, \urlprefix\url{http://dx.doi.org/10.1080/00029890.1913.11997942}
+Cajori F (1913{\natexlab{a}}) History of the exponenetial and logarithmic
+  concepts. The American Mathematical Monthly 20(5):148--151,
+  \doi{10.1080/00029890.1913.11997942},
+  \urlprefix\url{http://dx.doi.org/10.1080/00029890.1913.11997942}
 
 \bibitem[{Cajori(1913{\natexlab{b}})}]{Cajori1913a}
-Cajori F (1913{\natexlab{b}}) History of the exponential and logarithmic concepts. The American Mathematical Monthly 20(1):5--14, \doi{10.1080/00029890.1913.11997909}, \urlprefix\url{http://dx.doi.org/10.1080/00029890.1913.11997909}
+Cajori F (1913{\natexlab{b}}) History of the exponential and logarithmic
+  concepts. The American Mathematical Monthly 20(1):5--14,
+  \doi{10.1080/00029890.1913.11997909},
+  \urlprefix\url{http://dx.doi.org/10.1080/00029890.1913.11997909}
 
 \bibitem[{Cajori(1913{\natexlab{c}})}]{Cajori1913b}
-Cajori F (1913{\natexlab{c}}) History of the exponential and logarithmic concepts. The American Mathematical Monthly 20(2):35--47, \doi{10.1080/00029890.1913.11997915}, \urlprefix\url{http://dx.doi.org/10.1080/00029890.1913.11997915}
+Cajori F (1913{\natexlab{c}}) History of the exponential and logarithmic
+  concepts. The American Mathematical Monthly 20(2):35--47,
+  \doi{10.1080/00029890.1913.11997915},
+  \urlprefix\url{http://dx.doi.org/10.1080/00029890.1913.11997915}
 
 \bibitem[{Cajori(1913{\natexlab{d}})}]{Cajori1913c}
-Cajori F (1913{\natexlab{d}}) History of the exponential and logarithmic concepts:. The American Mathematical Monthly 20(3):75, \doi{10.2307/2973441}, \urlprefix\url{http://dx.doi.org/10.2307/2973441}
+Cajori F (1913{\natexlab{d}}) History of the exponential and logarithmic
+  concepts:. The American Mathematical Monthly 20(3):75, \doi{10.2307/2973441},
+  \urlprefix\url{http://dx.doi.org/10.2307/2973441}
 
 \bibitem[{Cajori(1913{\natexlab{e}})}]{Cajori1913d}
-Cajori F (1913{\natexlab{e}}) History of the exponential and logarithmic concepts. The American Mathematical Monthly 20(4):107--117, \doi{10.1080/00029890.1913.11997933}, \urlprefix\url{http://dx.doi.org/10.1080/00029890.1913.11997933}
+Cajori F (1913{\natexlab{e}}) History of the exponential and logarithmic
+  concepts. The American Mathematical Monthly 20(4):107--117,
+  \doi{10.1080/00029890.1913.11997933},
+  \urlprefix\url{http://dx.doi.org/10.1080/00029890.1913.11997933}
 
 \bibitem[{Cajori(1913{\natexlab{f}})}]{Cajori1913f}
-Cajori F (1913{\natexlab{f}}) History of the exponential and logarithmic concepts. The American Mathematical Monthly 20(6):173--182, \doi{10.1080/00029890.1913.11997951}, \urlprefix\url{http://dx.doi.org/10.1080/00029890.1913.11997951}
+Cajori F (1913{\natexlab{f}}) History of the exponential and logarithmic
+  concepts. The American Mathematical Monthly 20(6):173--182,
+  \doi{10.1080/00029890.1913.11997951},
+  \urlprefix\url{http://dx.doi.org/10.1080/00029890.1913.11997951}
 
 \bibitem[{Cajori(1913{\natexlab{g}})}]{Cajori1913g}
-Cajori F (1913{\natexlab{g}}) History of the exponential and logarithmic concepts. The American Mathematical Monthly 20(7):205--210, \doi{10.1080/00029890.1913.11997960}, \urlprefix\url{http://dx.doi.org/10.1080/00029890.1913.11997960}
+Cajori F (1913{\natexlab{g}}) History of the exponential and logarithmic
+  concepts. The American Mathematical Monthly 20(7):205--210,
+  \doi{10.1080/00029890.1913.11997960},
+  \urlprefix\url{http://dx.doi.org/10.1080/00029890.1913.11997960}
 
 \bibitem[{Cipolla(2003)}]{Cipolla2003}
 Cipolla CM (2003) Clocks and Culture. WW Norton, New York, NY
@@ -62,58 +100,94 @@ Cipolla CM (2003) Clocks and Culture. WW Norton, New York, NY
 Clarke AC (2011) How the world was one. Hachette UK
 
 \bibitem[{Goodstein(2007)}]{Goodstein2007}
-Goodstein J (2007) The Volterra Chronicles: The Life and Times of an Extraordinary Mathematician, 1860-1940. History of mathematics, American Mathematical Society
+Goodstein J (2007) The Volterra Chronicles: The Life and Times of an
+  Extraordinary Mathematician, 1860-1940. History of mathematics, American
+  Mathematical Society
 
 \bibitem[{Hill(1910)}]{Hill1910}
-Hill AV (1910) The possible effects of the aggregation of the molecules of haemoglobin on its dissociation curves. The Journal of Physiology 40(suppl):1--7, \doi{10.1113/jphysiol.1910.sp001386}, \urlprefix\url{http://dx.doi.org/10.1113/jphysiol.1910.sp001386}
+Hill AV (1910) The possible effects of the aggregation of the molecules of
+  haemoglobin on its dissociation curves. The Journal of Physiology
+  40(suppl):1--7, \doi{10.1113/jphysiol.1910.sp001386},
+  \urlprefix\url{http://dx.doi.org/10.1113/jphysiol.1910.sp001386}
 
 \bibitem[{Hodgson(1977)}]{Hodgson1977}
-Hodgson MGS (1977) The venture of Islam: The classical age of Islam v.1. University of Chicago Press, Chicago, IL
+Hodgson MGS (1977) The venture of Islam: The classical age of Islam v.1.
+  University of Chicago Press, Chicago, IL
 
 \bibitem[{Izhikevich and FitzHugh(2006)}]{Izhikevich2006}
-Izhikevich E, FitzHugh R (2006) {FitzHugh}-nagumo model. Scholarpedia 1(9):1349, \doi{10.4249/scholarpedia.1349}, \urlprefix\url{https://doi.org/10.4249/scholarpedia.1349}
+Izhikevich E, FitzHugh R (2006) {FitzHugh}-nagumo model. Scholarpedia
+  1(9):1349, \doi{10.4249/scholarpedia.1349},
+  \urlprefix\url{https://doi.org/10.4249/scholarpedia.1349}
 
-\bibitem[{Jaffe et~al.(2024)Jaffe, Arber, Campo, Quintanilla-Fend, Orazi, Rimsza, and Swerdlow}]{Jaffe2024}
-Jaffe ES, Arber DA, Campo E, Quintanilla-Fend L, Orazi A, Rimsza LM, Swerdlow SH (2024) Hematopathology. Elsevier
+\bibitem[{Jaffe et~al.(2024)Jaffe, Arber, Campo, Quintanilla-Fend, Orazi,
+  Rimsza, and Swerdlow}]{Jaffe2024}
+Jaffe ES, Arber DA, Campo E, Quintanilla-Fend L, Orazi A, Rimsza LM, Swerdlow
+  SH (2024) Hematopathology. Elsevier
 
 \bibitem[{Kingsland(1995)}]{Kingsland1995}
-Kingsland S (1995) Modeling Nature. Science and Its Conceptual Foundations series, University of Chicago Press
+Kingsland S (1995) Modeling Nature. Science and Its Conceptual Foundations
+  series, University of Chicago Press
 
 \bibitem[{Kreager(1991)}]{Kreager1991}
-Kreager P (1991) Early modern population theory: A reassessment. Population and Development Review 17(2):207, \doi{10.2307/1973729}, \urlprefix\url{http://dx.doi.org/10.2307/1973729}
+Kreager P (1991) Early modern population theory: A reassessment. Population and
+  Development Review 17(2):207, \doi{10.2307/1973729},
+  \urlprefix\url{http://dx.doi.org/10.2307/1973729}
 
 \bibitem[{Mackey(2001)}]{Mackey2001}
-Mackey MC (2001) Cell kinetic status of haematopoietic stem cells. Cell Proliferation 34(2):71--83, \doi{10.1046/j.1365-2184.2001.00195.x}, \urlprefix\url{http://dx.doi.org/10.1046/j.1365-2184.2001.00195.x}
+Mackey MC (2001) Cell kinetic status of haematopoietic stem cells. Cell
+  Proliferation 34(2):71--83, \doi{10.1046/j.1365-2184.2001.00195.x},
+  \urlprefix\url{http://dx.doi.org/10.1046/j.1365-2184.2001.00195.x}
 
 \bibitem[{Maxwell(2011{\natexlab{a}})}]{Maxwell2011-a}
-Maxwell J (2011{\natexlab{a}}) A Cambridge library collection - physical sciences A treatise on electricity and magnetism: Volume 1. Cambridge University Press, Cambridge, England
+Maxwell J (2011{\natexlab{a}}) A Cambridge library collection - physical
+  sciences A treatise on electricity and magnetism: Volume 1. Cambridge
+  University Press, Cambridge, England
 
 \bibitem[{Maxwell(2011{\natexlab{b}})}]{Maxwell2011-b}
-Maxwell J (2011{\natexlab{b}}) A Cambridge library collection - physical sciences A treatise on electricity and magnetism: Volume 2. Cambridge University Press, Cambridge, England
+Maxwell J (2011{\natexlab{b}}) A Cambridge library collection - physical
+  sciences A treatise on electricity and magnetism: Volume 2. Cambridge
+  University Press, Cambridge, England
 
 \bibitem[{Mira(1997)}]{Mira1997}
-Mira C (1997) Some historical aspects of nonlinear dynamics—possible trends for the future. Journal of the Franklin Institute 334(5--6):1075--1113, \doi{10.1016/s0016-0032(97)00030-6}, \urlprefix\url{http://dx.doi.org/10.1016/S0016-0032(97)00030-6}
+Mira C (1997) Some historical aspects of nonlinear dynamics—possible trends
+  for the future. Journal of the Franklin Institute 334(5--6):1075--1113,
+  \doi{10.1016/s0016-0032(97)00030-6},
+  \urlprefix\url{http://dx.doi.org/10.1016/S0016-0032(97)00030-6}
 
 \bibitem[{Moore(2015)}]{Moore2015}
-Moore W (2015) Schr{\"o}dinger life ant thought. Canto classics, Cambridge University Press, Cambridge, England
+Moore W (2015) Schr{\"o}dinger life ant thought. Canto classics, Cambridge
+  University Press, Cambridge, England
 
 \bibitem[{Parry(1992)}]{Parry1992}
-Parry JH (1992) The discovery of the sea. University of California Press, Berkeley, CA
+Parry JH (1992) The discovery of the sea. University of California Press,
+  Berkeley, CA
 
 \bibitem[{Perutz(1987)}]{Perutz1987}
-Perutz MF (1987) Physics and the riddle of life. Nature 326(6113):555–558, \doi{10.1038/326555a0}, \urlprefix\url{http://dx.doi.org/10.1038/326555a0}
+Perutz MF (1987) Physics and the riddle of life. Nature 326(6113):555–558,
+  \doi{10.1038/326555a0}, \urlprefix\url{http://dx.doi.org/10.1038/326555a0}
 
 \bibitem[{van~der Pol(1926)}]{vanderPol1926}
-van~der Pol B (1926) Lxxxviii.on “relaxation-oscillations”. The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science 2(11):978--992, \doi{10.1080/14786442608564127}, \urlprefix\url{http://dx.doi.org/10.1080/14786442608564127}
+van~der Pol B (1926) Lxxxviii.on “relaxation-oscillations”. The London,
+  Edinburgh, and Dublin Philosophical Magazine and Journal of Science
+  2(11):978--992, \doi{10.1080/14786442608564127},
+  \urlprefix\url{http://dx.doi.org/10.1080/14786442608564127}
 
 \bibitem[{van~der Pol and van~der Mark(1928)}]{vanderPol1928}
-van~der Pol B, van~der Mark J (1928) Lxxii.the heartbeat considered as a relaxation oscillation, and an electrical model of the heart. The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science 6(38):763--775, \doi{10.1080/14786441108564652}, \urlprefix\url{http://dx.doi.org/10.1080/14786441108564652}
+van~der Pol B, van~der Mark J (1928) Lxxii.the heartbeat considered as a
+  relaxation oscillation, and an electrical model of the heart. The London,
+  Edinburgh, and Dublin Philosophical Magazine and Journal of Science
+  6(38):763--775, \doi{10.1080/14786441108564652},
+  \urlprefix\url{http://dx.doi.org/10.1080/14786441108564652}
 
 \bibitem[{Rosenblueth and Wiener(1945)}]{Rosenblueth1945}
-Rosenblueth A, Wiener N (1945) The role of models in science. Philosophy of Science 12(4):316--321
+Rosenblueth A, Wiener N (1945) The role of models in science. Philosophy of
+  Science 12(4):316--321
 
 \bibitem[{Santillán and Zeron(2004)}]{Santillan2004}
-Santillán M, Zeron ES (2004) Dynamic influence of feedback enzyme inhibition and transcription attenuation on the tryptophan operon response to nutritional shifts. Journal of Theoretical Biology 231(2):287–298, \doi{10.1016/j.jtbi.2004.06.023}
+Santillán M, Zeron ES (2004) Dynamic influence of feedback enzyme inhibition
+  and transcription attenuation on the tryptophan operon response to
+  nutritional shifts. Journal of Theoretical Biology 231(2):287–298,
+  \doi{10.1016/j.jtbi.2004.06.023}
 
 \bibitem[{Shamos(1987)}]{Shamos1987}
 Shamos MH (1987) Great Experiments in Physics. Dover Publications, Mineola, NY
@@ -122,12 +196,15 @@ Shamos MH (1987) Great Experiments in Physics. Dover Publications, Mineola, NY
 Sobel D (2007) Longitude. Walker, New York, NY
 
 \bibitem[{Stent(1968)}]{Stent1968}
-Stent GS (1968) That was the molecular biology that was. Science 160(3826):390–395, \doi{10.1126/science.160.3826.390}, \urlprefix\url{http://dx.doi.org/10.1126/science.160.3826.390}
+Stent GS (1968) That was the molecular biology that was. Science
+  160(3826):390–395, \doi{10.1126/science.160.3826.390},
+  \urlprefix\url{http://dx.doi.org/10.1126/science.160.3826.390}
 
 \bibitem[{Watson(1968)}]{Watson1968}
 Watson JD (1968) The double helix. The new American library, New York
 
 \bibitem[{Weiner(1999)}]{Weiner1999}
-Weiner J (1999) Time, love, memory: a great biologist and his quest for the origins of behavior. Alfred A. Knopf, New York
+Weiner J (1999) Time, love, memory: a great biologist and his quest for the
+  origins of behavior. Alfred A. Knopf, New York
 
 \end{thebibliography}

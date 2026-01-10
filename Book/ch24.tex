@@ -34,12 +34,12 @@ The law of mass action states that the rate of a reaction is directly proportion
 
 We use square brackets ($[\cdot]$) to represent the molar concentrations of species in a solution. The concentrations as opposed to amounts or numbers give an indication of how dense or dilute the reactants and products are in the reaction volume. This is important because reaction rates depend on the volume as well as amounts of substances present.
 
-For the reversible binding reaction in Eq. \refeq{eq:24.01}, application of the law of mass action gives:
-\begin{eqnarray}
-	v_{\text{forward}} &=& k_{\text{on}}[\text{L}][\text{R}], \\
-	v_{\text{reverse}} &=& k_{\text{off}}[\text{R}_L].
+For the reversible binding reaction in Eq. \ref{eq:24.01}, application of the law of mass action gives:
+\begin{align}
+	v_{\text{forward}} &= k_{\text{on}}[\text{L}][\text{R}], \\
+	v_{\text{reverse}} &= k_{\text{off}}[\text{R}_L].
 \label{eq:24.02}
-\end{eqnarray}
+\end{align}
 
 A reaction is said to be at chemical equilibrium when the forward and reverse reaction rates become equal, such that there is no further change in concentrations with time. At equilibrium, $v_\text{forward}=v_\text{reverse}$, which upon substitution from above leads to the relation:
 \begin{equation}
@@ -55,10 +55,10 @@ We consider the case where the receptor $\text{R}$ has a single binding site for
 Here we make two assumptions: (1) the free ligand concentration $[\text{L}]$ is kept constant, and (2) the total receptor concentration $[\text{R}_T] = [\text{R}] + [\text{R}_L]$ remains constant.
 
 From the law of mass action, the rate equations are:
-\begin{eqnarray*}
-	v_\text{forward} &=& k_\text{on} [\text{L}][\text{R}], \\
-	v_\text{reverse} &=& k_\text{off} [\text{R}_L].
-\end{eqnarray*}
+\begin{align*}
+	v_\text{forward} &= k_\text{on} [\text{L}][\text{R}], \\
+	v_\text{reverse} &= k_\text{off} [\text{R}_L].
+\end{align*}
 From this, we can write the rate of change of complex concentration $[\text{R}_L]$ as:
 \begin{equation*}
 	\frac{d[\text{R}_L]}{dt} = k_\text{on}[\text{L}][\text{R}_T] - k_\text{off} [\text{R}_L].
@@ -88,12 +88,12 @@ We thus obtain simple analytical expressions relating the steady state complex c
 \section{Modeling Ligand Binding to Receptors with Multiple Independent Binding Sites}
 
 We extend the previous model to allow binding of multiple ligands independently to a receptor with $n$ equivalent binding sites. Let $\text{R}$ represent free receptors and $\text{R}_{mL}$ the concentration of receptors with $m$ ligands bound. The general reaction scheme can be written as:
-\begin{eqnarray}
+\begin{align}
 	\text{L} + \text{R} & \xrightleftharpoons[k_\text{off}]{n k_\text{on}} & \text{R}_L, \label{eq:24.07}\\
 	\text{L} + \text{R}_L & \xrightleftharpoons[2k_\text{off}]{(n-1) k_\text{on}} & \text{R}_{2L}, \label{eq:24.08}\\
     & \vdots & \nonumber \\
 	\text{L} + \text{R}_{(n-1)L} & \xrightleftharpoons[n k_\text{off}]{k_\text{on}} & \text{R}_{nL}. \label{eq:24.09}
-\end{eqnarray}
+\end{align}
 We assume the ligand can bind to any of the $n$ available sites with the same rate constants $k_\text{on}$ and $k_\text{off}$. The factors multiplying $k_\text{on}$ and $k_\text{off}$ respectively stand for the number of empty binding sites and the number of bound ligands in each reaction.  
 
 According to the law of mass action, the net rate of $\text{R}_{mL}$ formation is:
@@ -113,22 +113,22 @@ it can be solved to obtain steady state concentrations of all receptor states:
     [\text{R}_{mL}] = [\text{R}_T] \frac{m!}{(n-m)! n!}\frac{([\text{L}]/K_D)^m}{(1 + \text{[\text{L}]}/K_D)^n} \quad \forall m=1 \text{ to } n.
 \end{equation*}
 In particular, the fraction of free and full receptors are given by:
-\begin{eqnarray*}
-    f_{\text{free}} & = & \left(\frac{1}{1 + [\text{L}]/K_D}\right)^n, \\
-    f_{\text{full}} & = & \left(\frac{[\text{L}]/K_D}{1 + [\text{L}]/K_D}\right)^n.
-\end{eqnarray*}
+\begin{align*}
+    f_{\text{free}} & = \left(\frac{1}{1 + [\text{L}]/K_D}\right)^n, \\
+    f_{\text{full}} & = \left(\frac{[\text{L}]/K_D}{1 + [\text{L}]/K_D}\right)^n.
+\end{align*}
 
 \section{Extension to Cooperatively Binding Ligands}
 
 So far we have assumed independent, non-interacting binding of ligands to receptor sites. However, many receptor-ligand systems exhibit cooperative binding where ligand affinity increases with the occupancy of neighboring sites.
 
 To incorporate cooperativity, we modify the binding scheme in previous section such that the dissociation constant, $K_D^{(m)}$, of the $m$th binding site depends on the number of ligands $m-1$ already bound:
-\begin{eqnarray*}
+\begin{align*}
     \text{L} + \text{R} & \xrightleftharpoons{K_D^{(1)}/n}& \text{R}_L, \\
     \text{L} + \text{R}_L & \xrightleftharpoons{2K_D^{(2)}/(n-1)}& \text{R}_{2L}, \\
     & \vdots &  \nonumber \\
     \text{L} + \text{R}_{(n-1)L} & \xrightleftharpoons{nK_D^{(n)}} & \text{R}_{nL}. 
-\end{eqnarray*}
+\end{align*}
 The dissociation constants are defined as:
 \begin{equation*}
 K_D^{(m)} = \frac{K_D}{K_A^{m-1}},
@@ -158,12 +158,12 @@ Consider the term
 	\binom{n}{i}\left[\frac{[\text{L}]}{K_A^{(n-i)/2}K_H}\right]^i.
 \end{equation*}
 Notice that it is independent of $K_A$ when $i=1,n$; it equals one when $i=1$ and is equal to $([\text{L}]/K_H)^n$ when $i=n$. For all other intermediate values of $i$, the given term is a decreasing function of $K_A$ that tends to zero as $K_A \to \infty$. From this, we can prove that
-\begin{eqnarray}
-	\lim_{K_A \to \infty} [\text{R}] & = & \frac{1}{1+([\text{L}]/K_H)^n}, \\ \label{eq:24.11}
-	\lim_{K_A \to \infty} [\text{R}_{mL}] & = & 0, \quad m=1\cdots n-1, \\ \label{eq:24.12}
-	\lim_{K_A \to \infty} [\text{R}_{nL}] & = & \frac{([\text{L}]/K_H)^n}{1+([\text{L}]/K_H)^n}. \label{eq:24.13}
-\end{eqnarray} 
-This means that, in the limit of very high cooperativity, ligand binding occurs in an ``all-or-none" fashion instead of progressively as in the independent case. 
+\begin{align}
+	\lim_{K_A \to \infty} [\text{R}] & = \frac{1}{1+([\text{L}]/K_H)^n}, \label{eq:24.11} \\
+	\lim_{K_A \to \infty} [\text{R}_{mL}] & = 0, \quad m=1\cdots n-1, \label{eq:24.12} \\
+	\lim_{K_A \to \infty} [\text{R}_{nL}] & = \frac{([\text{L}]/K_H)^n}{1+([\text{L}]/K_H)^n}. \label{eq:24.13}
+\end{align} 
+This means that, in the limit of very high cooperativity, ligand binding occurs in an ``all-or-none" fashion instead of progressively as in the independent case.
 
 \section{Saturation Fraction, Cooperativity and the Hill Function}
 

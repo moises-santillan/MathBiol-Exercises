@@ -46,10 +46,10 @@ Precise coordination between ongoing production and timely degradation of aging 
 \section{Mathematical modeling of erythropoiesis}
 
 We propose the following mathematical model to capture the dynamics of erythropoiesis regulation via negative feedback:
-\begin{eqnarray}
-\frac{d E}{dt} &=& k_E P - \gamma_E E, \\ \label{eq:22.01}
-\frac{d P}{dt} &=& k_P \frac{K_E}{K_E + E} - \gamma_P P.  \label{eq:22.02}
-\end{eqnarray}
+\begin{align}
+\frac{d E}{dt} &= k_E P - \gamma_E E,  \label{eq:22.01} \\
+\frac{d P}{dt} &= k_P \frac{K_E}{K_E + E} - \gamma_P P.  \label{eq:22.02}
+\end{align}
 This mathematical model of erythropoiesis regulation via negative feedback captures the essential dynamics governing the process in a simplified yet biologically meaningful way. It describes the time-evolution of two key variables---circulating erythrocyte levels ($E$) and erythropoietin concentration ($P$)---using a system of ordinary differential equations under reasonable assumptions.
 
 The underlying model assumptions include a stationary hematopoietic stem cell population, which focuses the model on erythrocyte production and turnover dynamics without explicitly modeling upstream hematopoiesis. Linear degradation terms represent natural removal of erythrocytes and erythropoietin from circulation at rates $\gamma_E$ and $\gamma_P$, respectively.

@@ -112,17 +112,17 @@ In particular, when the characteristic timescale of the input greatly exceeds th
 Many natural and engineered systems exhibit dynamics governed by processes operating on separated timescales. To understand such multi-timescale systems, it is useful to employ approximations that leverage clear differences in timescale.
 
 Consider the following prototypical 2-dimensional dynamical system:
-\begin{eqnarray*}
-\frac{dx}{dt} & = & \alpha(f(y) - x),\\
-\frac{dy}{dt} & = & \beta(g(x) - y).
-\end{eqnarray*}
+\begin{align*}
+\frac{dx}{dt} & = \alpha(f(y) - x),\\
+\frac{dy}{dt} & = \beta(g(x) - y).
+\end{align*}
 We assume the parameter $\beta$ governing the $y$ dynamics is much larger than $\alpha$ for the $x$ dynamics ($\beta \gg \alpha$). This implies that $y$ evolves much more rapidly than $x$.
 
 To make this timescale separation evident, we non-dimensionalize the system by rescaling time as $t' = \alpha t$. In the rescaled timescale, the system is:
-\begin{eqnarray}
-\frac{dx}{dt'} & = & f(y) - x, \label{eq:21.03}\\
-\frac{dy}{dt'} & = & \gamma(g(x) - y), \label{eq:21.04}
-\end{eqnarray}
+\begin{align}
+\frac{dx}{dt'} & = f(y) - x, \label{eq:21.03}\\
+\frac{dy}{dt'} & = \gamma(g(x) - y), \label{eq:21.04}
+\end{align}
 where $\gamma = \beta/\alpha \gg 1$ represents the large separation between $y$ and $x$ timescales.
 
 This formulation, combined with the results of previous sections, suggests that $y$ will rapidly achieve quasi-steady state balance with respect to changes in the slower-varying $x$. Specifically, for $\gamma \gg 1$, the rate of change of $y$ ($dy/dt'$) will become negligible on timescales where changes in $x$ ($dx/dt'$) are observable. This allows us to make the quasi-steady state approximation that $y \approx g(x)$, reducing the original 2D system to a simpler 1D form governed by 
@@ -154,15 +154,15 @@ J = \begin{bmatrix}
 \end{bmatrix}.
 \end{equation*}
 Its eigenvalues are given by:
-\begin{eqnarray*}
-\lambda_1 &=& - \frac{\gamma + 1}{2} + \frac{\sqrt{(\gamma + 1)^2 - 4 \gamma (1 - f'(y^)g'(x^*))}}{2},\\ 
-\lambda_2 &=& - \frac{\gamma + 1}{2} - \frac{\sqrt{(\gamma + 1)^2 - 4 \gamma (1 - f'(y^)g'(x^*))}}{2}. 
-\end{eqnarray*}
+\begin{align*}
+\lambda_1 &= - \frac{\gamma + 1}{2} + \frac{\sqrt{(\gamma + 1)^2 - 4 \gamma (1 - f'(y^*)g'(x^*))}}{2},\\ 
+\lambda_2 &= - \frac{\gamma + 1}{2} - \frac{\sqrt{(\gamma + 1)^2 - 4 \gamma (1 - f'(y^*)g'(x^*))}}{2}. 
+\end{align*}
 Using the large timescale separation assumption of $\gamma \gg 1$, we obtain the following simplified expressions for the eigenvalues---see Eq. \eqref{eq:21.06}:
-\begin{eqnarray}
-	\lambda_1 & \approx & f'(y^*)g'(x^*) - 1 = \lambda, \\ \label{eq:21.07}
-	\lambda_2 & \approx & -\gamma.  \label{eq:21.08}
-\end{eqnarray}
+\begin{align}
+	\lambda_1 & \approx f'(y^*)g'(x^*) - 1 = \lambda, \label{eq:21.07} \\
+	\lambda_2 & \approx -\gamma.  \label{eq:21.08}
+\end{align}
 
 Geometrically, this reveals that, initially, trajectories will evolve rapidly along the direction of the fast eigenvector $v_2$, on a timescale of $1/\lambda_2 \approx 1/\gamma$. On this transient timescale, the system approaches the slow manifold aligned with the slow eigenvector $v_1$. Thereafter, with $-\gamma \ll \lambda_1$, the system dynamics are dominated by the slower motion along $v_1$, characterized by the velocity given by the eigenvalue $\lambda_1 = \lambda \approx f'(y^*)g'(x^*)-1$.
 

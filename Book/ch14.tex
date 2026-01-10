@@ -39,33 +39,32 @@ The SIR model divides population into three mutually exclusive compartments base
 \end{figure}
 
 These mechanisms are schematically represented in Fig. \ref{fig:14.01} which pictures infection dynamics as flux-balance processes. Taking this into consideration, the population evolution in all compartments can then be expressed as a system of ordinary differential equations:
-\begin{eqnarray*}
-\frac{dS}{dt} &=& \alpha -\beta SI -\mu S, \\
-\frac{dI}{dt} &=& \beta SI - (\gamma + \mu + \delta) I, \\
-\frac{dR}{dt} &=& \gamma I - \mu R.
-\end{eqnarray*}
-
+\begin{align*}
+\frac{dS}{dt} &= \alpha -\beta SI -\mu S, \\
+\frac{dI}{dt} &= \beta SI - (\gamma + \mu + \delta) I, \\
+\frac{dR}{dt} &= \gamma I - \mu R.
+\end{align*}
 \section{Normalizing the Model}
 
 We can non-dimensionalize the system of differential equations by introducing the following normalized variables:
-\begin{eqnarray*}
-s &=& \frac{S}{\alpha / \mu}, \\ 
-i &=& \frac{I}{\alpha / (\gamma + \mu + \delta)}, \\ 
-r &=& \frac{R}{\alpha / \mu}, \\
-t' &=& \mu t
-\end{eqnarray*}
+\begin{align*}
+s &= \frac{S}{\alpha / \mu}, \\ 
+i &= \frac{I}{\alpha / (\gamma + \mu + \delta)}, \\ 
+r &= \frac{R}{\alpha / \mu}, \\
+t' &= \mu t
+\end{align*}
 With this, the ODE system becomes:
-\begin{eqnarray*}
-\frac{ds}{dt'} &=& 1 - R_0 si - s,\\
-\frac{di}{dt'} &=& \rho (R_0 si - i),\\
-\frac{dr}{dt'} &=& \epsilon i - r,
-\end{eqnarray*}
+\begin{align*}
+\frac{ds}{dt'} &= 1 - R_0 si - s,\\
+\frac{di}{dt'} &= \rho (R_0 si - i),\\
+\frac{dr}{dt'} &= \epsilon i - r,
+\end{align*}
 where 
-\begin{eqnarray*}
-    R_0 &=& \frac{\alpha \beta}{\mu(\gamma + \mu + \delta)}, \\
-    \rho &=& \frac{\gamma + \mu + \delta}{\mu}, \\
-    \epsilon &=& \frac{\gamma}{\gamma + \mu + \delta}.
-\end{eqnarray*}
+\begin{align*}
+    R_0 &= \frac{\alpha \beta}{\mu(\gamma + \mu + \delta)}, \\
+    \rho &= \frac{\gamma + \mu + \delta}{\mu}, \\
+    \epsilon &= \frac{\gamma}{\gamma + \mu + \delta}.
+\end{align*}
 
 The normalization process yields several advantages. First, it reduces the original model with 5 parameters to an equivalent model with only 3 non-dimensional lumped parameters. This simplifies the analysis. Second, some of these lumped parameters have special epidemiological meaning. In particular, $R_0$ is known as the basic reproductive number. To understand its significance, rewrite $R_0$ as:
 \begin{equation*}
@@ -80,10 +79,10 @@ The first two differential equations of the normalized SIR model, governing the 
 Focusing first on the independent $(s,i)$ subsystem will allow us to characterize the overall infection dynamics without consideration of the recovered population. Solving this core transmission model will provide insight into whether the disease can invade and establish infection within the population.
 
 Rewriting this subsystem
-\begin{eqnarray*}
-    \frac{ds}{dt'} &=& 1 - R_0 si - s,\\
-    \frac{di}{dt} &=& \rho (R_0 si - i).
-\end{eqnarray*}
+\begin{align*}
+    \frac{ds}{dt'} &= 1 - R_0 si - s,\\
+    \frac{di}{dt'} &= \rho (R_0 si - i).
+\end{align*}
 It is straightforward to prove that it has two different fixed points:
 \begin{equation*}
     (1,0), \quad  \left( \frac{1}{R_0}, 1 - \frac{1}{R_0} \right).
@@ -106,10 +105,10 @@ J(1,0) =
 \end{bmatrix}.
 \end{equation*}
 The eigenvectors of the Jacobian matrix are:
-\begin{eqnarray*}
-v_1 &=& (1, 0), \\
-v_2 &=& \left(-\frac{R_0}{1+\rho(R_0 - 1)}, 1\right),
-\end{eqnarray*}
+\begin{align*}
+v_1 &= (1, 0), \\
+v_2 &= \left(-\frac{R_0}{1+\rho(R_0 - 1)}, 1\right),
+\end{align*}
 with corresponding eigenvalues:
 \begin{equation*}
 \lambda_1 = -1, \quad \lambda_2 = \rho (R_0 - 1).
@@ -125,10 +124,10 @@ J(1/R_0, 1-1/R_0) =
 \end{bmatrix}.
 \end{equation*}
 Rather than computing the eigenvalues directly, which could yield cumbersome expressions, we analyze the Jacobian trace ($\tau$) and determinant ($\Delta$) as explained in Chapter~\ref{ch:11} and summarized in Fig.~\ref{fig:11.01}:
-\begin{eqnarray*}
-\tau &=& -R_0, \\
-\Delta &=& \rho (R_0 -1).
-\end{eqnarray*}
+\begin{align*}
+\tau &= -R_0, \\
+\Delta &= \rho (R_0 -1).
+\end{align*}
 From these results, we see that $\Delta<0$ when $R_0<1$, indicating the endemic equilibrium is a saddle node in this case. Additionally, for $R_0>1$, $\Delta>0$ and $\tau<0$, implying that the endemic equilibrium is locally asymptotically stable. In summary, the trace and determinant criteria reveal that the endemic fixed point undergoes a transcritical bifurcation, transitioning from a saddle to a stable node as $R_0$ passes through the threshold value of 1.
 
 Fig. \ref{fig:14.02} summarizes the findings of the local stability analysis. Observe that, in the endemic state, $i^*$ takes negative values when $R_0<1$. This means that, in practice, only the disease-free steady state exists when the average number of secondary infections produced by a single infectious individual introduced into a wholly susceptible population is less than one.

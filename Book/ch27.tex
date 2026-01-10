@@ -15,11 +15,11 @@ This chapter explores the mathematical modeling of gene regulatory networks, foc
 Gene expression is a complex process involving numerous chemical reactions at each step of transcription and translation. However, we can build a simple model based on the central dogma of molecular biology.
 
 Consider a basic operon whose genes code for an enzyme $E$ that catalyzes the synthesis of a metabolite $P$. The synthesis of the operon's mRNA, $M$, via transcription is feedback-regulated by $P$. Additionally, the activity of the $E$ enzymes may also be feedback-regulated by $P$. With these considerations, the dynamics of $M$, $E$, and $P$ are governed by the following ordinary differential equations (ODEs):
-\begin{eqnarray}
-\dot{M} &=& k_M f(P) - \gamma_M M, \label{eq:27.01}\\
-\dot{E} &=& k_E M - \gamma_E E,\label{eq:27.02}\\
-\dot{P} &=& k_P g(P) E - \gamma_P P, \label{eq:27.03}
-\end{eqnarray}
+\begin{align}
+\dot{M} &= k_M f(P) - \gamma_M M, \label{eq:27.01}\\
+\dot{E} &= k_E M - \gamma_E E,\label{eq:27.02}\\
+\dot{P} &= k_P g(P) E - \gamma_P P, \label{eq:27.03}
+\end{align}
 Here, $k_M$ represents the maximum transcription initiation rate, $\gamma_M$ is the rate constant for mRNA degradation, $k_E$ denotes the translation initiation rate, $\gamma_E$ is the rate constant for enzyme degradation, $k_P$ is the maximum metabolite synthesis rate per enzyme molecule, and $\gamma_P$ is the rate constant for metabolite degradation. The functions $f(P)$ and $g(P)$ denote feedback regulation in terms of metabolite concentration. $f(P)$ can be interpreted as the probability that the promoter is not repressed, while $g(P)$ represents the fraction of un-inhibited enzyme molecules. These functions are decreasing (increasing) functions of $P$ in case of negative (positive) feedback regulation.
 
 The functions $f(P)$ and $g(P)$ take values in the interval $[0, 1]$ as they can be understood as probabilities. $f(P)$ is the probability that the mRNA polymerase binding site is not blocked by a repressor molecule, which depends on the amount of active repressor molecules. Depending on the system, repressor molecules are active when they are free from or bound by specific metabolites. In summary, transcriptional repression can be reduced to a, more or less intricate, ligand-receptor interaction. Thus, based on the results in Chapter \ref{ch24}, the function $f(P)$ can be approximated by a growing or decreasing Hill function, depending on whether it accounts for positive or negative feedback regulation:
@@ -36,16 +36,16 @@ g(P)=\frac{1}{2} \frac{(K_g^{n_g}+P^{n_g})\pm(K_g^{n_g}-P^{n_g})}{K_g^{n_g}+P^{n
 \section{The Tryptophan Operon}
 
 A specific model for the tryptophan operon, discussed in the previous chapter, can be derived from our general model as follows:
-\begin{eqnarray}
-\dot{M} &=& k_M f(W) - \gamma_M M, \label{eq:27.04}\\
-\dot{E} &=& k_E M - \gamma_E E,\label{eq:27.05}\\
-\dot{W} &=& k_W g(W) E - \gamma_W W, \label{eq:27.06}
-\end{eqnarray}
+\begin{align}
+\dot{M} &= k_M f(W) - \gamma_M M, \label{eq:27.04}\\
+\dot{E} &= k_E M - \gamma_E E,\label{eq:27.05}\\
+\dot{W} &= k_W g(W) E - \gamma_W W, \label{eq:27.06}
+\end{align}
 with
-\begin{eqnarray*}
-f(W)&=&\frac{K_M^{n_M}}{K_M^{n_M}+W^{n_M}},\\
-g(W)&=&\frac{K_W^{n_W}}{K_E^{n_W}+E^{n_W}}.
-\end{eqnarray*}
+\begin{align*}
+f(W)&=\frac{K_M^{n_M}}{K_M^{n_M}+W^{n_M}},\\
+g(W)&=\frac{K_W^{n_W}}{K_E^{n_W}+E^{n_W}}.
+\end{align*}
 In these equations, $T$ represents the intracellular concentration of tryptophan, the amino acid produced by the tryptophan operon. $E$ denotes the concentration of the enzyme anthranilate synthase, a tetrameric protein composed of two peptides resulting from the expression of the first gene (\emph{trpE}) and two peptides from the second gene (\emph{trpD}) of the tryptophan operon. Anthranilate synthase catalyzes the rate-limiting step in tryptophan biosynthesis, and its activity is feedback-regulated by the end product, tryptophan.
 
 The first equation describes the dynamics of mRNA concentration, where $k_M$ is the maximum rate of mRNA synthesis, $K_M$ is the half-saturation constant for tryptophan's negative feedback on gene transcription, and $n_M$ is the Hill coefficient governing the cooperativity of this feedback regulation.
@@ -100,31 +100,31 @@ Regarding enzyme inhibition, observe in Eq. \eqref{eq:27.11} that $\rho$ increas
 
 \section{The Tryptophanase Operon}
 
-A simple mathematical model that captures the key regulatory features of the tryptophanase operon can be writen as follows:
-\begin{eqnarray*}
-\dot{P}&=&k_P(G_E) \frac{W^n}{W^n+K_P^n}-\mu_P P, \\
-\dot{W}&=&k_W(W_E) P-\gamma_W P W-\mu_W W.
-\end{eqnarray*}
+A simple mathematical model that captures the key regulatory features of the tryptophanase operon can be written as follows:
+\begin{align*}
+\dot{P}&=k_P(G_E) \frac{W^n}{W^n+K_P^n}-\mu_P P, \\
+\dot{W}&=k_W(W_E) P-\gamma_W P W-\mu_W W.
+\end{align*}
 In these equations, $P$ denotes the level of the tryptophanase operon proteins (TnaA and TnaB), while $W$ represents the intracellular tryptophan concentration. The parameter $k_P(G_E)$ is the maximum transcription rate of the operon, which is negatively regulated by external glucose $G_E$ via catabolite repression. The Hill function $\frac{W^n}{W^n+K_P^n}$ accounts for the positive regulation of transcription by intracellular tryptophan $W$ (mediated by inactivation of the $\rho$ terminator). The term $\mu_P P$ represents protein degradation and dilution due to cell growth. The rate of tryptophan uptake is given by $k_W(W_E) P$, where $k_W(W_E)$ is an increasing function of the external tryptophan level $W_E$, reflecting the role of TnaB as a tryptophan permease. The term $\gamma_W P W$ is the rate at which intracellular tryptophan is metabolized by the TnaA enzyme. Finally, $\mu_W W$ accounts for tryptophan consumption by other processes like protein synthesis and dilution by growth.
 
 To simplify the analysis, we assume the tryptophan metabolism flux $\gamma_W P W$ is much smaller than the other tryptophan consumption terms ($\mu_W W$). This yields the reduced model:
-\begin{eqnarray*}
-\dot{P}&=&k_P(G_E) \frac{W^n}{W^n+K_P^n}-\mu_P P, \\
-\dot{W}&=&k_W(W_E) P -\mu_W W.
-\end{eqnarray*}
+\begin{align*}
+\dot{P}&=k_P(G_E) \frac{W^n}{W^n+K_P^n}-\mu_P P, \\
+\dot{W}&=k_W(W_E) P -\mu_W W.
+\end{align*}
 
 By introducing the dimensionless variables $p = P/\left(k_P(G_E)/\mu_P\right)$, $w = W/\left(k_P k_W/(\mu_P \mu_W)\right)$, $t' = \mu_P t$, and defining $\mu = \mu_W/\mu_P$, $K(G_E,W_E) = K_P(G_E) \mu_P\mu_W/(k_P(G_E) k_W(W_E))$, the model becomes:
-\begin{eqnarray}
-\dot{p}&=&\frac{w^n}{w^n+K^n(G_E,W_E)}-p, \label{eq:27.12} \\
-\dot{w}&=&\mu\left( p - w \right). \label{eq:27.13}
-\end{eqnarray}
+\begin{align}
+\dot{p}&=\frac{w^n}{w^n+K^n(G_E,W_E)}-p, \label{eq:27.12} \\
+\dot{w}&=\mu\left( p - w \right). \label{eq:27.13}
+\end{align}
 Note that $K(G_E,W_E)$ increases with $G_E$ (repressing operon expression) and decreases with $W_E$ (enhancing expression).
 
 To find steady states, we set $\dot{p}=\dot{w}=0$, yielding:
-\begin{eqnarray*}
-p&=&\frac{w^n}{w^n+K^n(G_E,W_E)},\\
-w&=&p.
-\end{eqnarray*}
+\begin{align*}
+p&=\frac{w^n}{w^n+K^n(G_E,W_E)},\\
+w&=p.
+\end{align*}
 Thus, the steady-state value of $p$ satisfy:
 \begin{equation*}
 p = \frac{p^n}{p^n + K^n(G_E,W_E)}.

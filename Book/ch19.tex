@@ -29,10 +29,10 @@ To build his model, van der Pol substituted the linear damping term in the harmo
 The key feature of this model is the nonlinear term $-\mu(1-x^2)$, which mimics the behavior of an amplifier at low amplitudes (when $|x|<1$) but acts like a resistor at high amplitudes (when $|x|>1$). The parameter $\mu$ controls the strength of the nonlinear damping. When $\mu = 0$, the system reduces to the standard harmonic oscillator. However, for nonzero $\mu$, the nonlinear damping term gives rise to richer dynamical behavior that will be explored in later sections. Specifically, as $\mu$ increases, the system exhibits oscillations that converge to a stable, finite-amplitude closed orbit called a \textit{limit cycle}.
 
 It is insightful to rewrite the model as a system of first-order differential equations. Here, we apply the Liénard transformation $y = x - x^3/3 - \dot{x}/\mu$, which yields:
-\begin{eqnarray}
-    \dot{x} & = & \mu \left( x - \frac{x^3}{3} - y\right), \label{eq:19.01}\\
-    \dot{y} & = & \frac{1}{\mu} x. \label{eq:19.02}
-\end{eqnarray}
+\begin{align}
+    \dot{x} & = \mu \left( x - \frac{x^3}{3} - y\right), \label{eq:19.01}\\
+    \dot{y} & = \frac{1}{\mu} x. \label{eq:19.02}
+\end{align}
 This formulation enables analysis techniques like phase plane analysis, which provide insight into the limit cycle behavior. Specifically, we can examine the nullclines and flow field to understand how oscillations converge to the stable limit cycle trajectory.
 
 \section{Steady State and Stability Analysis}
@@ -63,10 +63,10 @@ Evaluating at the fixed point yields
     \end{bmatrix}
 \end{equation*}
 Its eigenvalues and eigenvectors are:
-\begin{eqnarray*}
-    \lambda_{1,2} & = & \frac{\mu \pm \sqrt{\mu^2 - 4}}{2}. \\
-    \vec{v}_{1,2} & = & \left( \mu \frac{\mu \pm \sqrt{\mu^2 - 4}}{2}, 1 \right)^T
-\end{eqnarray*}
+\begin{align*}
+    \lambda_{1,2} & = \frac{\mu \pm \sqrt{\mu^2 - 4}}{2}. \\
+    \vec{v}_{1,2} & = \left( \mu \frac{\mu \pm \sqrt{\mu^2 - 4}}{2}, 1 \right)^T
+\end{align*}
 Observe that the eigenvalues are either complex conjugate with positive real part or real positive numbers. In either case, the fixed point is locally unstable: a spiral in the first case and a node in the second. In the particular case in which $\mu \gg 2$, $\lambda_1 \gg \lambda_2$, whereas the first component of $\vec{v}_1$ is much greater than the second component of the same vector and both components of $\vec{v}_2$. This means that all trajectories starting in the neighborhood of the steady state will tend to rapidly move away in a direction almost parallel to the $x$ axis.
 
 \section{Existence of a limit cycle}

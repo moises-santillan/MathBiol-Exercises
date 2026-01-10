@@ -12,11 +12,11 @@
 The natural world around us is constantly changing. To adequately study and understand changing phenomena, appropriate mathematical tools are needed that can describe systems and their evolution over time. Differential equations provide just such a framework, allowing representation of natural processes in terms of rates of change.
 
 Specifically, differential equations relate the derivative of an unknown variable to functions of that variable and/or independent variables. For instance:
-\begin{eqnarray}
-    \frac{dy}{dx} & = & f(x),\label{eq:02.01} \\ 
-    \frac{dy}{dx} & = & f(x,y),\label{eq:02.02} \\
-    \frac{\partial y}{\partial x_1} + \frac{\partial y}{\partial x_2} & = & f(y, x_1, x_2). \label{eq:02.03}
-\end{eqnarray}
+\begin{align}
+    \frac{dy}{dx} & =  f(x),\label{eq:02.01} \\ 
+    \frac{dy}{dx} & =  f(x,y),\label{eq:02.02} \\
+    \frac{\partial y}{\partial x_1} + \frac{\partial y}{\partial x_2} & =  f(y, x_1, x_2). \label{eq:02.03}
+\end{align}
 Eqs. \eqref{eq:02.01} and \eqref{eq:02.02} involve a single unknown variable and are called ordinary differential equations (ODEs). Eq. \eqref{eq:02.03} contains partial derivatives with respect to multiple independent variables and is thus a partial differential equation (PDE). Differential equations provide a mathematical language for quantitatively describing natural systems and how they evolve over space and time.
 
 A solution to a differential equation refers to any function that satisfies the equation. Often, differential equations admit multiple solution functions, collectively called a family of solutions. However, real-world systems are uniquely defined by their initial state. By specifying an initial condition, the problem becomes an initial value problem. This additional information allows narrowing down the family of solutions to a single, unique solution corresponding to the system's behavior over time. Some basic differential equations can be solved analytically through explicit mathematical techniques. But for most equations, numerical methods are necessary to approximate solutions since exact closed-form solutions are intractable.
@@ -32,10 +32,10 @@ Letting $h(y)=1/f(y)$, Eq. \eqref{eq:02.04} can be rearranged such that the vari
 f(y)\frac{dy}{dx} = g(x).
 \end{equation*}
 This separable equation is then solved by integrating both sides with respect to $x$:
-\begin{eqnarray*}
-\int f(y)\frac{dy}{dx} dx & = & \int g(x) dx, \\
-\int f(y) dy & = & \int g(x) dx,
-\end{eqnarray*}
+\begin{align*}
+\int f(y)\frac{dy}{dx} dx & =  \int g(x) dx, \\
+\int f(y) dy & =  \int g(x) dx,
+\end{align*}
 provided the integrals exist.
 
 \section{Modeling the fall of cloud droplets}
@@ -215,10 +215,10 @@ The rest of this book is dedicated to expanding on such modeling techniques, spe
     Taking all of this into account, derive the differential equation for the voltage across the capacitor, $V_C$, once the circuit is closed. Identify the factors that determine the relaxation time of the circuit. Is the result intuitive?
 
     \item Consider a chemical reaction in which a protein $A$ shifts forth and back between conformational states $A_1$ and $A_2$. The forward and backward reaction velocities are:
-    \begin{eqnarray*}
-        v_f &=& k_f [A_1], \\
-        v_b &=& k_b [A_2],
-    \end{eqnarray*}
+    \begin{align*}
+        v_f &= k_f [A_1], \\
+        v_b &= k_b [A_2],
+    \end{align*}
     with $k_f$ and $k_b$ denote the forward and backward reaction rate constants and $[X]$ represents the concentration of substance $X$. The rates of change of $[A_1]$ and $[A_2]$ are given by:
     \begin{equation*}
         \frac{d[A_1]}{dt} = - \frac{d[A_2]}{dt} = - v_f + v_b .

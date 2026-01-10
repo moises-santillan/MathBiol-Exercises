@@ -25,18 +25,17 @@ We develop a compartmental model to describe the transmission dynamics of an inf
 \end{itemize}
 
 These assumptions allow formulation of the following system of ordinary differential equations:
-\begin{eqnarray}
-\frac{dS}{dt} & = & -\beta SI, \label{eq:16.01}\\
-\frac{dI}{dt} & = & \beta SI - \gamma I, \label{eq:16.02}\\
-\frac{dR}{dt} & = & \gamma I. \label{eq:16.03}
-\end{eqnarray}
-
+\begin{align}
+\frac{dS}{dt} & = -\beta SI, \label{eq:16.01}\\
+\frac{dI}{dt} & = \beta SI - \gamma I, \label{eq:16.02}\\
+\frac{dR}{dt} & = \gamma I. \label{eq:16.03}
+\end{align}
 The total population size is non-dimensionalized to $1$ by defining normalized variables $s=S/N$, $i=I/N$, $r=R/N$ and a rescaled time $t'=\gamma t$. In terms of these, the equations become:
-\begin{eqnarray}
-\frac{ds}{dt'} & = & -R_0 s i, \label{eq:16.04}\\
-\frac{di}{dt'} & = & R_0 s i - i, \label{eq:16.05}\\
-\frac{dr}{dt'} & = & i, \label{eq:16.06}
-\end{eqnarray}
+\begin{align}
+\frac{ds}{dt'} & = -R_0 s i, \label{eq:16.04}\\
+\frac{di}{dt'} & = R_0 s i - i, \label{eq:16.05}\\
+\frac{dr}{dt'} & = i, \label{eq:16.06}
+\end{align}
 where $R_0=\beta N/\gamma$ denotes the basic reproductive number, defined as the average number of secondary infections produced by an infectious individual in a fully susceptible population. In subsequent sections, we analyze this system to characterize outbreak dynamics based on $R_0$.
 
 \section{Analysis of Disease-Free Equilibria}
@@ -60,17 +59,17 @@ The eigenvalues are $\lambda_1=R_0\eta-1$, $\lambda_2=\lambda_3=0$. Since $\lamb
 \section{Characterizing Outbreak Dynamics}
 
 We have shown that the disease-free equilibrium (DFE) is stable when $R_0\eta<1$, resulting in disease extinction, but unstable for $R_0\eta>1$, allowing potential outbreaks. To further characterize outbreak dynamics, we analyze the behavior near the DFE. Considering the Jacobian in Equation (\ref{eq:16.07}), linearization of Equations (\ref{eq:16.04})-(\ref{eq:16.06}) yields:
-\begin{eqnarray*}
-\frac{d\delta s}{dt'} &=& -R_0 \delta i, \\
-\frac{d\delta i}{dt'} &=& (R_0\eta-1)\delta i, \\
-\frac{d\delta r}{dt'} &=& \delta i,
-\end{eqnarray*}
+\begin{align*}
+\frac{d\delta s}{dt'} &= -R_0 \delta i, \\
+\frac{d\delta i}{dt'} &= (R_0\eta-1)\delta i, \\
+\frac{d\delta r}{dt'} &= \delta i,
+\end{align*}
 where $\delta s=s-s^*$, etc. Taking $s^*=\eta$, $i^*=0$, $r^*=1-\eta$, this implies:
-\begin{eqnarray*}
-\frac{ds}{dt'} &=& \eta - R_0i, \\
-\frac{d\delta i}{dt'} &=& (R_0\eta-1)i, \\
-\frac{d\delta r}{dt'} &=& (1-\eta)+i.
-\end{eqnarray*}
+\begin{align*}
+\frac{ds}{dt'} &= \eta - R_0i, \\
+\frac{d\delta i}{dt'} &= (R_0\eta-1)i, \\
+\frac{d\delta r}{dt'} &= (1-\eta)+i.
+\end{align*}
 These equations further imply that introduction of infected individuals causes a decrease in susceptibles and increase in recoveries. On the other hand, the behavior of $i(t)$ depends on the sign of $R_0\eta-1$: for $R_0\eta<1$, infections decay, while for $R_0\eta>1$, outbreaks ensue as infections amplify initially.
 
 Outbreaks cannot persist indefinitely, however, as implied by Equation (\ref{eq:16.05}): infections arise from contacts between $s$ and $i$, but are lost through recoveries at rate $i$. As $s$ decreases while $i$ increases over time, recoveries will eventually dominate, terminating the outbreak at a new DFE with $R_0\eta'<1$.

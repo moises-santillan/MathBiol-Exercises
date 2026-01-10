@@ -18,10 +18,10 @@ By deriving analytical stability criteria from the Jacobian eigenvalues, this ap
 \section{Steady States in 2D Systems}
 
 We begin by considering a general two-dimensional dynamical system governed by a pair of first-order ordinary differential equations:
-\begin{eqnarray}
-\frac{dx}{dt} &=& f(x,y), \label{eq:11.01}\\
-\frac{dy}{dt} &=& g(x,y), \label{eq:11.02}
-\end{eqnarray}
+\begin{align}
+\frac{dx}{dt} &= f(x,y), \label{eq:11.01}\\
+\frac{dy}{dt} &= g(x,y), \label{eq:11.02}
+\end{align}
 where $f(x,y)$ and $g(x,y)$ are smooth functions determining the rate of change of $x$ and $y$ with respect to time $t$. 
 
 In the one-dimensional case studied previously, a steady state or fixed point was defined as a location $x^*$ where the system's behavior does not change over time. To generalize this concept to two dimensions, we require the system to be stationary at a particular point $(x^*, y^*)$ in the $x$-$y$ plane. Mathematically, a fixed point $(x^*, y^*)$ satisfies::
@@ -44,15 +44,15 @@ To analyze the stability of a fixed point $(x^*, y^*)$, we study how small pertu
 \frac{d \delta y}{dt} = \frac{dy}{dt}.
 \end{equation*}
 Substituting the ODE definitions yields:
-\begin{eqnarray*}
-\frac{d \delta x}{dt} &=& f(x^* + \delta x, y^* + \delta y), \\
-\frac{d \delta y}{dt} &=& g(x^* + \delta x, y^* + \delta y).
-\end{eqnarray*}
+\begin{align*}
+\frac{d \delta x}{dt} &= f(x^* + \delta x, y^* + \delta y), \\
+\frac{d \delta y}{dt} &= g(x^* + \delta x, y^* + \delta y).
+\end{align*}
 Performing a Taylor series approximation truncated to the linear term renders:
-\begin{eqnarray*}
-\frac{d\delta x}{dt} &=& f_x \delta x + f_y \delta y,\\
-\frac{d\delta y}{dt} &=& g_x \delta x + g_y \delta y
-\end{eqnarray*}
+\begin{align*}
+\frac{d\delta x}{dt} &= f_x \delta x + f_y \delta y,\\
+\frac{d\delta y}{dt} &= g_x \delta x + g_y \delta y
+\end{align*}
 where the partial derivatives are evaluated at the fixed point:
 \begin{equation*}
 f_x = \left. \frac{\partial f}{\partial x}\right|_{(x^*,y^*)}, \quad
@@ -203,6 +203,8 @@ The classifications provided by this local linear stability analysis framework o
       \item $\dot{x} = \sin(y), \quad \dot{y} = \cos(x).$
       \item $\dot{x} = y, \quad \dot{y} = x - x^3.$
       \item $\dot{x} = yx-16, \quad \dot{y} = x-y^3.$
+      \item $\dot{x} = 3/(2+y) - x, \quad \dot{y} = 5(x-y).$
+      \item $\dot{x} = y/(y+1) - x, \quad \dot{y} = 2x - y.$
     \end{enumerate}
 \end{enumerate}
   

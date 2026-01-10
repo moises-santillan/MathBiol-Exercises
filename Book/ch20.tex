@@ -42,18 +42,18 @@ I = C_M \frac{dV_M}{dt} + g_{Na} (V_M - V_{NA}) + g_{K} (V_M - V_{K}) + g_{L} (V
 where $I$ represents the total membrane current per unit area, $C_M$ is the membrane capacitance, $g_{Na}$ and $g_K$ are the sodium and potassium conductances, $V_{Na}$ and $V_K$ are the ion reversal potentials, and $g_L$ and $V_L$ characterize leak conductance and potential. The reversal potential is the membrane voltage at which net ion flow is zero. Ion flux results from electrochemical gradients comprising concentration differences and voltage potentials. At equilibrium, these counteracting forces balance and establish the reversal potential with no net ion movement. Leak currents, mediated by open leak channels permeable to ions like potassium, sodium and chloride, provide a small continuous current important for maintaining the resting potential.
 
 In Figure \ref{fig:20.01}, the sodium and potassium resistors are depicted as variable to model their voltage dependence. Hodgkin and Huxley postulated that each ion channel consists of several subunits that can individually transition between open and closed conformations. They proposed that the entire channel only conducts ions when all subunits adopt the open state. To mathematically represent this, Hodgkin and Huxley defined the sodium and potassium conductances as:
-\begin{eqnarray*}
-g_{Na} & = & \bar{g}_{Na} m^3 h, \\
-g_K & = & \bar{g}_K n^4.
-\end{eqnarray*}
+\begin{align*}
+g_{Na} & = \bar{g}_{Na} m^3 h, \\
+g_K & = \bar{g}_K n^4.
+\end{align*}
 where $m$, $h$, and $n$ refer to the fraction of subunits in the open state for their respective channels. It was later discovered that voltage-gated sodium channels contain three identical subunits plus one distinct subunit, while potassium channels contain four identical subunits.
 
 Hodgkin and Huxley modeled the dynamics of subunit conformational changes with:
-\begin{eqnarray*}
-\frac{dm}{dt} &=& \alpha_m(V_M) (1-m) - \beta_m(V_M) m, \\
-\frac{dn}{dt} &=& \alpha_n(V_M) (1-n) - \beta_n(V_M) n, \\
-\frac{dh}{dt} &=& \alpha_h(V_M) (1-h) - \beta_h(V_M) h,
-\end{eqnarray*}
+\begin{align*}
+\frac{dm}{dt} &= \alpha_m(V_M) (1-m) - \beta_m(V_M) m, \\
+\frac{dn}{dt} &= \alpha_n(V_M) (1-n) - \beta_n(V_M) n, \\
+\frac{dh}{dt} &= \alpha_h(V_M) (1-h) - \beta_h(V_M) h,
+\end{align*}
 where the transition rates $\alpha_i$ and $\beta_i$ depend on membrane potential. For brevity, we omit Hodgkin and Huxley's specific functional forms for these rates.
 
 \section{Motivation for Simplification}
@@ -71,10 +71,10 @@ The FitzHugh-Nagumo model was developed to capture the essential features of exc
 To mathematically represent neuronal excitability, FitzHugh modified the van der Pol framework such that the system's steady state could transition between stable and unstable regimes. He proposed a two-variable formulation involving a fast membrane potential variable $V$ and slower recovery variable $R$.
 
 There is some flexibility in how the FitzHugh-Nagumo model is expressed mathematically. A common formulation considers the equations:
-\begin{eqnarray}
-\frac{dV}{dt} &=& f(V) - R + I, \\
-\frac{dR}{dt} &=& \epsilon(\gamma V - R).
-\end{eqnarray}
+\begin{align}
+\frac{dV}{dt} &= f(V) - R + I, \\
+\frac{dR}{dt} &= \epsilon(\gamma V - R).
+\end{align}
 The function $f(V)$ represents a cubic polynomial feedback for the variable $V$, which can take positive or negative values depending on the magnitude of $V$. This nonlinear feedback captures the regenerative dynamics underlying excitability. In this common formulation, the nonlinear feedback is defined as:
 \begin{equation*}
 f(V) = V (a - V) (V - b),
@@ -84,10 +84,10 @@ with $a < b$. The small parameter $\epsilon \ll 1$ establishes a time scale sepa
 \section{Analysis of Steady States}
 
 To analyze the fixed points and their stability, we first find the nullclines of the system. For this system, the $V$-nullcline corresponds to points where $\dot{V}=0$, and the $R$-nullcline corresponds to points where $\dot{R}=0$. Through algebraic manipulation, these nullclines can be written as:
-\begin{eqnarray*}
-    R &=& f(V) + I, \\
-    R &=& \gamma V.
-\end{eqnarray*}
+\begin{align*}
+    R &= f(V) + I, \\
+    R &= \gamma V.
+\end{align*}
 These nullcline equations are plotted in Figure \ref{fig:20.02} for parameter values $a=1$, $b=3$, $\gamma=2.2$, and three different values of the input current $I=0,1,2$. We see that when $I=0,1$, the cubic $V$-nullcline and linear $R$-nullcline intersect in the left branch of the cubic where $f'(V)<0$. In contrast, when $I=2$ the nullclines intersect in the middle portion where $f'(V)>0$.
 
 \begin{figure}

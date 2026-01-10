@@ -25,10 +25,10 @@ The model assumptions are:
 \item Competition arises through each species reducing the per capita growth rate of the other.
 \end{itemize}
 Based on these, the governing equations are:
-\begin{eqnarray}
-\frac{dN_1}{dt} &=& r_1N_1\left(1 - \frac{N_1}{K_1} - a_{12}\frac{N_2}{K_2}\right) \label{eq:13.01}, \\
-\frac{dN_2}{dt} &=& r_2N_2\left(1 - \frac{N_2}{K_2} - a_{21}\frac{N_1}{K_1}\right), \label{eq:13.02}
-\end{eqnarray}
+\begin{align}
+\frac{dN_1}{dt} &= r_1N_1\left(1 - \frac{N_1}{K_1} - a_{12}\frac{N_2}{K_2}\right) \label{eq:13.01}, \\
+\frac{dN_2}{dt} &= r_2N_2\left(1 - \frac{N_2}{K_2} - a_{21}\frac{N_1}{K_1}\right), \label{eq:13.02}
+\end{align}
 where:
 \begin{itemize}
 \item $N_1$ and $N_2$ are the population sizes of species 1 and 2.
@@ -39,25 +39,25 @@ where:
 This pair of coupled nonlinear ordinary differential equations represent the simplest mathematical model capturing the dynamics of competing populations based on limiting resources. We will analyze its properties and implications in subsequent sections.
 
 It is convenient to non-dimensionalize the model by introducing the following scaling:
-\begin{eqnarray*}
-n_1 &=& N_1/K_1, \\
-n_2 &=& N_2/K_2, \\
+\begin{align*}
+n_1 &= N_1/K_1, \\
+n_2 &= N_2/K_2, \\
 \tau &= r_1t.
-\end{eqnarray*}
+\end{align*}
 This scales population sizes relative to the corresponding carrying capacities and time relative to the intrinsic growth rate of species 1. Substituting these into the original model equations gives:
-\begin{eqnarray}
-\frac{dn_1}{d\tau} &=& n_1(1 - n_1 - a_{12} n_2), \label{eq:13.03}\\
-\frac{dn_2}{d\tau} &=& \rho n_2(1 - n_2 - a_{21} n_1), \label{eq:13.04}
-\end{eqnarray}
+\begin{align}
+\frac{dn_1}{d\tau} &= n_1(1 - n_1 - a_{12} n_2), \label{eq:13.03}\\
+\frac{dn_2}{d\tau} &= \rho n_2(1 - n_2 - a_{21} n_1), \label{eq:13.04}
+\end{align}
 with $\rho = r_2/r_1$.
 
 \section{Analysis of the Non-Dimensional Model}
 
 We now analyze the dynamics and behavior of the non-dimensional competitive Lotka-Volterra model derived in the previous section. We first examine the equilibrium points of the system, found by setting \eqref{eq:13.01} and \eqref{eq:13.02} equal to zero and solving the resulting system of algebraic equations. This gives four possible equilibrium points:
-\begin{eqnarray*}
+\begin{align*}
 E_1 = (0,0), & E_2 = (1,0),\\
 E_3 = (0,1), & E_4 = \left(\frac{1-a_{12}}{1-a_{12}a_{21}}, \frac{1-a_{21}}{1+a_{12}a_{21}}\right)
-\end{eqnarray*}
+\end{align*}
 
 The equilibrium points $E_1$, $E_2$, and $E_3$ correspond to boundary equilibria representing the extinction of one or both species. Specifically, $E_1$ is the point of double extinction, $E_2$ is the extinction of species 2, and $E_3$ is the extinction of species 1.
 
@@ -208,11 +208,15 @@ Naturally, limitations arise from unrealistic assumptions. Despite this, the Lot
     \end{equation*}
   
     \item Consider the following model of integration through competition: 
-    \begin{equation*}
-    \begin{aligned}
-    & \dot{N}_1=r_1 N_1-b_1 N_1 N_{2}, \\
-    & \dot{N}_2=r_2 N_2-b_2 N_1 N_2.
-    \end{aligned}
-    \end{equation*}
+    \begin{align*}
+    \dot{N}_1&=r_1 N_1-b_1 N_1 N_{2}, \\
+    \dot{N}_2&=r_2 N_2-b_2 N_1 N_2.
+    \end{align*}
     Why is this model less realistic than the Lotka-Volterra model? Normalize the model to reduce the number of parameters and analyze it completely: find the fixed points, study their stability, draw the trajectories in the phase plane, and discuss the results.
+
+    \item For the following dynamical system, plot the bifurcation diagrams showing the equilibrium states ($x^*$ and $y^*$) as a functions of the parameter $r$. Use distinct line styles to differentiate between stable and unstable fixed points. Identify the type of bifurcation and the critical value $r_c$ at which it occurs. Note: Consider only $x, y, r > 0$. What are the results implications in the context of the competitive Lotka-Volterra model?
+    \begin{align*}
+        \dot{x} &= x(1-x-y/2), \\
+        \dot{y} &= y(1-y-rx).
+    \end{align*}
 \end{enumerate}
