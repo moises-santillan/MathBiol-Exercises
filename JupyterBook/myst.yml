@@ -1,0 +1,15 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 417bac3d-0f85-4409-b27b-32e9b89f47f8
+  # title:
+  # description:
+  # keywords: []
+  # authors: []
+  github: https://github.com/moises-santillan/NLD_Book
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png

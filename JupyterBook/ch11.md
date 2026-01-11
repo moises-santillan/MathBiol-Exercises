@@ -1,0 +1,209 @@
+# Local Stability Analysis in 2D Systems {#ch:11}
+
+**Abstract**
+
+This chapter develops the technique of local stability analysis for two-dimensional nonlinear dynamical systems modeled by sets of coupled ordinary differential equations. Steady states, or fixed points, where both equations are simultaneously satisfied, are classified into nodes, saddles, and spirals by analyzing the eigenvalue structure of the $2\times2$ Jacobian matrix computed from the system's partial derivatives near each fixed point. Analytical criteria are derived requiring both eigenvalues to have negative real parts for stability, reducing determination to the Jacobian's trace and determinant. Qualitative analysis of eigenvalue configurations provides insight into global trajectory behavior near different steady state types, equipping nonlinear dynamical modeling with a rigorous yet accessible mathematical approach for stability-based analysis. The methodology introduced generalizes directly to higher dimensions and serves as a foundation for stability-based modeling across sciences involving ordinary differential equations.
+
+## Introduction
+In Chapter :ref:`ch:06`, we developed the method of local stability analysis to characterize the behavior of steady states in one-dimensional nonlinear dynamical systems. This approach reduces the stability criterion to checking the sign of the slope of the governing function at the steady state. However, many natural and engineered systems are described by models with two or more dimensions that cannot be intuitively visualized or analyzed using one-dimensional techniques. It is therefore necessary to generalize the technique of local stability analysis to higher-dimensional systems described by sets of coupled ordinary differential equations.
+
+In this chapter, we extend the methodology of local stability analysis to two-dimensional nonlinear dynamical systems represented by a pair of coupled ordinary differential equations. While graphical analysis is no longer suitable, the algebraic framework of linearization remains valid. We will see that steady states are now defined as simultaneous solutions to two equations. Linearizing the system dynamics locally yields a $2\times 2$ Jacobian matrix governing small perturbations near the steady state. The matrix's eigenstructure determines stability and allows a qualitative classification.
+
+By deriving analytical stability criteria from the Jacobian eigenvalues, this approach provides insights into even relatively simple 2D models that are inaccessible through low-dimensional intuition alone. The methodology generalizes directly to higher dimensions through matrix analysis. Local stability analysis thus equips the study of multidimensional dynamical models with a systematic and mathematically rigorous technique.
+
+## Steady States in 2D Systems
+We begin by considering a general two-dimensional dynamical system governed by a pair of first-order ordinary differential equations:
+```{equation} eq:11.01
+\frac{dx}{dt} = f(x,y), 
+```
+
+```{equation} eq:11.02
+\frac{dy}{dt} = g(x,y), 
+```
+
+where $f(x,y)$ and $g(x,y)$ are smooth functions determining the rate of change of $x$ and $y$ with respect to time $t$. 
+
+In the one-dimensional case studied previously, a steady state or fixed point was defined as a location $x^*$ where the system's behavior does not change over time. To generalize this concept to two dimensions, we require the system to be stationary at a particular point $(x^*, y^*)$ in the $x$-$y$ plane. Mathematically, a fixed point $(x^*, y^*)$ satisfies::
+$$
+\left. \frac{dx}{dt}\right|_{(x^*,y^*)} = 0, \quad
+\left. \frac{dy}{dt}\right|_{(x^*,y^*)} = 0.
+$$
+
+Substituting the definitions of $dx/dt$ and $dy/dt$ yields:
+$$
+f(x^*,y^*) = 0, \quad
+g(x^*,y^*) = 0.
+$$
+
+Therefore, steady states or fixed points in two-dimensional systems are points $(x^*, y^*)$ that are simultaneous solutions to the equations $f(x,y)=0$ and $g(x,y)=0$.
+
+## Local Linearization and Stability Analysis
+To analyze the stability of a fixed point $(x^*, y^*)$, we study how small perturbations from this point evolve over time. Let $\delta x = x - x^*$ and $\delta y = y - y^*$ represent deviations of an arbitrary trajectory from the fixed point coordinates. By definition, these perturbations satisfy:
+$$
+\frac{d \delta x}{dt} = \frac{dx}{dt}, \quad
+\frac{d \delta y}{dt} = \frac{dy}{dt}.
+$$
+
+Substituting the ODE definitions yields:
+$$
+\frac{d \delta x}{dt} = f(x^* + \delta x, y^* + \delta y),
+$$
+
+$$
+\frac{d \delta y}{dt} = g(x^* + \delta x, y^* + \delta y).
+$$
+
+Performing a Taylor series approximation truncated to the linear term renders:
+$$
+\frac{d\delta x}{dt} = f_x \delta x + f_y \delta y,
+$$
+
+$$
+\frac{d\delta y}{dt} = g_x \delta x + g_y \delta y
+$$
+
+where the partial derivatives are evaluated at the fixed point:
+$$
+f_x = \left. \frac{\partial f}{\partial x}\right|_{(x^*,y^*)}, \quad
+f_y = \left. \frac{\partial f}{\partial y}\right|_{(x^*,y^*)}, \quad
+g_x = \left. \frac{\partial g}{\partial x}\right|_{(x^*,y^*)}, \quad
+g_y = \left. \frac{\partial g}{\partial y}\right|_{(x^*,y^*)}.
+$$
+
+These linearized equations can be written compactly in matrix form as:
+```{equation} eq:11.03
+\frac{d \mathbf{\delta r}}{dt} = \mathbf{J} \mathbf{\delta r},
+```
+
+in which the Jacobian matrix $\mathbf{J}$ contains the partial derivatives, and $\mathbf{\delta r}$ is the perturbation vector.
+$$
+\mathbf{J} =
+$$
+\begin{bmatrix}
+f_x  & f_y 
+g_x  & g_y
+\end{bmatrix}
+$$,
+\quad
+\mathbf{\delta r} = $$
+\begin{bmatrix}
+\delta x 
+\delta y
+\end{bmatrix}
+$$.
+$$
+
+Based on the one-dimensional analysis, we expect perturbations to evolve exponentially near the fixed point. Specifically, we make an ansatz that the solution takes the form:
+```{equation} eq:11.04
+\mathbf{\delta r} = \mathbf{v} e^{\lambda t},
+```
+
+where vector $\mathbf{v}$ and the scalar parameter $\lambda$ remain to be determined. 
+
+Substitution of Eq. :eq:`eq:11.04` into Eq. :eq:`eq:11.03` yields
+```{equation} eq:11.05
+\lambda \mathbf{v} = \mathbf{J} \mathbf{v}.
+```
+
+This reveals that for the ansatz to be a valid solution, the parameters $\lambda$ and $\mathbf{v}$ must satisfy the eigenstructure of the Jacobian matrix $\mathbf{J}$. Specifically, $\lambda$ must be an eigenvalue of $\mathbf{J}$ and $\mathbf{v}$ the corresponding eigenvector.
+
+Since a 2x2 matrix like the Jacobian will generally have two eigenpairs, the complete solution is a superposition of the exponential modes:
+```{equation} eq:11.06
+\mathbf{\delta r} = C_1 \mathbf{v_1} e^{\lambda t_1} + C_2 \mathbf{v_2} e^{\lambda t_2},
+```
+
+with $(\lambda_1, \mathbf{v_1})$ and $(\lambda_2, \mathbf{v_2})$ the eigenpairs of $\mathbf{J}$, while constants $C_1$ and $C_2$ are determined by the initial conditions. We can deduce the asymptotic behavior from Eq. :eq:`eq:11.06`: $\mathbf{\delta r}$ decays to zero as $t\to\infty$ if both eigenvalues have negative real parts. In this case, the fixed point is declared locally stable.
+
+## Steady-State Classification
+The eigenstructure relation in Eq. :eq:`eq:11.05` can be expressed as:
+$$
+(\mathbf{J} - \lambda \mathbf{I}) \mathbf{v} = 0,
+$$
+
+where $\mathbf{I}$ is the 2D identity matrix. This represents a system of two homogeneous linear equations with the components of $\mathbf{v}$ as unknowns. Generally, the only solution to such a system is the trivial solution $\mathbf{v} = \mathbf{0}$. However, this trivial solution implies $\mathbf{\delta r}(t) = \mathbf{0}$, meaning that the considered solution is already at the fixed point. This prevents analysis of the stability. A non-trivial solution exists only when the determinant of the coefficient matrix vanishes, i.e. when:
+$$
+\det(\mathbf{J} - \lambda \mathbf{I}) = 0.
+$$
+
+Expanding this determinant condition gives:
+$$
+(f_x - \lambda)(g_y - \lambda) - f_y g_x = 0,
+$$
+
+Which can be written compactly in terms of the trace $\tau=f_x+g_y$ and determinant $\Delta=f_x g_y - f_y g_x$ of the Jacobian matrix $\mathbf{J}$ as:
+```{equation} eq:11.07
+\lambda^2 - \tau \lambda + \Delta = 0.
+```
+
+Eq. :eq:`eq:11.07` takes the form of a characteristic quadratic polynomial, whose roots correspond to the eigenvalues of the Jacobian matrix $\mathbf{J}$. The eigenvalues, $\lambda_{1,2}$, can be explicitly computed by solving the characteristic polynomial:
+$$
+\lambda_{1,2} = \frac{\tau \pm \sqrt{\tau^2 - 4\Delta}}{2}.
+$$
+
+An analysis of this equation reveals key properties of the eigenvalues based on the values of the trace and determinant. Specifically:
+1. If the determinant $\Delta < 0$ (region I in Fig. :numref:`fig:11.01`), then one eigenvalue will be positive while the other is negative, regardless of the sign of the trace $\tau$.
+    1. If $\Delta > 0$ and the discriminant $\tau^2 > 4\Delta$ (regions II and V in Fig. :numref:`fig:11.01`), then both eigenvalues will be real and have the same sign as the trace $\tau$.
+    1. If $\Delta > 0$ but the discriminant $\tau^2 < 4\Delta$, then the eigenvalues form a complex conjugate pair in which $\tau$ is the real part (regions III and IV in Fig. :numref:`fig:11.01`). Notably, when the trace $\tau = 0$, the solutions eigenvalues are purely imaginary numbers.
+
+The above analysis has delineated how the values of coefficients $\Delta$ and $\tau$ determine the possible configurations of the eigenvalues. We now aim to connect these eigenvalue configurations to criteria for classifying the stability of the fixed point.
+
+```{figure} Figures/fig-11.01.pdf
+:name: fig:11.01
+---
+Regions in the trace-determinant plane delineating qualitative configurations of the Jacobian matrix eigenvalues. The trace $\tau$ and determinant $\Delta$ values determine whether the eigenvalues are real or complex and their relative signs. Region I corresponds to eigenvalues of opposite sign, yielding a saddle node. Regions II and V exhibit real eigenvalues of the same sign, giving rise to unstable and stable nodes, respectively. Regions III and IV contain a complex conjugate eigenvalue pair, resulting in spiral node behavior characterized by rotational motion around the fixed point with exponential decay or growth modulated by the real part of the eigenvalues.
+```
+
+Recall that the general solution of the linearized system is given by Eq. :eq:`eq:11.06`. When the eigenvectors $\mathbf{v}_1$ and $\mathbf{v}_2$ are unitary and linearly independent, they form a basis of the $\delta x$-$\delta y$ space, and the terms $C_1e^{\lambda_1t}$ and $C_2e^{\lambda_2t}$ can be interpreted as the coordinates of the perturbation $\mathbf{\delta r}(t)$ at time $t$ in this eigenbasis.
+
+```{figure} Figures/fig-11.02.I.pdf
+:name: fig:11.02
+---
+Illustration of phase portraits for different eigenvalue configurations near a fixed point. (a) Region I of Fig. :numref:`fig:11.01
+```
+
+Considering the full solution as $\mathbf{r`(t) = \mathbf{r^*} + \mathbf{\delta r}(t)$, we see that $C_1e^{\lambda_1t}$ and $C_2e^{\lambda_2t}$ determine how the linearized solution $\mathbf{r}(t)$ evolves in a reference frame defined by the Jacobian eigenvectors and anchored at the fixed point $\mathbf{r^*}$.
+
+When the eigenvalues are real, the eigenbasis coordinates $C_1e^{\lambda_1t}$ and $C_2e^{\lambda_2t}$ will exponentially decay or grow over time depending on the sign of the respective eigenvalues. A positive eigenvalue leads to exponential growth of the corresponding coordinate, while a negative eigenvalue implies exponential decay. This characterization of the perturbation growth informs the trajectory sketches shown in Fig. :numref:`fig:11.02` for regions I, II and V of Fig. :numref:`fig:11.01`.
+
+The steady state in region I, where one eigenvalue is positive and one is negative, corresponds to a saddle node. Near a saddle node, trajectories will flow away in one eigen-direction and towards the fixed point in the other direction, as illustrated in :numref:`fig:11.02`a. A steady state in region II, where both eigenvalues are positive, is referred to as an unstable node. In this case, small perturbations will always grow exponentially, leading trajectories to flow outward from the fixed point in all directions, as shown in Fig. :numref:`fig:11.02`b. In region V, where both eigenvalues are negative, the steady state is said to be a stable node. Here, perturbations decay exponentially fast, causing trajectories to converge onto the fixed point from all surrounding points in phase space, as depicted in Fig. :numref:`fig:11.02`c.
+
+When the eigenvalues are complex, the linearized system possesses oscillatory behavior near the fixed point. For regions III and IV in Fig. :numref:`fig:11.01`, where the trace $\tau$ and determinant $\Delta$ satisfy $\tau^2 < 4\Delta$, the eigenvalues form a complex conjugate pair $\lambda_{1,2} = \alpha \pm i\beta$. Substituting this into the general solution of the linearized system in Eq. :eq:`eq:11.06` yields:
+$$
+\mathbf{\delta r}(t) = C_1\mathbf{v}_1e^{\alpha t}\cos(\beta t) + C_2\mathbf{v}_2e^{\alpha t}\sin(\beta t)
+$$
+
+Observe that the perturbation undergoes rotational motion, with an exponential decay or growth modulated by the real part $\alpha$ of the complex eigenvalues. Since $\alpha = \tau/2$, where $\tau$ is the trace of the Jacobian matrix, the sign of $\tau$ dictates whether the oscillations decay or grow exponentially over time. Specifically, when $\tau>0$ the real part is positive ($\alpha>0$), corresponding to region III of Fig. :numref:`fig:11.01` where perturbations spiral outward from the fixed point with exponential grow. Conversely, for $\tau<0$ the real part is negative ($\alpha<0$), describing region IV where oscillations spiral inward to the fixed point in a decaying manner. These behaviors are illustrated in Fig. :numref:`fig:11:03`.
+
+```{figure} Figures/fig-11.03.III.pdf
+:name: fig:11:03
+---
+Phase portraits for regions III and IV displaying spiral node behavior near the fixed point. (a) In region III of Fig. :numref:`fig:11.01
+```
+
+       
+## Discussion
+In this chapter, we have presented a framework for classifying the behavior near steady state solutions of 2D dynamical systems using linear stability analysis. By analyzing the eigenvalues of the Jacobian matrix ($\mathbf{J`$) evaluated at a fixed point ($\mathbf{r}^*$), we can gain qualitative insight into how perturbations will evolve in the local vicinity of that steady state.
+
+There are three main categories of steady state behavior that emerge based on the signs and types of eigenvalues:
+1. Node: All real eigenvalues lead to exponential decay or growth along principal directions, yielding stable or unstable equilibria.
+
+1. Saddle: Mixed stability with one growing and one decaying eigenvalue mode. Trajectories flow away along one direction and towards the fixed point along the other.
+
+1. Spiral: A complex conjugate eigenvalue pair yields stable or unstable rotational motion around the fixed point, with exponential modulation by the real part of the pair.
+
+The stability of nodes and spirals is determined by the sign of the real part of the eigenvalues.
+
+The classifications provided by this local linear stability analysis framework offer powerful insights into the full nonlinear dynamics of the system. Specifically, the local dynamic behavior near steady states allows for a qualitative description of the global behavior of trajectories throughout the phase space. When combined with numerical techniques, this framework enables comprehensive characterization of system dynamics. In the following chapters, we will explore detailed examples that demonstrate these concepts.
+
+## Exercises
+1. For each one of the following 2-dimensional dynamical systems, find the fixed point, classify their stability, sketch neighboring trajectories, and try to sketch the whole phase portrait:
+    1. $\dot{x} = y - x, \quad \dot{y} = x^2 -9.$
+      1. $\dot{x} = 1+y - e^{-x}, \quad \dot{y} = x^2 -y.$
+      1. $\dot{x} = \sin(y), \quad \dot{y} = \cos(x).$
+      1. $\dot{x} = y, \quad \dot{y} = x - x^3.$
+      1. $\dot{x} = yx-16, \quad \dot{y} = x-y^3.$
+      1. $\dot{x} = 3/(2+y) - x, \quad \dot{y} = 5(x-y).$
+      1. $\dot{x} = y/(y+1) - x, \quad \dot{y} = 2x - y.$
+    
+
+  
