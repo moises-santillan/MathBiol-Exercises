@@ -43,7 +43,6 @@ project:
     - file: ch25.md
     - file: ch26.md
     - file: ch27.md
-    - file: referenc.md
 site:
   template: book-theme
   # options:

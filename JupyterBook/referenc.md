@@ -7,7 +7,7 @@
 %
 # References
 
-```{bibliography} main.bib
+```{bibliography}
 :style: spbasic
 ```
 
