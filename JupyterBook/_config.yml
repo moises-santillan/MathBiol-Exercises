@@ -1,0 +1,14 @@
+sphinx:
+  extra_extensions:
+    - sphinxcontrib.bibtex
+  config:
+    # BibTeX files (relative to Book/ when building with `jupyter-book build Book/`)
+    bibtex_bibfiles: ['main.bib']
+    # Optional: set a global bibstyle if desired (default will be used otherwise)
+    # bibtex_default_style: 'plain'
+
+parse:
+  myst_enable_extensions:
+    # don't forget to list any other extensions you want enabled,
+    # including those that are enabled by default!
+    - amsmath
